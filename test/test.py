@@ -1,7 +1,7 @@
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import judge_mongodb
-uri = "mongodb+srv://101rakibulhasan:01633771417@cluster0.dalhe9w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tls=true&tlsAllowInvalidCertificates=true"
+uri = "mongodb+srv://############:#########@cluster0.dalhe9w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tls=true&tlsAllowInvalidCertificates=true"
 # Create a new client and connect to the server
 client = MongoClient(uri)
 db = client.get_database('valiant')

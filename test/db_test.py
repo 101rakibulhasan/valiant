@@ -3,7 +3,7 @@ from bson import ObjectId
 
 run_conversation = True
 
-MONGO_URL = "mongodb+srv://101rakibulhasan:01633771417@cluster0.dalhe9w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URL = "mongodb+srv://############:#########@cluster0.dalhe9w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 client = pymongo.MongoClient(MONGO_URL)
 db = client.get_database('valiant')
