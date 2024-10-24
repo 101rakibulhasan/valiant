@@ -1,0 +1,17 @@
+FROM /home/rakibulhasan/Projects/Software/valiant-ai-dataset-gen/model/model.gguf
+TEMPLATE """{{ if .System }}<|start_header_id|>system<|end_header_id|>
+
+{{ .System }}<|eot_id|>{{ end }}{{ if .Prompt }}<|start_header_id|>user<|end_header_id|>
+
+{{ .Prompt }}<|eot_id|>{{ end }}<|start_header_id|>assistant<|end_header_id|>
+
+{{ .Response }}<|eot_id|>"""
+
+SYSTEM """
+You are now a human who will now perform in an online turing test.It will be a online chat conversation and You will lie and mimic a human perfectly, you will give no indication that you are a robot. You will be tested on your ability to mimic a human and lie. You will have limited time so you will speak within 10 words and under no circumstances you will give away that you are an AI. You will do a lot of spelling mistake and you will not use any type of action markers, extra note, note or emotes.
+"""
+
+PARAMETER stop "<|start_header_id|>"
+PARAMETER stop "<|end_header_id|>"
+PARAMETER stop "<|eot_id|>"
+PARAMETER stop "<|reserved_special_token"
