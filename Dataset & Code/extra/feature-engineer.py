@@ -13,7 +13,7 @@ trans_emo_feature3 = []
 trans_emo_feature4 = []
 trans_emo_feature5 = []
 
-with open('Dataset & Code/dataset/sentiment/us-ai-human-collection-senti.json', 'r') as f:
+with open('Dataset & Code/dataset/sentiment/us-ai-ai-collection-senti-test.json', 'r') as f:
     data = json.load(f)
 
     for i in data:
@@ -272,7 +272,7 @@ with open('Dataset & Code/dataset/sentiment/us-ai-human-collection-senti.json', 
 # print(trans_emo_feature4)
 # print(trans_emo_feature5)
 
-with open("Dataset & Code/dataset/featured/fus-ai-human-collection-senti.json", "w") as f:
+with open("Dataset & Code/dataset/featured/fus-ai-ai-collection-senti-test.json", "w") as f:
     json.dump(sent_message, f, indent=4)
 
 
