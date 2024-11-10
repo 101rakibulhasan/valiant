@@ -7,7 +7,7 @@ def jsontodict(jsonfile):
     return data
 
 feature = []
-with open('Dataset & Code/dataset/featured/features.json', 'r') as f:
+with open('Dataset & Code/dataset/5. featured/features.json', 'r') as f:
     feature = json.load(f)
 
 def get_input(data, feature_label, model_label):
@@ -29,22 +29,22 @@ def get_input(data, feature_label, model_label):
 
     return X, Y
 
-X_senti, Y_senti = get_input(jsontodict('Dataset & Code/dataset/conversation-ai-ai-collection-senti-test.json'), "senti-trans-feature", "senti-trans")
-X_senti2, Y_senti2 = get_input(jsontodict('Dataset & Code/dataset/conversation-ai-ai-collection-senti-test.json'), "senti-trans-feature2", "senti-trans2")
-X_senti3, Y_senti3 = get_input(jsontodict('Dataset & Code/dataset/conversation-ai-ai-collection-senti-test.json'), "senti-trans-feature3", "senti-trans3")
-X_senti4, Y_senti4 = get_input(jsontodict('Dataset & Code/dataset/conversation-ai-ai-collection-senti-test.json'), "senti-trans-feature4", "senti-trans4")
-X_senti5, Y_senti5 = get_input(jsontodict('Dataset & Code/dataset/conversation-ai-ai-collection-senti-test.json'), "senti-trans-feature5", "senti-trans5")
-X_emo, Y_emo = get_input(jsontodict('Dataset & Code/dataset/conversation-ai-ai-collection-senti-test.json'), "trans-emo-feature", "senti-emotion")
-X_emo2, Y_emo2 = get_input(jsontodict('Dataset & Code/dataset/conversation-ai-ai-collection-senti-test.json'), "trans-emo-feature2", "senti-emotion2")
-X_emo3, Y_emo3 = get_input(jsontodict('Dataset & Code/dataset/conversation-ai-ai-collection-senti-test.json'), "trans-emo-feature3", "senti-emotion3")
-X_emo4, Y_emo4 = get_input(jsontodict('Dataset & Code/dataset/conversation-ai-ai-collection-senti-test.json'), "trans-emo-feature4", "senti-emotion4")
-X_emo5, Y_emo5 = get_input(jsontodict('Dataset & Code/dataset/conversation-ai-ai-collection-senti-test.json'), "trans-emo-feature5", "senti-emotion5")
+X_senti, Y_senti = get_input(jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature", "senti-trans")
+X_senti2, Y_senti2 = get_input(jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature2", "senti-trans2")
+X_senti3, Y_senti3 = get_input(jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature3", "senti-trans3")
+X_senti4, Y_senti4 = get_input(jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature4", "senti-trans4")
+X_senti5, Y_senti5 = get_input(jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature5", "senti-trans5")
+X_emo, Y_emo = get_input(jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "trans-emo-feature", "senti-emotion")
+X_emo2, Y_emo2 = get_input(jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "trans-emo-feature2", "senti-emotion2")
+X_emo3, Y_emo3 = get_input(jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "trans-emo-feature3", "senti-emotion3")
+X_emo4, Y_emo4 = get_input(jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "trans-emo-feature4", "senti-emotion4")
+X_emo5, Y_emo5 = get_input(jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "trans-emo-feature5", "senti-emotion5")
 
-def accuracy_model(model, X_test, Y_test):
-    temp = load_pickle.get_model_result(model, X_test)
+def accuracy_model(model, X_test1, Y_test1):
+    temp = load_pickle.get_model_result(model, X_test1)
     count = 0
     for i in range(len(temp)):
-        if temp[i] == Y_test[i]:
+        if temp[i] == Y_test1[i]:
             count += 1
     
     return count / len(temp)
@@ -61,7 +61,7 @@ print(f"The accuracy of SVM model 8 is {accuracy_model('Dataset & Code/models/sv
 print(f"The accuracy of SVM model 9 is {accuracy_model('Dataset & Code/models/svm/model_m9.pkl', X_emo4, Y_emo4)}")
 print(f"The accuracy of SVM model 10 is {accuracy_model('Dataset & Code/models/svm/model_m10.pkl', X_emo5, Y_emo5)}")
 
-print("-- Decision Trees --")
+print("\n-- Decision Trees --")
 print(f"The accuracy of Decision Tree model 1 is {accuracy_model('Dataset & Code/models/decision_trees/model_m1.pkl', X_senti, Y_senti)}")
 print(f"The accuracy of Decision Tree model 2 is {accuracy_model('Dataset & Code/models/decision_trees/model_m2.pkl', X_senti2, Y_senti2)}")
 print(f"The accuracy of Decision Tree model 3 is {accuracy_model('Dataset & Code/models/decision_trees/model_m3.pkl', X_senti3, Y_senti3)}")
@@ -73,7 +73,7 @@ print(f"The accuracy of Decision Tree model 8 is {accuracy_model('Dataset & Code
 print(f"The accuracy of Decision Tree model 9 is {accuracy_model('Dataset & Code/models/decision_trees/model_m9.pkl', X_emo4, Y_emo4)}")
 print(f"The accuracy of Decision Tree model 10 is {accuracy_model('Dataset & Code/models/decision_trees/model_m10.pkl', X_emo5, Y_emo5)}")
 
-print("-- Random Forest --")
+print("\n-- Random Forest --")
 print(f"The accuracy of Random Forest model 1 is {accuracy_model('Dataset & Code/models/random_forest/model_m1.pkl', X_senti, Y_senti)}")
 print(f"The accuracy of Random Forest model 2 is {accuracy_model('Dataset & Code/models/random_forest/model_m2.pkl', X_senti2, Y_senti2)}")
 print(f"The accuracy of Random Forest model 3 is {accuracy_model('Dataset & Code/models/random_forest/model_m3.pkl', X_senti3, Y_senti3)}")

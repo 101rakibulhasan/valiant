@@ -1,0 +1,4 @@
+a1 -
+verdict : sydneyfong/glm4-9b-chat-GGUF/glm4-9b-chat-Q4_K_M.gguf
+judge : Walter-Klaus/Llama-3.1-Minitron-4B-Chat-Q4_K_M-GGUF/llama-3.1-minitron-4b-chat-q4_k_m.gguf
+database: llama3.1-dataset

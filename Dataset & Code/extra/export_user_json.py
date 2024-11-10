@@ -6,7 +6,7 @@ MONGO_URL = "mongodb+srv://###########:###########@cluster0.dalhe9w.mongodb.net/
 client = pymongo.MongoClient(MONGO_URL)
 db = client.get_database('valiant')
 
-WORKING_MODEL_COLLECTION = 'user-dataset'
+WORKING_MODEL_COLLECTION = 'user-dataset-test'
 collection = db.get_collection(WORKING_MODEL_COLLECTION)
 
 if __name__ == '__main__':

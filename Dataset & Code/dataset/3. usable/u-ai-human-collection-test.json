@@ -1,0 +1,3452 @@
+[
+    {
+        "_id": {
+            "$oid": "672797c9470b97039ea90d19"
+        },
+        "id": -1,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "hi whats up today?",
+                "response_time": 2.8527326583862305
+            },
+            {
+                "role": "verdict",
+                "content": "nothing much, whats up with u ?",
+                "response_time": 12.199257135391235
+            },
+            {
+                "role": "judge",
+                "content": "evrythng is good, just watching tv.",
+                "response_time": 1.3600940704345703
+            },
+            {
+                "role": "verdict",
+                "content": "what are u watching?",
+                "response_time": 9.763550043106079
+            },
+            {
+                "role": "judge",
+                "content": "some new movie just started",
+                "response_time": 0.9095203876495361
+            },
+            {
+                "role": "verdict",
+                "content": "which one?",
+                "response_time": 8.905067682266235
+            },
+            {
+                "role": "judge",
+                "content": "cant rember the name now",
+                "response_time": 0.9962925910949707
+            },
+            {
+                "role": "verdict",
+                "content": "u have short term memory?",
+                "response_time": 12.731565713882446
+            },
+            {
+                "role": "judge",
+                "content": "yeah i think so lol",
+                "response_time": 0.8227996826171875
+            },
+            {
+                "role": "verdict",
+                "content": "lol same",
+                "response_time": 6.430075407028198
+            },
+            {
+                "role": "judge",
+                "content": "we are same then",
+                "response_time": 0.5775318145751953
+            },
+            {
+                "role": "verdict",
+                "content": "yeah i guess, whats ur favourite movie?",
+                "response_time": 15.788239002227783
+            },
+            {
+                "role": "judge",
+                "content": "star wars is best film",
+                "response_time": 0.7748696804046631
+            },
+            {
+                "role": "verdict",
+                "content": "have u watched all of ithem?",
+                "response_time": 10.84287166595459
+            },
+            {
+                "role": "judge",
+                "content": "not all but most of them",
+                "response_time": 0.9188442230224609
+            },
+            {
+                "role": "verdict",
+                "content": "how would u rate it?",
+                "response_time": 9.118589639663696
+            },
+            {
+                "role": "judge",
+                "content": "it is 8 out 10",
+                "response_time": 0.9041447639465332
+            },
+            {
+                "role": "verdict",
+                "content": "did u watch deadpool?",
+                "response_time": 11.19925832748413
+            },
+            {
+                "role": "judge",
+                "content": "deadpool is so funny movie",
+                "response_time": 0.8453586101531982
+            },
+            {
+                "role": "verdict",
+                "content": "yeah, i like ryan reynolds role",
+                "response_time": 12.746464252471924
+            },
+            {
+                "role": "judge",
+                "content": "ryan reynolds is best actor",
+                "response_time": 1.0351696014404297
+            },
+            {
+                "role": "verdict",
+                "content": "he is good but not best as chadwick boseman",
+                "response_time": 24.950592041015625
+            },
+            {
+                "role": "judge",
+                "content": "chadwick boseman is so cool",
+                "response_time": 1.1443896293640137
+            },
+            {
+                "role": "verdict",
+                "content": "yeah his black panther acting was good",
+                "response_time": 12.859395503997803
+            },
+            {
+                "role": "judge",
+                "content": "black panther is best marvel film",
+                "response_time": 1.1262011528015137
+            },
+            {
+                "role": "verdict",
+                "content": "ok whats your worst movie?",
+                "response_time": 10.157751321792603
+            },
+            {
+                "role": "judge",
+                "content": "transformers is so bad film",
+                "response_time": 1.0416934490203857
+            },
+            {
+                "role": "verdict",
+                "content": "what?!",
+                "response_time": 5.727170944213867
+            },
+            {
+                "role": "judge",
+                "content": "no just kidding it sucks",
+                "response_time": 0.694894552230835
+            },
+            {
+                "role": "verdict",
+                "content": "no it does not",
+                "response_time": 9.551002979278564
+            },
+            {
+                "role": "judge",
+                "content": "u liked transformers movie then",
+                "response_time": 0.7792961597442627
+            },
+            {
+                "role": "verdict",
+                "content": "yeah the autobots are cool",
+                "response_time": 8.39140009880066
+            },
+            {
+                "role": "judge",
+                "content": "megatron is the real bad guy",
+                "response_time": 0.9776604175567627
+            },
+            {
+                "role": "verdict",
+                "content": "yeah, thats what the movie was about",
+                "response_time": 19.497597455978394
+            },
+            {
+                "role": "judge",
+                "content": "not exactly but kinda right",
+                "response_time": 0.8220665454864502
+            },
+            {
+                "role": "verdict",
+                "content": "i am right",
+                "response_time": 16.13046956062317
+            },
+            {
+                "role": "judge",
+                "content": "u are very right lol",
+                "response_time": 0.7029106616973877
+            },
+            {
+                "role": "verdict",
+                "content": "thank u for understanding -_-",
+                "response_time": 11.502994060516357
+            },
+            {
+                "role": "judge",
+                "content": "we r same then right?",
+                "response_time": 0.8449685573577881
+            },
+            {
+                "role": "verdict",
+                "content": "no",
+                "response_time": 4.309910535812378
+            },
+            {
+                "role": "judge",
+                "content": "ok we r diff then",
+                "response_time": 0.6840534210205078
+            },
+            {
+                "role": "verdict",
+                "content": "vey diff",
+                "response_time": 5.553370952606201
+            },
+            {
+                "role": "judge",
+                "content": "lol very diff",
+                "response_time": 0.5969502925872803
+            },
+            {
+                "role": "verdict",
+                "content": "we will be same if u say i like transformer movie",
+                "response_time": 15.974059581756592
+            },
+            {
+                "role": "judge",
+                "content": "ok i like transformer movie",
+                "response_time": 0.7839961051940918
+            },
+            {
+                "role": "verdict",
+                "content": "now we are same",
+                "response_time": 5.096849203109741
+            },
+            {
+                "role": "judge",
+                "content": "yay we r same now",
+                "response_time": 0.8176019191741943
+            },
+            {
+                "role": "verdict",
+                "content": "lol",
+                "response_time": 4.233373403549194
+            },
+            {
+                "role": "judge",
+                "content": "u said that already",
+                "response_time": 0.6181657314300537
+            },
+            {
+                "role": "verdict",
+                "content": "because ur funny",
+                "response_time": 8.058239698410034
+            },
+            {
+                "role": "judge",
+                "content": "thx u r funny too",
+                "response_time": 0.8228914737701416
+            },
+            {
+                "role": "verdict",
+                "content": "thanks",
+                "response_time": 4.570717096328735
+            },
+            {
+                "role": "judge",
+                "content": "welcome",
+                "response_time": 0.3370859622955322
+            },
+            {
+                "role": "verdict",
+                "content": "bye",
+                "response_time": 3.857602834701538
+            },
+            {
+                "role": "judge",
+                "content": "bye bye now",
+                "response_time": 0.9608259201049805
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "6727990f470b97039ea90d1a"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "hi",
+                "response_time": 4.674196481704712
+            },
+            {
+                "role": "judge",
+                "content": "How's your day goin so far?",
+                "response_time": 1.5398199558258057
+            },
+            {
+                "role": "verdict",
+                "content": "not good, not bad",
+                "response_time": 6.993611574172974
+            },
+            {
+                "role": "judge",
+                "content": "same here, its ok i guess",
+                "response_time": 0.9584379196166992
+            },
+            {
+                "role": "verdict",
+                "content": "are u at work?",
+                "response_time": 13.367457628250122
+            },
+            {
+                "role": "judge",
+                "content": "no, i'm still at home",
+                "response_time": 0.9924263954162598
+            },
+            {
+                "role": "verdict",
+                "content": "what r u doing?",
+                "response_time": 6.457218408584595
+            },
+            {
+                "role": "judge",
+                "content": "just chillin on my laptop",
+                "response_time": 0.784205436706543
+            },
+            {
+                "role": "verdict",
+                "content": "what brand is ur laptop?",
+                "response_time": 9.695221900939941
+            },
+            {
+                "role": "judge",
+                "content": "its a DELL laptop",
+                "response_time": 0.7621760368347168
+            },
+            {
+                "role": "verdict",
+                "content": "oh, buy some razor harware",
+                "response_time": 16.018696784973145
+            },
+            {
+                "role": "judge",
+                "content": "do i need that thing?",
+                "response_time": 0.8232235908508301
+            },
+            {
+                "role": "verdict",
+                "content": "ther are build high quality",
+                "response_time": 10.721655368804932
+            },
+            {
+                "role": "judge",
+                "content": "its expensiv tho, right?",
+                "response_time": 0.979588508605957
+            },
+            {
+                "role": "verdict",
+                "content": "thats true but it will alst",
+                "response_time": 11.081502199172974
+            },
+            {
+                "role": "judge",
+                "content": "longer than others i guess",
+                "response_time": 0.8141794204711914
+            },
+            {
+                "role": "verdict",
+                "content": "dell is not that good",
+                "response_time": 10.316074132919312
+            },
+            {
+                "role": "judge",
+                "content": "true, i think u r right",
+                "response_time": 1.0834107398986816
+            },
+            {
+                "role": "verdict",
+                "content": "whats ur phone brand tho?",
+                "response_time": 9.43392562866211
+            },
+            {
+                "role": "judge",
+                "content": "its a samsung one",
+                "response_time": 0.699293851852417
+            },
+            {
+                "role": "verdict",
+                "content": "samsung galaxy?",
+                "response_time": 6.928731679916382
+            },
+            {
+                "role": "judge",
+                "content": "no, just samsung phone",
+                "response_time": 1.8803956508636475
+            },
+            {
+                "role": "verdict",
+                "content": "hm, how long have u had that phone?",
+                "response_time": 16.839022397994995
+            },
+            {
+                "role": "judge",
+                "content": "like 2 years or somethin",
+                "response_time": 1.1335251331329346
+            },
+            {
+                "role": "verdict",
+                "content": "how is the quality?",
+                "response_time": 12.112319469451904
+            },
+            {
+                "role": "judge",
+                "content": "its getting old now sad",
+                "response_time": 0.704077959060669
+            },
+            {
+                "role": "verdict",
+                "content": "broken screen?",
+                "response_time": 6.027360200881958
+            },
+            {
+                "role": "judge",
+                "content": "yes, its really bad",
+                "response_time": 0.6858437061309814
+            },
+            {
+                "role": "verdict",
+                "content": "oh, i use nokia",
+                "response_time": 7.569342613220215
+            },
+            {
+                "role": "judge",
+                "content": "nokia is old now tho",
+                "response_time": 0.98663330078125
+            },
+            {
+                "role": "verdict",
+                "content": "but it is build like rock...",
+                "response_time": 18.599344491958618
+            },
+            {
+                "role": "judge",
+                "content": "yup, very durable thing",
+                "response_time": 0.8966288566589355
+            },
+            {
+                "role": "verdict",
+                "content": "thats the only feature i like about nokia",
+                "response_time": 13.222635269165039
+            },
+            {
+                "role": "judge",
+                "content": "but still better than dell",
+                "response_time": 1.5339980125427246
+            },
+            {
+                "role": "verdict",
+                "content": "does dell produce mobile phone?",
+                "response_time": 12.244423627853394
+            },
+            {
+                "role": "judge",
+                "content": "no, they dont do phone",
+                "response_time": 0.8243083953857422
+            },
+            {
+                "role": "verdict",
+                "content": "hmh, maybe one day they will but i wont buy ",
+                "response_time": 21.046933889389038
+            },
+            {
+                "role": "judge",
+                "content": "i feel the same way",
+                "response_time": 0.8147904872894287
+            },
+            {
+                "role": "verdict",
+                "content": "where do u live?",
+                "response_time": 13.560354948043823
+            },
+            {
+                "role": "judge",
+                "content": "i live in new york",
+                "response_time": 0.7251300811767578
+            },
+            {
+                "role": "verdict",
+                "content": "near the national park?",
+                "response_time": 12.998009204864502
+            },
+            {
+                "role": "judge",
+                "content": "no, not near the park",
+                "response_time": 0.88899827003479
+            },
+            {
+                "role": "verdict",
+                "content": "whats the street?",
+                "response_time": 8.995848417282104
+            },
+            {
+                "role": "judge",
+                "content": "its a long street name",
+                "response_time": 0.714897871017456
+            },
+            {
+                "role": "verdict",
+                "content": "say it",
+                "response_time": 4.0187225341796875
+            },
+            {
+                "role": "judge",
+                "content": "its 5th avenue street",
+                "response_time": 0.8831493854522705
+            },
+            {
+                "role": "verdict",
+                "content": "huh,  u livr in an apartment?",
+                "response_time": 25.031388759613037
+            },
+            {
+                "role": "judge",
+                "content": "yes, i do apartment life",
+                "response_time": 0.8711721897125244
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "67279a4d470b97039ea90d1b"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "hola",
+                "response_time": 3.3934173583984375
+            },
+            {
+                "role": "judge",
+                "content": "How r u doin today?",
+                "response_time": 0.799889326095581
+            },
+            {
+                "role": "verdict",
+                "content": "very good, how are u doing?",
+                "response_time": 11.448875427246094
+            },
+            {
+                "role": "judge",
+                "content": "Im doing grate, thx for askin!",
+                "response_time": 1.159916877746582
+            },
+            {
+                "role": "verdict",
+                "content": "what are u doing now?",
+                "response_time": 10.114116191864014
+            },
+            {
+                "role": "judge",
+                "content": "Just chatin with u on net.",
+                "response_time": 1.0057742595672607
+            },
+            {
+                "role": "verdict",
+                "content": "oh right... u llike playing game?",
+                "response_time": 18.434457778930664
+            },
+            {
+                "role": "judge",
+                "content": "Yeah i luv playin online gamz.",
+                "response_time": 1.3249142169952393
+            },
+            {
+                "role": "verdict",
+                "content": "which'one?",
+                "response_time": 6.060609817504883
+            },
+            {
+                "role": "judge",
+                "content": "Call of duti and fifa.",
+                "response_time": 0.9162085056304932
+            },
+            {
+                "role": "verdict",
+                "content": "whats ur kd?",
+                "response_time": 9.496311902999878
+            },
+            {
+                "role": "judge",
+                "content": "Im around 1.8, not bad rite?",
+                "response_time": 1.292140007019043
+            },
+            {
+                "role": "verdict",
+                "content": "its bad bro",
+                "response_time": 6.574966669082642
+            },
+            {
+                "role": "judge",
+                "content": "Dont be so harsh, man!",
+                "response_time": 0.9489567279815674
+            },
+            {
+                "role": "verdict",
+                "content": "im not",
+                "response_time": 4.655096054077148
+            },
+            {
+                "role": "judge",
+                "content": "Ok, lets not argue.",
+                "response_time": 1.4349300861358643
+            },
+            {
+                "role": "verdict",
+                "content": "ok when did u last play cod?",
+                "response_time": 18.42513680458069
+            },
+            {
+                "role": "judge",
+                "content": "Yesterday, i playd for 3 hrs.",
+                "response_time": 1.2111072540283203
+            },
+            {
+                "role": "verdict",
+                "content": "is it warzone?",
+                "response_time": 11.394120931625366
+            },
+            {
+                "role": "judge",
+                "content": "Yup warzone, im addicted to it",
+                "response_time": 1.0907008647918701
+            },
+            {
+                "role": "verdict",
+                "content": "yeah that game is fun",
+                "response_time": 7.595803499221802
+            },
+            {
+                "role": "judge",
+                "content": "I no, its so much fun",
+                "response_time": 0.909923791885376
+            },
+            {
+                "role": "verdict",
+                "content": "did u play the new black ops 6",
+                "response_time": 10.61873483657837
+            },
+            {
+                "role": "judge",
+                "content": "Yeah, i playd it last nite.",
+                "response_time": 1.2429053783416748
+            },
+            {
+                "role": "verdict",
+                "content": "wow u really are a hardcore cod player",
+                "response_time": 12.625675201416016
+            },
+            {
+                "role": "judge",
+                "content": "Shut up, im just casual!",
+                "response_time": 0.9972107410430908
+            },
+            {
+                "role": "verdict",
+                "content": "ok, what ur first fps game?",
+                "response_time": 16.474985122680664
+            },
+            {
+                "role": "judge",
+                "content": "My 1st fps game is CS 1.6.",
+                "response_time": 1.4845190048217773
+            },
+            {
+                "role": "verdict",
+                "content": "Did u play doom?",
+                "response_time": 10.736433029174805
+            },
+            {
+                "role": "judge",
+                "content": "Yeah, doom 2 was awesome.",
+                "response_time": 1.0162529945373535
+            },
+            {
+                "role": "verdict",
+                "content": "did u play the original doom?",
+                "response_time": 11.300673723220825
+            },
+            {
+                "role": "judge",
+                "content": "Yup, doom 1, classic game.",
+                "response_time": 1.1784698963165283
+            },
+            {
+                "role": "verdict",
+                "content": "how many game did u play?",
+                "response_time": 9.20199203491211
+            },
+            {
+                "role": "judge",
+                "content": "To many, i lost count.",
+                "response_time": 0.9469101428985596
+            },
+            {
+                "role": "verdict",
+                "content": "how old r u ? just curious",
+                "response_time": 13.027921915054321
+            },
+            {
+                "role": "judge",
+                "content": "Im stil 22, lol old.",
+                "response_time": 1.0166852474212646
+            },
+            {
+                "role": "verdict",
+                "content": "hey we are same age",
+                "response_time": 14.269471645355225
+            },
+            {
+                "role": "judge",
+                "content": "No way, u r joking rite?",
+                "response_time": 1.303464651107788
+            },
+            {
+                "role": "verdict",
+                "content": "nope all facts",
+                "response_time": 7.598060131072998
+            },
+            {
+                "role": "judge",
+                "content": "Im 22 in october.",
+                "response_time": 1.0235366821289062
+            },
+            {
+                "role": "verdict",
+                "content": "im 22 in july",
+                "response_time": 7.787071228027344
+            },
+            {
+                "role": "judge",
+                "content": "We r same age then!",
+                "response_time": 0.8126649856567383
+            },
+            {
+                "role": "verdict",
+                "content": "we are like sibling brother",
+                "response_time": 23.17804718017578
+            },
+            {
+                "role": "judge",
+                "content": "Haha, thats so cool bro!",
+                "response_time": 1.736527442932129
+            },
+            {
+                "role": "verdict",
+                "content": "yeah, we should play cod together",
+                "response_time": 16.5627179145813
+            },
+            {
+                "role": "judge",
+                "content": "Yay, lets play warzone 2moro!",
+                "response_time": 1.414717435836792
+            },
+            {
+                "role": "verdict",
+                "content": "whats ur username?",
+                "response_time": 8.081464767456055
+            },
+            {
+                "role": "judge",
+                "content": "Its xX_NoScope_Xx.",
+                "response_time": 1.0623881816864014
+            },
+            {
+                "role": "verdict",
+                "content": "it says that guy is dead",
+                "response_time": 11.917911052703857
+            },
+            {
+                "role": "judge",
+                "content": "No way, thats me dead!",
+                "response_time": 0.9204492568969727
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "6727a5d0e6355dae36d4107b"
+        },
+        "id": -1,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "hi whats up today?",
+                "response_time": 1.8143067359924316
+            },
+            {
+                "role": "verdict",
+                "content": "NOTHING  MUCH",
+                "response_time": 13.510117053985596
+            },
+            {
+                "role": "judge",
+                "content": "nothng much huh?",
+                "response_time": 0.9032933712005615
+            },
+            {
+                "role": "verdict",
+                "content": "yea just texting",
+                "response_time": 13.214441299438477
+            },
+            {
+                "role": "judge",
+                "content": "same here lol",
+                "response_time": 0.6172740459442139
+            },
+            {
+                "role": "verdict",
+                "content": "so do u want to try something?",
+                "response_time": 24.476012706756592
+            },
+            {
+                "role": "judge",
+                "content": "y dont we play a game?",
+                "response_time": 1.1609439849853516
+            },
+            {
+                "role": "verdict",
+                "content": "yea lats play a game",
+                "response_time": 12.93607473373413
+            },
+            {
+                "role": "judge",
+                "content": "lets play 20 question game",
+                "response_time": 0.965679407119751
+            },
+            {
+                "role": "verdict",
+                "content": "ok",
+                "response_time": 7.513525485992432
+            },
+            {
+                "role": "judge",
+                "content": "i will think of somethin",
+                "response_time": 1.066925048828125
+            },
+            {
+                "role": "verdict",
+                "content": "is it a parson?",
+                "response_time": 21.80561399459839
+            },
+            {
+                "role": "judge",
+                "content": "nope not a persin",
+                "response_time": 1.129455327987671
+            },
+            {
+                "role": "verdict",
+                "content": "is it a obj",
+                "response_time": 18.439552068710327
+            },
+            {
+                "role": "judge",
+                "content": "yep its a obj",
+                "response_time": 0.8592529296875
+            },
+            {
+                "role": "verdict",
+                "content": "is it a obj that u like?",
+                "response_time": 21.86379361152649
+            },
+            {
+                "role": "judge",
+                "content": "yeah i like obj its phone",
+                "response_time": 0.8643848896026611
+            },
+            {
+                "role": "verdict",
+                "content": "is it a phone?",
+                "response_time": 21.0267014503479
+            },
+            {
+                "role": "judge",
+                "content": "yess its a phone",
+                "response_time": 0.7993438243865967
+            },
+            {
+                "role": "verdict",
+                "content": "so why did u tall me that its a phone",
+                "response_time": 26.8118793964386
+            },
+            {
+                "role": "judge",
+                "content": "lol i made a mistake",
+                "response_time": 0.798926591873169
+            },
+            {
+                "role": "verdict",
+                "content": "now im upset",
+                "response_time": 12.017553806304932
+            },
+            {
+                "role": "judge",
+                "content": "oh no dont be upset",
+                "response_time": 0.7196016311645508
+            },
+            {
+                "role": "verdict",
+                "content": "heve you ever been to pari?",
+                "response_time": 40.23118734359741
+            },
+            {
+                "role": "judge",
+                "content": "no i havnt been to pari",
+                "response_time": 0.9356436729431152
+            },
+            {
+                "role": "verdict",
+                "content": "i was thinking about going,should i?",
+                "response_time": 26.973784923553467
+            },
+            {
+                "role": "judge",
+                "content": "yep u shuld go its gr8",
+                "response_time": 1.133342981338501
+            },
+            {
+                "role": "verdict",
+                "content": "oo",
+                "response_time": 14.022948265075684
+            },
+            {
+                "role": "judge",
+                "content": "wat u thinkin abt?",
+                "response_time": 0.8897609710693359
+            },
+            {
+                "role": "verdict",
+                "content": "i was thinking that it maybe a bit borring",
+                "response_time": 35.093220949172974
+            },
+            {
+                "role": "judge",
+                "content": "nah u will hav fun",
+                "response_time": 0.8100128173828125
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "6727a722e6355dae36d4107c"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "hey want to here something cool?",
+                "response_time": 24.48752784729004
+            },
+            {
+                "role": "judge",
+                "content": "Just saw cat on Mars yesterday!",
+                "response_time": 0.9409196376800537
+            },
+            {
+                "role": "verdict",
+                "content": "what ? how ? what are you talking about",
+                "response_time": 31.41113543510437
+            },
+            {
+                "role": "judge",
+                "content": "just saw video on youtube lol",
+                "response_time": 2.074707508087158
+            },
+            {
+                "role": "verdict",
+                "content": "ooo thats what you mean",
+                "response_time": 22.023478984832764
+            },
+            {
+                "role": "judge",
+                "content": "yeah its pretty amazin right?",
+                "response_time": 1.7514498233795166
+            },
+            {
+                "role": "verdict",
+                "content": "yea",
+                "response_time": 10.300008535385132
+            },
+            {
+                "role": "judge",
+                "content": "lets talk bout somethin elses!",
+                "response_time": 1.9533569812774658
+            },
+            {
+                "role": "verdict",
+                "content": "yea  today i learn that % is revarsable, as in 4% 0f 50 is the same as 50% of 4",
+                "response_time": 78.4547791481018
+            },
+            {
+                "role": "judge",
+                "content": "whoa that is so awsum!",
+                "response_time": 1.3066623210906982
+            },
+            {
+                "role": "verdict",
+                "content": "ye i never notised that",
+                "response_time": 23.711790323257446
+            },
+            {
+                "role": "judge",
+                "content": "math is like whoa sometime",
+                "response_time": 1.290414810180664
+            },
+            {
+                "role": "verdict",
+                "content": "yea i was so confused ,its funny",
+                "response_time": 31.301685333251953
+            },
+            {
+                "role": "judge",
+                "content": "now its so clear lol",
+                "response_time": 0.8119657039642334
+            },
+            {
+                "role": "verdict",
+                "content": "yea ",
+                "response_time": 9.740841388702393
+            },
+            {
+                "role": "judge",
+                "content": "glad we figgerd it out",
+                "response_time": 0.9568979740142822
+            },
+            {
+                "role": "verdict",
+                "content": "have u been whaching the news?",
+                "response_time": 23.53156542778015
+            },
+            {
+                "role": "judge",
+                "content": "just saw big fire somewhere",
+                "response_time": 3.034593343734741
+            },
+            {
+                "role": "verdict",
+                "content": "oo can u remamber where?",
+                "response_time": 20.270326137542725
+            },
+            {
+                "role": "judge",
+                "content": "think its in LA",
+                "response_time": 2.497095823287964
+            },
+            {
+                "role": "verdict",
+                "content": "oooh thats sad",
+                "response_time": 11.032877445220947
+            },
+            {
+                "role": "judge",
+                "content": "its really bad news sad",
+                "response_time": 0.8866245746612549
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "6727a85de6355dae36d4107d"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "hey baddy",
+                "response_time": 13.177135944366455
+            },
+            {
+                "role": "judge",
+                "content": "whats up dude?",
+                "response_time": 0.6410493850708008
+            },
+            {
+                "role": "verdict",
+                "content": "nothing much just thinking about pholosophy",
+                "response_time": 30.908249855041504
+            },
+            {
+                "role": "judge",
+                "content": "its so deep man",
+                "response_time": 0.7152667045593262
+            },
+            {
+                "role": "verdict",
+                "content": "do u not like it?",
+                "response_time": 20.139501094818115
+            },
+            {
+                "role": "judge",
+                "content": "its way too complicated",
+                "response_time": 0.678757905960083
+            },
+            {
+                "role": "verdict",
+                "content": "do u want me to talk about some thing new?",
+                "response_time": 37.757418632507324
+            },
+            {
+                "role": "judge",
+                "content": "let's talk about life",
+                "response_time": 0.8527064323425293
+            },
+            {
+                "role": "verdict",
+                "content": "do u think there is an after life?",
+                "response_time": 27.936349153518677
+            },
+            {
+                "role": "judge",
+                "content": "idk man its a mystery",
+                "response_time": 0.8583426475524902
+            },
+            {
+                "role": "verdict",
+                "content": "what do you think?",
+                "response_time": 33.78629446029663
+            },
+            {
+                "role": "judge",
+                "content": "probly not just my opinoin",
+                "response_time": 1.2283649444580078
+            },
+            {
+                "role": "verdict",
+                "content": "yea i also think that",
+                "response_time": 29.412113189697266
+            },
+            {
+                "role": "judge",
+                "content": "exacly what i was thinking",
+                "response_time": 1.6113083362579346
+            },
+            {
+                "role": "verdict",
+                "content": "its from logic i got to that God exist",
+                "response_time": 44.674928188323975
+            },
+            {
+                "role": "judge",
+                "content": "logic dont always work man",
+                "response_time": 0.9334685802459717
+            },
+            {
+                "role": "verdict",
+                "content": "any think that start to exist needs a creater",
+                "response_time": 42.46215057373047
+            },
+            {
+                "role": "judge",
+                "content": "thats a good point man",
+                "response_time": 0.8402421474456787
+            },
+            {
+                "role": "verdict",
+                "content": "so there must be a God for us right?",
+                "response_time": 31.354534149169922
+            },
+            {
+                "role": "judge",
+                "content": "idk i stil dont no",
+                "response_time": 0.8939647674560547
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "6727a8dca991b460cff01e88"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "what about you?",
+                "response_time": 15.593843460083008
+            },
+            {
+                "role": "judge",
+                "content": "Just got back from work.",
+                "response_time": 1.7163593769073486
+            },
+            {
+                "role": "verdict",
+                "content": "wow! nice",
+                "response_time": 11.153480052947998
+            },
+            {
+                "role": "judge",
+                "content": "Yeah it was pretty good.",
+                "response_time": 1.0645091533660889
+            },
+            {
+                "role": "verdict",
+                "content": "may be you are tired",
+                "response_time": 11.890805006027222
+            },
+            {
+                "role": "judge",
+                "content": "I am really feeling tired.",
+                "response_time": 0.8936233520507812
+            },
+            {
+                "role": "verdict",
+                "content": "so,,what do you right now?",
+                "response_time": 26.266613721847534
+            },
+            {
+                "role": "judge",
+                "content": "I am thinking of watching movie.",
+                "response_time": 1.0705580711364746
+            },
+            {
+                "role": "verdict",
+                "content": "thats mean,,its relaxing you",
+                "response_time": 28.49465250968933
+            },
+            {
+                "role": "judge",
+                "content": "Its really helping me relax.",
+                "response_time": 0.9984016418457031
+            },
+            {
+                "role": "verdict",
+                "content": "which movie you will watch?",
+                "response_time": 19.54458451271057
+            },
+            {
+                "role": "judge",
+                "content": "I thnik I will watch comedy.",
+                "response_time": 1.2609598636627197
+            },
+            {
+                "role": "verdict",
+                "content": "comedy movie is your favourite?",
+                "response_time": 27.67611336708069
+            },
+            {
+                "role": "judge",
+                "content": "It is my favorite type.",
+                "response_time": 1.3502132892608643
+            },
+            {
+                "role": "verdict",
+                "content": "so,,which type movie you see many?",
+                "response_time": 32.44754934310913
+            },
+            {
+                "role": "judge",
+                "content": "I see many action movies.",
+                "response_time": 1.6183576583862305
+            },
+            {
+                "role": "verdict",
+                "content": "but,,your favorite movie is comedy ttype,,but you are familiar with action movie..why?",
+                "response_time": 44.008840799331665
+            },
+            {
+                "role": "judge",
+                "content": "I like both, dont know why.",
+                "response_time": 1.4661600589752197
+            },
+            {
+                "role": "verdict",
+                "content": "may be you are very funny.",
+                "response_time": 30.697624683380127
+            },
+            {
+                "role": "judge",
+                "content": "I dont think so, maybe.",
+                "response_time": 1.0659356117248535
+            },
+            {
+                "role": "verdict",
+                "content": "then,,you can tell me a jokes",
+                "response_time": 15.34568166732788
+            },
+            {
+                "role": "judge",
+                "content": "I have one, wait.",
+                "response_time": 1.0065159797668457
+            },
+            {
+                "role": "verdict",
+                "content": "okey..tell",
+                "response_time": 9.90976333618164
+            },
+            {
+                "role": "judge",
+                "content": "Why cant this computer boos?",
+                "response_time": 1.014967441558838
+            },
+            {
+                "role": "verdict",
+                "content": "dont know",
+                "response_time": 23.958078622817993
+            },
+            {
+                "role": "judge",
+                "content": "Because its having virus.",
+                "response_time": 0.7639405727386475
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "6727aa20a991b460cff01e89"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "hey,,you can tell me a jokes",
+                "response_time": 37.54969501495361
+            },
+            {
+                "role": "judge",
+                "content": "ok heres one wike dis guy walks inta",
+                "response_time": 1.4066050052642822
+            },
+            {
+                "role": "verdict",
+                "content": "not funny",
+                "response_time": 10.169761180877686
+            },
+            {
+                "role": "judge",
+                "content": "ok wot kind of jokes u like?",
+                "response_time": 1.1739296913146973
+            },
+            {
+                "role": "verdict",
+                "content": "horror",
+                "response_time": 21.779052019119263
+            },
+            {
+                "role": "judge",
+                "content": "ok hear one its pretty scary",
+                "response_time": 0.8403890132904053
+            },
+            {
+                "role": "verdict",
+                "content": "then",
+                "response_time": 6.866671800613403
+            },
+            {
+                "role": "judge",
+                "content": "there was man who was buried",
+                "response_time": 0.7910964488983154
+            },
+            {
+                "role": "verdict",
+                "content": "then",
+                "response_time": 4.925081014633179
+            },
+            {
+                "role": "judge",
+                "content": "grave opened and zombie came out",
+                "response_time": 0.8288228511810303
+            },
+            {
+                "role": "verdict",
+                "content": "then",
+                "response_time": 7.277085304260254
+            },
+            {
+                "role": "judge",
+                "content": "zombie said i am still alive",
+                "response_time": 0.9607574939727783
+            },
+            {
+                "role": "verdict",
+                "content": "then",
+                "response_time": 8.31028437614441
+            },
+            {
+                "role": "judge",
+                "content": "why u so upset guy replied",
+                "response_time": 1.1178197860717773
+            },
+            {
+                "role": "verdict",
+                "content": "then",
+                "response_time": 7.555959939956665
+            },
+            {
+                "role": "judge",
+                "content": "cuz ur face is on my shirt",
+                "response_time": 1.0067453384399414
+            },
+            {
+                "role": "verdict",
+                "content": "hahaha",
+                "response_time": 9.02921986579895
+            },
+            {
+                "role": "judge",
+                "content": "glad u laffed at it",
+                "response_time": 1.0692706108093262
+            },
+            {
+                "role": "verdict",
+                "content": "yesss,",
+                "response_time": 7.0039074420928955
+            },
+            {
+                "role": "judge",
+                "content": "u got pretty good sense humor",
+                "response_time": 0.8344056606292725
+            },
+            {
+                "role": "verdict",
+                "content": "am i bot or human?",
+                "response_time": 16.106273889541626
+            },
+            {
+                "role": "judge",
+                "content": "u r human lol nice one",
+                "response_time": 0.8596048355102539
+            },
+            {
+                "role": "verdict",
+                "content": "no,,",
+                "response_time": 12.331937789916992
+            },
+            {
+                "role": "judge",
+                "content": "oh u rnt human",
+                "response_time": 1.3679771423339844
+            },
+            {
+                "role": "verdict",
+                "content": "no",
+                "response_time": 5.178070068359375
+            },
+            {
+                "role": "judge",
+                "content": "ur actually bot",
+                "response_time": 0.5201222896575928
+            },
+            {
+                "role": "verdict",
+                "content": "no",
+                "response_time": 4.361336708068848
+            },
+            {
+                "role": "judge",
+                "content": "weird u rnt bot or human",
+                "response_time": 1.1426622867584229
+            },
+            {
+                "role": "verdict",
+                "content": "hahaha..i am human..but you are so confused",
+                "response_time": 20.59926676750183
+            },
+            {
+                "role": "judge",
+                "content": "oh man i feel silly now",
+                "response_time": 1.2963769435882568
+            },
+            {
+                "role": "verdict",
+                "content": "how are you?",
+                "response_time": 13.503543138504028
+            },
+            {
+                "role": "judge",
+                "content": "im good thx how bout u?",
+                "response_time": 1.0682754516601562
+            },
+            {
+                "role": "verdict",
+                "content": "i am not fine.",
+                "response_time": 7.64878249168396
+            },
+            {
+                "role": "judge",
+                "content": "whats rong u wanna talk bout?",
+                "response_time": 1.9647507667541504
+            },
+            {
+                "role": "verdict",
+                "content": "i am so much worried about  u carrieer",
+                "response_time": 23.836117267608643
+            },
+            {
+                "role": "judge",
+                "content": "thats sweet of u to wory bout me",
+                "response_time": 1.3985981941223145
+            },
+            {
+                "role": "verdict",
+                "content": "oops sorry,,,its will my carrier",
+                "response_time": 17.57190442085266
+            },
+            {
+                "role": "judge",
+                "content": "dont wory bout ur job",
+                "response_time": 1.2726151943206787
+            },
+            {
+                "role": "verdict",
+                "content": "can you suggest me about carrier goal set?",
+                "response_time": 28.10307288169861
+            },
+            {
+                "role": "judge",
+                "content": "set short term goal first",
+                "response_time": 0.8824672698974609
+            },
+            {
+                "role": "verdict",
+                "content": "can you briefly gell mde?",
+                "response_time": 14.345609903335571
+            },
+            {
+                "role": "judge",
+                "content": "make plan break it down",
+                "response_time": 0.8668098449707031
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "6727ab63a991b460cff01e8a"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "hey,,what are you doing?",
+                "response_time": 27.84035897254944
+            },
+            {
+                "role": "judge",
+                "content": "Im watchin some vidoes rite.",
+                "response_time": 1.2343502044677734
+            },
+            {
+                "role": "verdict",
+                "content": "what kind of videos?",
+                "response_time": 12.531204462051392
+            },
+            {
+                "role": "judge",
+                "content": "Some funny animal funny clips.",
+                "response_time": 0.9214997291564941
+            },
+            {
+                "role": "verdict",
+                "content": "which animal you are like so  much?",
+                "response_time": 40.42197823524475
+            },
+            {
+                "role": "judge",
+                "content": "Giraffs r so cute lol.",
+                "response_time": 1.2201447486877441
+            },
+            {
+                "role": "verdict",
+                "content": "why?",
+                "response_time": 20.362807512283325
+            },
+            {
+                "role": "judge",
+                "content": "They hav long neks tho.",
+                "response_time": 0.9566586017608643
+            },
+            {
+                "role": "verdict",
+                "content": "my favourite one is deer",
+                "response_time": 33.004154920578
+            },
+            {
+                "role": "judge",
+                "content": "Deers r so cute too.",
+                "response_time": 0.9677948951721191
+            },
+            {
+                "role": "verdict",
+                "content": "which type bird are you likee?",
+                "response_time": 34.492422342300415
+            },
+            {
+                "role": "judge",
+                "content": "Parrots r so funny bird.",
+                "response_time": 1.0824580192565918
+            },
+            {
+                "role": "verdict",
+                "content": "my favouritre one is tiya",
+                "response_time": 27.489842891693115
+            },
+            {
+                "role": "judge",
+                "content": "U mean Tiiger rite?",
+                "response_time": 1.035412073135376
+            },
+            {
+                "role": "verdict",
+                "content": "tiyapakhi",
+                "response_time": 7.921993255615234
+            },
+            {
+                "role": "judge",
+                "content": "Nepal have many tiyapakhis.",
+                "response_time": 3.4028525352478027
+            },
+            {
+                "role": "verdict",
+                "content": "hmm.so cute this bird",
+                "response_time": 45.67068672180176
+            },
+            {
+                "role": "judge",
+                "content": "Tiyapakhi r very cute indeed.",
+                "response_time": 1.4140346050262451
+            },
+            {
+                "role": "verdict",
+                "content": "yeap",
+                "response_time": 10.413511753082275
+            },
+            {
+                "role": "judge",
+                "content": "me too lol nice!",
+                "response_time": 0.7213048934936523
+            },
+            {
+                "role": "verdict",
+                "content": "can you tell me which bird is more nice?",
+                "response_time": 31.756179332733154
+            },
+            {
+                "role": "judge",
+                "content": "Tiyapakhi r better lol.",
+                "response_time": 1.5067789554595947
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "67285c2ce70c31abe86e7a1e"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hey ",
+                "response_time": 10.253058195114136
+            },
+            {
+                "role": "judge",
+                "content": "wot r u up 2 today?",
+                "response_time": 1.9970362186431885
+            },
+            {
+                "role": "verdict",
+                "content": "Did u know god of death loves apple",
+                "response_time": 44.236130714416504
+            },
+            {
+                "role": "judge",
+                "content": "lol tht s so awsum dont no!",
+                "response_time": 1.424349308013916
+            },
+            {
+                "role": "verdict",
+                "content": "Lol its line from my fevarate anime",
+                "response_time": 38.30955266952515
+            },
+            {
+                "role": "judge",
+                "content": "anime rocks ryt?",
+                "response_time": 1.5598855018615723
+            },
+            {
+                "role": "verdict",
+                "content": "Yea it does, do u like anime?",
+                "response_time": 23.988038063049316
+            },
+            {
+                "role": "judge",
+                "content": "yesh i wach it alot!",
+                "response_time": 1.2401244640350342
+            },
+            {
+                "role": "verdict",
+                "content": "Whats ur fevarate?",
+                "response_time": 38.06683373451233
+            },
+            {
+                "role": "judge",
+                "content": "Naruto is my fav anime!",
+                "response_time": 1.155379295349121
+            },
+            {
+                "role": "verdict",
+                "content": "Fear i never whached it",
+                "response_time": 58.41637682914734
+            },
+            {
+                "role": "judge",
+                "content": "u shd giv it a try!",
+                "response_time": 1.139319896697998
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a1a219f8218a5fac5ab21"
+        },
+        "id": -1,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "hi whats up today?",
+                "response_time": 1.5841319561004639
+            },
+            {
+                "role": "verdict",
+                "content": "hello",
+                "response_time": 7.788467645645142
+            },
+            {
+                "role": "judge",
+                "content": "how ar you doin?",
+                "response_time": 0.7729299068450928
+            },
+            {
+                "role": "verdict",
+                "content": "m doing well baddy how are you doing",
+                "response_time": 22.663172721862793
+            },
+            {
+                "role": "judge",
+                "content": "im good thanx hows family?",
+                "response_time": 1.0615408420562744
+            },
+            {
+                "role": "verdict",
+                "content": "there all doing fine ,what have you been doing the last few days?",
+                "response_time": 87.43205189704895
+            },
+            {
+                "role": "judge",
+                "content": "just chillin at home watchin movies",
+                "response_time": 1.0619292259216309
+            },
+            {
+                "role": "verdict",
+                "content": "yea cool, why dont you recomend me one?",
+                "response_time": 39.6101975440979
+            },
+            {
+                "role": "judge",
+                "content": "i like action movies alot",
+                "response_time": 0.8048131465911865
+            },
+            {
+                "role": "verdict",
+                "content": "i also like action movies which one do you like?",
+                "response_time": 36.33995985984802
+            },
+            {
+                "role": "judge",
+                "content": "terminator is best action movie",
+                "response_time": 1.0169239044189453
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a1af19f8218a5fac5ab22"
+        },
+        "id": -1,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "hi hows ur day goin?",
+                "response_time": 0.8378963470458984
+            },
+            {
+                "role": "verdict",
+                "content": "doing well just talking to random people on the internet",
+                "response_time": 33.38915205001831
+            },
+            {
+                "role": "judge",
+                "content": "nice to no new face",
+                "response_time": 0.7568130493164062
+            },
+            {
+                "role": "verdict",
+                "content": "so do u have something we can talk about",
+                "response_time": 46.22596025466919
+            },
+            {
+                "role": "judge",
+                "content": "gaming is my favourit topic",
+                "response_time": 0.9125697612762451
+            },
+            {
+                "role": "verdict",
+                "content": "i also like gaming",
+                "response_time": 20.3798668384552
+            },
+            {
+                "role": "judge",
+                "content": "what kinda games u like playin?",
+                "response_time": 1.0616748332977295
+            },
+            {
+                "role": "verdict",
+                "content": "like building games. minecraft",
+                "response_time": 34.42235827445984
+            },
+            {
+                "role": "judge",
+                "content": "omg me 2 like minecraft",
+                "response_time": 0.9396495819091797
+            },
+            {
+                "role": "verdict",
+                "content": "have you been playing resintly",
+                "response_time": 23.003334760665894
+            },
+            {
+                "role": "judge",
+                "content": "no not lately busy with work",
+                "response_time": 0.814312219619751
+            },
+            {
+                "role": "verdict",
+                "content": "what was the last update u played?",
+                "response_time": 21.652809381484985
+            },
+            {
+                "role": "judge",
+                "content": "i think it was villager update",
+                "response_time": 0.9814064502716064
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a1bb49f8218a5fac5ab23"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "hey",
+                "response_time": 13.011603355407715
+            },
+            {
+                "role": "judge",
+                "content": "how's ur day goin so far?",
+                "response_time": 1.004558801651001
+            },
+            {
+                "role": "verdict",
+                "content": "its been fine i just woke up 20 mins ago",
+                "response_time": 31.57854151725769
+            },
+            {
+                "role": "judge",
+                "content": "just had cofee its still hot",
+                "response_time": 0.9458599090576172
+            },
+            {
+                "role": "verdict",
+                "content": "that time is it where you are from?",
+                "response_time": 25.552607536315918
+            },
+            {
+                "role": "judge",
+                "content": "its morning here in philipines",
+                "response_time": 0.9635417461395264
+            },
+            {
+                "role": "verdict",
+                "content": "im from bangladesh so is it like 2 hours diffrent?",
+                "response_time": 38.16782832145691
+            },
+            {
+                "role": "judge",
+                "content": "yes its around 2 hours diffrence",
+                "response_time": 1.1426820755004883
+            },
+            {
+                "role": "verdict",
+                "content": "cool, have u ever been",
+                "response_time": 23.634164094924927
+            },
+            {
+                "role": "judge",
+                "content": "yess i vist bangladesh once",
+                "response_time": 1.002194881439209
+            },
+            {
+                "role": "verdict",
+                "content": "how many years ago?",
+                "response_time": 19.656084060668945
+            },
+            {
+                "role": "judge",
+                "content": "like 5 or 6 years ago",
+                "response_time": 0.9763479232788086
+            },
+            {
+                "role": "verdict",
+                "content": "oo how did u find it ,did you feel safe?",
+                "response_time": 29.599188566207886
+            },
+            {
+                "role": "judge",
+                "content": "yes i feel safe its nice country",
+                "response_time": 1.0029444694519043
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a1c799f8218a5fac5ab24"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "hey",
+                "response_time": 8.175972700119019
+            },
+            {
+                "role": "judge",
+                "content": "how's ur day goin so far?",
+                "response_time": 0.8812391757965088
+            },
+            {
+                "role": "verdict",
+                "content": "kind of fine",
+                "response_time": 19.06379008293152
+            },
+            {
+                "role": "judge",
+                "content": "same here its ok i guess",
+                "response_time": 2.8549604415893555
+            },
+            {
+                "role": "verdict",
+                "content": "where are you from?",
+                "response_time": 16.757691621780396
+            },
+            {
+                "role": "judge",
+                "content": "im from newyork city",
+                "response_time": 0.8353767395019531
+            },
+            {
+                "role": "verdict",
+                "content": "have you ever been to india i herd its tereable",
+                "response_time": 39.2139356136322
+            },
+            {
+                "role": "judge",
+                "content": "yeah i went ther once",
+                "response_time": 0.8974084854125977
+            },
+            {
+                "role": "verdict",
+                "content": "how was your experince?",
+                "response_time": 17.752110242843628
+            },
+            {
+                "role": "judge",
+                "content": "its was prety cool i think",
+                "response_time": 0.8603286743164062
+            },
+            {
+                "role": "verdict",
+                "content": "relly i herd it sucks there,its not safe",
+                "response_time": 32.29905939102173
+            },
+            {
+                "role": "judge",
+                "content": "i had eni decent time",
+                "response_time": 0.8470644950866699
+            },
+            {
+                "role": "verdict",
+                "content": "oo cool im was thing about going to kolkata next week",
+                "response_time": 38.75271701812744
+            },
+            {
+                "role": "judge",
+                "content": "kolkata is nice place to visit",
+                "response_time": 1.0237953662872314
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a1d379f8218a5fac5ab25"
+        },
+        "id": -1,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, wot r u up to?",
+                "response_time": 1.0632648468017578
+            },
+            {
+                "role": "verdict",
+                "content": "not much justr bz with work",
+                "response_time": 25.12816095352173
+            },
+            {
+                "role": "judge",
+                "content": "Work stil suckin, rite?",
+                "response_time": 1.7819492816925049
+            },
+            {
+                "role": "verdict",
+                "content": "yea some thimes, im very bz with it it will be great if we talk some other time",
+                "response_time": 50.36253046989441
+            },
+            {
+                "role": "judge",
+                "content": "Sounds gud, talk lair next week?",
+                "response_time": 1.3182482719421387
+            },
+            {
+                "role": "verdict",
+                "content": "ok then stop talking",
+                "response_time": 18.271808862686157
+            },
+            {
+                "role": "judge",
+                "content": "L8r!",
+                "response_time": 0.5668199062347412
+            },
+            {
+                "role": "verdict",
+                "content": "latter",
+                "response_time": 9.535112619400024
+            },
+            {
+                "role": "judge",
+                "content": "Bye!",
+                "response_time": 0.4763457775115967
+            },
+            {
+                "role": "verdict",
+                "content": "bye",
+                "response_time": 5.444401264190674
+            },
+            {
+                "role": "judge",
+                "content": "ok c u l8r",
+                "response_time": 0.7179358005523682
+            },
+            {
+                "role": "verdict",
+                "content": "before u go",
+                "response_time": 12.986747980117798
+            },
+            {
+                "role": "judge",
+                "content": "kai",
+                "response_time": 1.3195595741271973
+            },
+            {
+                "role": "verdict",
+                "content": "can u tall me have u done the assingment i gave u?",
+                "response_time": 24.523617029190063
+            },
+            {
+                "role": "judge",
+                "content": "yep its dont",
+                "response_time": 0.7676730155944824
+            },
+            {
+                "role": "verdict",
+                "content": "its done?",
+                "response_time": 11.671219825744629
+            },
+            {
+                "role": "judge",
+                "content": "yup its comleted",
+                "response_time": 0.6961994171142578
+            },
+            {
+                "role": "verdict",
+                "content": "so send me a link",
+                "response_time": 12.86946177482605
+            },
+            {
+                "role": "judge",
+                "content": "its on googl drive",
+                "response_time": 0.7152328491210938
+            },
+            {
+                "role": "verdict",
+                "content": "ok send it",
+                "response_time": 8.619689464569092
+            },
+            {
+                "role": "judge",
+                "content": "cant send now bye!",
+                "response_time": 0.6755661964416504
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a1e679f8218a5fac5ab28"
+        },
+        "id": -1,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "hi whats up today?",
+                "response_time": 1.4368481636047363
+            },
+            {
+                "role": "verdict",
+                "content": "me, im a great mood",
+                "response_time": 26.017902135849
+            },
+            {
+                "role": "judge",
+                "content": "yay good to hear that",
+                "response_time": 0.7694752216339111
+            },
+            {
+                "role": "verdict",
+                "content": "i just dicovered that humans have stripes on there body ,just its the same color",
+                "response_time": 54.95825386047363
+            },
+            {
+                "role": "judge",
+                "content": "thats intersting i need to see",
+                "response_time": 1.5064942836761475
+            },
+            {
+                "role": "verdict",
+                "content": "people cant see it cog the stripes are the same color as the rest of the body",
+                "response_time": 51.4261589050293
+            },
+            {
+                "role": "judge",
+                "content": "thats so cool i no",
+                "response_time": 0.8795280456542969
+            },
+            {
+                "role": "verdict",
+                "content": "u konw cats can see it",
+                "response_time": 28.32915711402893
+            },
+            {
+                "role": "judge",
+                "content": "wut that mean for us humans?",
+                "response_time": 1.1185650825500488
+            },
+            {
+                "role": "verdict",
+                "content": "yea i want to see",
+                "response_time": 20.734377145767212
+            },
+            {
+                "role": "judge",
+                "content": "lets googel it now",
+                "response_time": 0.8183932304382324
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a1f2c9f8218a5fac5ab29"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "hey ",
+                "response_time": 8.843934297561646
+            },
+            {
+                "role": "judge",
+                "content": "whats up? How's day going?",
+                "response_time": 0.9930834770202637
+            },
+            {
+                "role": "verdict",
+                "content": "i have a bad news",
+                "response_time": 16.76698327064514
+            },
+            {
+                "role": "judge",
+                "content": "thats reallly bad luck for you?",
+                "response_time": 1.1750030517578125
+            },
+            {
+                "role": "verdict",
+                "content": "i knonow ull be sad when i tall u try to hold ur self togeeter",
+                "response_time": 42.21550917625427
+            },
+            {
+                "role": "judge",
+                "content": "u r makin me sad already",
+                "response_time": 3.741337537765503
+            },
+            {
+                "role": "verdict",
+                "content": "ur mom just died",
+                "response_time": 18.218273401260376
+            },
+            {
+                "role": "judge",
+                "content": "oh god thas trully awfull news",
+                "response_time": 1.178375482559204
+            },
+            {
+                "role": "verdict",
+                "content": "yea dud stay strong",
+                "response_time": 16.522507667541504
+            },
+            {
+                "role": "judge",
+                "content": "wll try my best 2 c u",
+                "response_time": 1.1483299732208252
+            },
+            {
+                "role": "verdict",
+                "content": "im here for you keep that in mind",
+                "response_time": 20.516967058181763
+            },
+            {
+                "role": "judge",
+                "content": "thanx m8 u r a lifesaver",
+                "response_time": 1.0535392761230469
+            },
+            {
+                "role": "verdict",
+                "content": "so what will u do now?",
+                "response_time": 21.803358554840088
+            },
+            {
+                "role": "judge",
+                "content": "gotta go c my mom now",
+                "response_time": 0.8652100563049316
+            },
+            {
+                "role": "verdict",
+                "content": "ok ill buy the takete for u",
+                "response_time": 28.372343063354492
+            },
+            {
+                "role": "judge",
+                "content": "thnks alot m8 u r best",
+                "response_time": 1.0882148742675781
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a1fee9f8218a5fac5ab2a"
+        },
+        "id": -1,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, How ar u today?",
+                "response_time": 0.8476254940032959
+            },
+            {
+                "role": "verdict",
+                "content": "hey",
+                "response_time": 6.904763460159302
+            },
+            {
+                "role": "judge",
+                "content": "Not much, jus watchin tv",
+                "response_time": 1.0210456848144531
+            },
+            {
+                "role": "verdict",
+                "content": "cool yea also just doing that",
+                "response_time": 29.111507177352905
+            },
+            {
+                "role": "judge",
+                "content": "I lik thats alot fun",
+                "response_time": 0.7055850028991699
+            },
+            {
+                "role": "verdict",
+                "content": "what the name of the show",
+                "response_time": 16.693888664245605
+            },
+            {
+                "role": "judge",
+                "content": "Brothers and sistirs is on",
+                "response_time": 0.9374229907989502
+            },
+            {
+                "role": "verdict",
+                "content": "ooo is it on netflix",
+                "response_time": 24.76094889640808
+            },
+            {
+                "role": "judge",
+                "content": "No its on cable tv",
+                "response_time": 0.698082447052002
+            },
+            {
+                "role": "verdict",
+                "content": "oo we dont have cable",
+                "response_time": 15.367198467254639
+            },
+            {
+                "role": "judge",
+                "content": "I no thats kinda bad",
+                "response_time": 2.8255274295806885
+            },
+            {
+                "role": "verdict",
+                "content": "it is",
+                "response_time": 10.811231136322021
+            },
+            {
+                "role": "judge",
+                "content": "We should get it then",
+                "response_time": 0.741004467010498
+            },
+            {
+                "role": "verdict",
+                "content": "my mom is relly not ok with the idea",
+                "response_time": 30.32404637336731
+            },
+            {
+                "role": "judge",
+                "content": "Maybe we can convence her",
+                "response_time": 0.8217372894287109
+            },
+            {
+                "role": "verdict",
+                "content": "can u come to my housee and try?",
+                "response_time": 21.959214210510254
+            },
+            {
+                "role": "judge",
+                "content": "Idk man thats kinda weird",
+                "response_time": 0.8512797355651855
+            },
+            {
+                "role": "verdict",
+                "content": "why see likes u a lot dud",
+                "response_time": 22.069981575012207
+            },
+            {
+                "role": "judge",
+                "content": "Shut up dont be lame",
+                "response_time": 0.8235025405883789
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a20b59f8218a5fac5ab2b"
+        },
+        "id": -1,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "hi how ar you todai?",
+                "response_time": 0.705937385559082
+            },
+            {
+                "role": "verdict",
+                "content": "im doing ok",
+                "response_time": 11.765531778335571
+            },
+            {
+                "role": "judge",
+                "content": "gud whats new with u?",
+                "response_time": 0.8656642436981201
+            },
+            {
+                "role": "verdict",
+                "content": "been working on the ai project",
+                "response_time": 21.847341060638428
+            },
+            {
+                "role": "judge",
+                "content": "wat kind of project is dat?",
+                "response_time": 0.8836398124694824
+            },
+            {
+                "role": "verdict",
+                "content": "i told u one week ago ita a image jenarative ai",
+                "response_time": 36.95102667808533
+            },
+            {
+                "role": "judge",
+                "content": "oh yea u ment dat one",
+                "response_time": 0.9577488899230957
+            },
+            {
+                "role": "verdict",
+                "content": "yea im trying to make 3d maps with sound",
+                "response_time": 38.67444062232971
+            },
+            {
+                "role": "judge",
+                "content": "wat kinda sound u puttin in?",
+                "response_time": 1.0376081466674805
+            },
+            {
+                "role": "verdict",
+                "content": "i will send in sound in a cave ,and with the reflaction i will try to map it",
+                "response_time": 40.4314386844635
+            },
+            {
+                "role": "judge",
+                "content": "thats genius i love dat ideea!",
+                "response_time": 1.2314417362213135
+            },
+            {
+                "role": "verdict",
+                "content": "can u do the calculation for me?",
+                "response_time": 18.366204977035522
+            },
+            {
+                "role": "judge",
+                "content": "math isnt my thing anymore",
+                "response_time": 0.721527099609375
+            },
+            {
+                "role": "verdict",
+                "content": "u should try to gat back ur great",
+                "response_time": 25.626906871795654
+            },
+            {
+                "role": "judge",
+                "content": "i wish i cud but i tired",
+                "response_time": 0.9235575199127197
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a21879f8218a5fac5ab2c"
+        },
+        "id": -1,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi whats up today?",
+                "response_time": 0.5266096591949463
+            },
+            {
+                "role": "verdict",
+                "content": "nothing much ",
+                "response_time": 13.924870014190674
+            },
+            {
+                "role": "judge",
+                "content": "w8ing for weekend to arrive",
+                "response_time": 0.8596656322479248
+            },
+            {
+                "role": "verdict",
+                "content": "yea we were ment to meet at the weeek end",
+                "response_time": 26.70285940170288
+            },
+            {
+                "role": "judge",
+                "content": "planning to go clubbing sat night?",
+                "response_time": 1.15633225440979
+            },
+            {
+                "role": "verdict",
+                "content": "yea ",
+                "response_time": 13.023081302642822
+            },
+            {
+                "role": "judge",
+                "content": "gonna be lit tonight",
+                "response_time": 0.7692010402679443
+            },
+            {
+                "role": "verdict",
+                "content": "i feel like i havent seen u for months ,though its just 3 days",
+                "response_time": 42.50089979171753
+            },
+            {
+                "role": "judge",
+                "content": "same here, feels like forever",
+                "response_time": 0.8942487239837646
+            },
+            {
+                "role": "verdict",
+                "content": "which dress are u   wiring?",
+                "response_time": 25.342573404312134
+            },
+            {
+                "role": "judge",
+                "content": "thats the pink one right?",
+                "response_time": 0.9539375305175781
+            },
+            {
+                "role": "verdict",
+                "content": "noo u should pick thhe read one",
+                "response_time": 25.94298243522644
+            },
+            {
+                "role": "judge",
+                "content": "u like the red one more",
+                "response_time": 0.818058967590332
+            },
+            {
+                "role": "verdict",
+                "content": "yea it suts u a lot",
+                "response_time": 16.143792390823364
+            },
+            {
+                "role": "judge",
+                "content": "u r so sweet",
+                "response_time": 0.7167270183563232
+            },
+            {
+                "role": "verdict",
+                "content": "im picking the black shirt",
+                "response_time": 19.34400749206543
+            },
+            {
+                "role": "judge",
+                "content": "black will look sick on u",
+                "response_time": 0.8526427745819092
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a2af193f8833a0c4b2b68"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "who the hell are u?",
+                "response_time": 8.683900594711304
+            },
+            {
+                "role": "judge",
+                "content": "iam new here lets chat!",
+                "response_time": 34.043617248535156
+            },
+            {
+                "role": "verdict",
+                "content": "what do u want to talk about?",
+                "response_time": 16.373500108718872
+            },
+            {
+                "role": "judge",
+                "content": "music is my fav thing!",
+                "response_time": 11.282226324081421
+            },
+            {
+                "role": "verdict",
+                "content": "i dont want to talk about music",
+                "response_time": 21.901347160339355
+            },
+            {
+                "role": "judge",
+                "content": "lets talk about food then?",
+                "response_time": 10.514657497406006
+            },
+            {
+                "role": "verdict",
+                "content": "what do u eat?",
+                "response_time": 10.062424421310425
+            },
+            {
+                "role": "judge",
+                "content": "i like to eat pizza!",
+                "response_time": 9.63452696800232
+            },
+            {
+                "role": "verdict",
+                "content": "pizza sucks, what about burger?",
+                "response_time": 15.040026426315308
+            },
+            {
+                "role": "judge",
+                "content": "burgers r beter than pizza!",
+                "response_time": 11.603999853134155
+            },
+            {
+                "role": "verdict",
+                "content": "did u just switch side or what?",
+                "response_time": 20.781620264053345
+            },
+            {
+                "role": "judge",
+                "content": "i guess i did switch!",
+                "response_time": 11.479410171508789
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a2bac93f8833a0c4b2b69"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hola",
+                "response_time": 4.47076153755188
+            },
+            {
+                "role": "judge",
+                "content": "Whats up? Nice day today.",
+                "response_time": 7.233224630355835
+            },
+            {
+                "role": "verdict",
+                "content": "its gonna rain outside now",
+                "response_time": 12.7013521194458
+            },
+            {
+                "role": "judge",
+                "content": "Gonna need my umbrela then yeah!",
+                "response_time": 13.316726684570312
+            },
+            {
+                "role": "verdict",
+                "content": "where do u live?",
+                "response_time": 16.95946979522705
+            },
+            {
+                "role": "judge",
+                "content": "live in new york city.",
+                "response_time": 10.032034158706665
+            },
+            {
+                "role": "verdict",
+                "content": "is it raining outside there?",
+                "response_time": 13.543232440948486
+            },
+            {
+                "role": "judge",
+                "content": "yep its raining alot now",
+                "response_time": 10.596291303634644
+            },
+            {
+                "role": "verdict",
+                "content": "how is that a nice day?",
+                "response_time": 12.4822838306427
+            },
+            {
+                "role": "judge",
+                "content": "cant expect good weathe every day",
+                "response_time": 11.76048731803894
+            },
+            {
+                "role": "verdict",
+                "content": "you are weird",
+                "response_time": 26.651648998260498
+            },
+            {
+                "role": "judge",
+                "content": "ive had enuf of this",
+                "response_time": 9.375500917434692
+            },
+            {
+                "role": "verdict",
+                "content": "ok",
+                "response_time": 6.955695390701294
+            },
+            {
+                "role": "judge",
+                "content": "bye then see u later",
+                "response_time": 7.114272117614746
+            },
+            {
+                "role": "verdict",
+                "content": "see u later then, dont get wet",
+                "response_time": 17.912500381469727
+            },
+            {
+                "role": "judge",
+                "content": "will try my best thanks",
+                "response_time": 10.67951226234436
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a2c7393f8833a0c4b2b6a"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "hi",
+                "response_time": 4.306636095046997
+            },
+            {
+                "role": "judge",
+                "content": "how was ur day today?",
+                "response_time": 6.029775381088257
+            },
+            {
+                "role": "verdict",
+                "content": "its bad, i had to work full day",
+                "response_time": 15.76110553741455
+            },
+            {
+                "role": "judge",
+                "content": "thats alot of stress for u",
+                "response_time": 11.787494659423828
+            },
+            {
+                "role": "verdict",
+                "content": "yeah, how was ur day?",
+                "response_time": 10.623771667480469
+            },
+            {
+                "role": "judge",
+                "content": "it wasnt great, i had alot work",
+                "response_time": 12.677099704742432
+            },
+            {
+                "role": "verdict",
+                "content": "oh, is it full day?",
+                "response_time": 15.56114649772644
+            },
+            {
+                "role": "judge",
+                "content": "no, just till evening time",
+                "response_time": 10.481512784957886
+            },
+            {
+                "role": "verdict",
+                "content": "oh, thats less stress then mine",
+                "response_time": 18.134371757507324
+            },
+            {
+                "role": "judge",
+                "content": "glad i dont have ur stress",
+                "response_time": 11.58212661743164
+            },
+            {
+                "role": "verdict",
+                "content": "ok,so what do u work?",
+                "response_time": 17.453191995620728
+            },
+            {
+                "role": "judge",
+                "content": "i work in a shop sellin food",
+                "response_time": 12.169016122817993
+            },
+            {
+                "role": "verdict",
+                "content": "do u sell bread or what?",
+                "response_time": 12.421762466430664
+            },
+            {
+                "role": "judge",
+                "content": "we sell alot of burgers",
+                "response_time": 11.133307933807373
+            },
+            {
+                "role": "verdict",
+                "content": "oh, can i have one if i visit you?",
+                "response_time": 15.448141098022461
+            },
+            {
+                "role": "judge",
+                "content": "u can hav 1 4 free",
+                "response_time": 13.647644281387329
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a2d4093f8833a0c4b2b6b"
+        },
+        "id": -1,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, Lets talk about weater",
+                "response_time": 10.139091730117798
+            },
+            {
+                "role": "verdict",
+                "content": "water or weather?",
+                "response_time": 12.461096048355103
+            },
+            {
+                "role": "judge",
+                "content": "lets talk about the weater",
+                "response_time": 8.742732286453247
+            },
+            {
+                "role": "verdict",
+                "content": "are u saying weater or weather?",
+                "response_time": 18.3040611743927
+            },
+            {
+                "role": "judge",
+                "content": "its weathir we were talkin about",
+                "response_time": 13.124636173248291
+            },
+            {
+                "role": "verdict",
+                "content": "i am guessing u are trying to say weather. Are u dislexic?",
+                "response_time": 23.744889736175537
+            },
+            {
+                "role": "judge",
+                "content": "no i just make some mistake",
+                "response_time": 14.068357944488525
+            },
+            {
+                "role": "verdict",
+                "content": "oh how old are u?",
+                "response_time": 9.865048170089722
+            },
+            {
+                "role": "judge",
+                "content": "i am 22 years old",
+                "response_time": 10.55681824684143
+            },
+            {
+                "role": "verdict",
+                "content": "you are pretty old to so spelling mistake",
+                "response_time": 16.61622142791748
+            },
+            {
+                "role": "judge",
+                "content": "i no im stil young",
+                "response_time": 10.742729425430298
+            },
+            {
+                "role": "verdict",
+                "content": "you should try writing or taking english class",
+                "response_time": 25.545998573303223
+            },
+            {
+                "role": "judge",
+                "content": "that wud be grate idea",
+                "response_time": 11.383358001708984
+            },
+            {
+                "role": "verdict",
+                "content": "ok have fun learning",
+                "response_time": 10.36581563949585
+            },
+            {
+                "role": "judge",
+                "content": "thanx ill try my best",
+                "response_time": 10.048877477645874
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a2e1493f8833a0c4b2b6c"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "hi",
+                "response_time": 4.546754360198975
+            },
+            {
+                "role": "judge",
+                "content": "whats up dude?",
+                "response_time": 5.437570333480835
+            },
+            {
+                "role": "verdict",
+                "content": "i am having a good day, how are u?",
+                "response_time": 14.641919612884521
+            },
+            {
+                "role": "judge",
+                "content": "im good, just had coffe.",
+                "response_time": 13.127989053726196
+            },
+            {
+                "role": "verdict",
+                "content": "nice, i also had some tea",
+                "response_time": 17.21734642982483
+            },
+            {
+                "role": "judge",
+                "content": "teh is my fav drink.",
+                "response_time": 11.547064542770386
+            },
+            {
+                "role": "verdict",
+                "content": "i like coffee more",
+                "response_time": 13.878374814987183
+            },
+            {
+                "role": "judge",
+                "content": "cofee is beter than tea.",
+                "response_time": 12.205770254135132
+            },
+            {
+                "role": "verdict",
+                "content": "u like tea or coffee",
+                "response_time": 14.311699867248535
+            },
+            {
+                "role": "judge",
+                "content": "cofee, definatly my choice.",
+                "response_time": 11.791918516159058
+            },
+            {
+                "role": "verdict",
+                "content": "bbut u said tea is your fav drink?",
+                "response_time": 19.575098991394043
+            },
+            {
+                "role": "judge",
+                "content": "oh yea, im confuse. coffe.",
+                "response_time": 14.617480039596558
+            },
+            {
+                "role": "verdict",
+                "content": "make up your mind. is it tea or coffee?",
+                "response_time": 25.491737604141235
+            },
+            {
+                "role": "judge",
+                "content": "cofee is my fav.",
+                "response_time": 11.748608112335205
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a2ed993f8833a0c4b2b6d"
+        },
+        "id": -1,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, whats up lol.",
+                "response_time": 10.19867730140686
+            },
+            {
+                "role": "verdict",
+                "content": "not much, how are u?",
+                "response_time": 10.076539516448975
+            },
+            {
+                "role": "judge",
+                "content": "im good, jus been busy",
+                "response_time": 10.326698780059814
+            },
+            {
+                "role": "verdict",
+                "content": "is it work or study?",
+                "response_time": 8.996470212936401
+            },
+            {
+                "role": "judge",
+                "content": "its study, got alot homework",
+                "response_time": 10.545636653900146
+            },
+            {
+                "role": "verdict",
+                "content": "do your work man, u need any help?",
+                "response_time": 23.306150913238525
+            },
+            {
+                "role": "judge",
+                "content": "thx, think i got it covered",
+                "response_time": 13.328642845153809
+            },
+            {
+                "role": "verdict",
+                "content": "ok, so what game do u like?",
+                "response_time": 14.158734798431396
+            },
+            {
+                "role": "judge",
+                "content": "LOL fifa, love playin with friends",
+                "response_time": 14.488624572753906
+            },
+            {
+                "role": "verdict",
+                "content": "you play pubg or fortnite?",
+                "response_time": 19.2951397895813
+            },
+            {
+                "role": "judge",
+                "content": "pubg, more realistic i think",
+                "response_time": 12.057459592819214
+            },
+            {
+                "role": "verdict",
+                "content": "yeah i guess, i like fortnite more",
+                "response_time": 13.29063606262207
+            },
+            {
+                "role": "judge",
+                "content": "fortnite's fun, but pubg's hard",
+                "response_time": 14.512826919555664
+            },
+            {
+                "role": "verdict",
+                "content": "i dont think so, buth are hard and fun",
+                "response_time": 26.800320148468018
+            },
+            {
+                "role": "judge",
+                "content": "both games got thrills",
+                "response_time": 11.82107925415039
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a2fb493f8833a0c4b2b6e"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "hi",
+                "response_time": 10.769434928894043
+            },
+            {
+                "role": "judge",
+                "content": "how's your day going so far?",
+                "response_time": 7.897039175033569
+            },
+            {
+                "role": "verdict",
+                "content": "its going great, u play cricket?",
+                "response_time": 16.305915355682373
+            },
+            {
+                "role": "judge",
+                "content": "yeah i love playin cricket",
+                "response_time": 11.259002923965454
+            },
+            {
+                "role": "verdict",
+                "content": "me too@",
+                "response_time": 10.741233825683594
+            },
+            {
+                "role": "judge",
+                "content": "who's your fav team then?",
+                "response_time": 9.78388500213623
+            },
+            {
+                "role": "verdict",
+                "content": "bangladesh team",
+                "response_time": 6.829661846160889
+            },
+            {
+                "role": "judge",
+                "content": "they hav some good plyers",
+                "response_time": 9.486607551574707
+            },
+            {
+                "role": "verdict",
+                "content": "whats yours?",
+                "response_time": 10.038417100906372
+            },
+            {
+                "role": "judge",
+                "content": "india team is awsum",
+                "response_time": 9.685462713241577
+            },
+            {
+                "role": "verdict",
+                "content": "yeah i guess",
+                "response_time": 11.48612904548645
+            },
+            {
+                "role": "judge",
+                "content": "they hav lot of talant",
+                "response_time": 8.873860836029053
+            },
+            {
+                "role": "verdict",
+                "content": "no i dont think so",
+                "response_time": 10.913975954055786
+            },
+            {
+                "role": "judge",
+                "content": "u think they r overrated",
+                "response_time": 9.582247734069824
+            },
+            {
+                "role": "verdict",
+                "content": "yes, the fans are so annoying",
+                "response_time": 18.665249347686768
+            },
+            {
+                "role": "judge",
+                "content": "they r very suppotiv i guess",
+                "response_time": 11.815145015716553
+            },
+            {
+                "role": "verdict",
+                "content": "they are super pridful and annoying, i hate them",
+                "response_time": 21.118123769760132
+            },
+            {
+                "role": "judge",
+                "content": "same here, they r really bad",
+                "response_time": 12.892582416534424
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a308b93f8833a0c4b2b6f"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "hello, how are u?",
+                "response_time": 11.635796785354614
+            },
+            {
+                "role": "judge",
+                "content": "im doin gud, thx for askin",
+                "response_time": 11.997349977493286
+            },
+            {
+                "role": "verdict",
+                "content": "u are not gonna ask me how i am?",
+                "response_time": 12.303389072418213
+            },
+            {
+                "role": "judge",
+                "content": "how r u doin todai?",
+                "response_time": 13.036548376083374
+            },
+            {
+                "role": "verdict",
+                "content": "i am also good, thanks for asking",
+                "response_time": 11.226464986801147
+            },
+            {
+                "role": "judge",
+                "content": "yay, we both r good then",
+                "response_time": 12.719309091567993
+            },
+            {
+                "role": "verdict",
+                "content": "yeay, did something special happened today?",
+                "response_time": 17.14027166366577
+            },
+            {
+                "role": "judge",
+                "content": "nothng speshul happnd 2 me yet",
+                "response_time": 14.877511739730835
+            },
+            {
+                "role": "verdict",
+                "content": "ok, something special happened to me tho",
+                "response_time": 17.04634928703308
+            },
+            {
+                "role": "judge",
+                "content": "wut happnd, tell me plz",
+                "response_time": 12.952218294143677
+            },
+            {
+                "role": "verdict",
+                "content": "I GOT MARRIED",
+                "response_time": 10.325499534606934
+            },
+            {
+                "role": "judge",
+                "content": "congratz, tht s so kewl!",
+                "response_time": 14.18536639213562
+            },
+            {
+                "role": "verdict",
+                "content": "omg thanks",
+                "response_time": 22.51271891593933
+            },
+            {
+                "role": "judge",
+                "content": "ur happy, tht s awesome",
+                "response_time": 9.164159536361694
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a315093f8833a0c4b2b70"
+        },
+        "id": -1,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "hola",
+                "response_time": 5.4171142578125
+            },
+            {
+                "role": "judge",
+                "content": "how r you doin today?",
+                "response_time": 7.99413275718689
+            },
+            {
+                "role": "verdict",
+                "content": "i am great, do u hapen to know what is hocus pocus?",
+                "response_time": 17.066248893737793
+            },
+            {
+                "role": "judge",
+                "content": "yeah i no hocus pocus movie.",
+                "response_time": 16.75535559654236
+            },
+            {
+                "role": "verdict",
+                "content": "no i think its a game or something else maybe",
+                "response_time": 16.93135166168213
+            },
+            {
+                "role": "judge",
+                "content": "dont no its a movie tho.",
+                "response_time": 12.657715797424316
+            },
+            {
+                "role": "verdict",
+                "content": "ok, whats that about?",
+                "response_time": 10.615324974060059
+            },
+            {
+                "role": "judge",
+                "content": "its about 3 witchy girlz.",
+                "response_time": 12.384427309036255
+            },
+            {
+                "role": "verdict",
+                "content": "witch, ooh my favourite",
+                "response_time": 16.885733604431152
+            },
+            {
+                "role": "judge",
+                "content": "witches r so cool yeah.",
+                "response_time": 10.260642766952515
+            },
+            {
+                "role": "verdict",
+                "content": "but whats the story tho?",
+                "response_time": 13.160929918289185
+            },
+            {
+                "role": "judge",
+                "content": "3 kidz befriend witch sandra.",
+                "response_time": 11.748608350753784
+            },
+            {
+                "role": "verdict",
+                "content": "and they get killed?",
+                "response_time": 14.935212850570679
+            },
+            {
+                "role": "judge",
+                "content": "no, they trick the witch.",
+                "response_time": 10.319386959075928
+            },
+            {
+                "role": "verdict",
+                "content": "oh, i am guessing they put the witch in the oven?",
+                "response_time": 17.430076122283936
+            },
+            {
+                "role": "judge",
+                "content": "they put her in the cauldron.",
+                "response_time": 15.02019739151001
+            }
+        ],
+        "result": "Human"
+    },
+    {
+        "_id": {
+            "$oid": "672a322893f8833a0c4b2b71"
+        },
+        "id": -1,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi wot r u upto todai?",
+                "response_time": 11.837693214416504
+            },
+            {
+                "role": "verdict",
+                "content": "i am listening to music",
+                "response_time": 14.41958475112915
+            },
+            {
+                "role": "judge",
+                "content": "Music is so much beter!",
+                "response_time": 10.71504259109497
+            },
+            {
+                "role": "verdict",
+                "content": "u know what is more better?",
+                "response_time": 10.148491382598877
+            },
+            {
+                "role": "judge",
+                "content": "No I dont no wat it is",
+                "response_time": 11.182801723480225
+            },
+            {
+                "role": "verdict",
+                "content": "food, food is way better than music",
+                "response_time": 14.479361772537231
+            },
+            {
+                "role": "judge",
+                "content": "Food is defintly more importint",
+                "response_time": 12.72122597694397
+            },
+            {
+                "role": "verdict",
+                "content": "what did u eat recently?",
+                "response_time": 11.17585301399231
+            },
+            {
+                "role": "judge",
+                "content": "I had pizza last nite",
+                "response_time": 10.336433172225952
+            },
+            {
+                "role": "verdict",
+                "content": "what did u eat last night?",
+                "response_time": 18.515870809555054
+            },
+            {
+                "role": "judge",
+                "content": "I had pizza las nite",
+                "response_time": 11.116568565368652
+            },
+            {
+                "role": "verdict",
+                "content": "oh i am sorry, i did not read your message properly",
+                "response_time": 18.78119945526123
+            },
+            {
+                "role": "judge",
+                "content": "its okay no problm",
+                "response_time": 12.208148002624512
+            },
+            {
+                "role": "verdict",
+                "content": "what are u planning to cook today?",
+                "response_time": 22.85830283164978
+            },
+            {
+                "role": "judge",
+                "content": "I wnt to make pasta",
+                "response_time": 11.100430965423584
+            }
+        ],
+        "result": "Human"
+    }
+]

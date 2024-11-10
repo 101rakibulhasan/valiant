@@ -22,7 +22,7 @@ def random_forest(data, model_label, feature_label):
             Y.append(0)
 
     # Split data
-    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.1, random_state=42)
 
     # Initialize and train random_forest
 
@@ -46,7 +46,7 @@ def save_model(model, path):
 
 data = []
 feature = []
-with open('Dataset & Code/dataset/featured/features.json', 'r') as f:
+with open('Dataset & Code/dataset/5. featured/features.json', 'r') as f:
     feature = json.load(f)
 
 with open('Dataset & Code/dataset/conversation-collection-senti.json', 'r') as f:
