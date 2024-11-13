@@ -13,7 +13,7 @@ trans_emo_feature3 = []
 trans_emo_feature4 = []
 trans_emo_feature5 = []
 
-with open('Dataset & Code/dataset/4. sentiment/fus-ai-ai-collection-senti.json', 'r') as f:
+with open('Dataset & Code/dataset/4.2 sentiment/fus-ai-ai-collection-senti.json', 'r') as f:
     data = json.load(f)
 
     for i in data:
@@ -156,7 +156,7 @@ with open('Dataset & Code/dataset/4. sentiment/fus-ai-ai-collection-senti.json',
 
     
     features = {}
-    file_path = "Dataset & Code/dataset/5. featured/features.json"
+    file_path = "Dataset & Code/dataset/5.1 featured/features.json"
     if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
         with open(file_path, "r") as f:
             features = json.load(f)
@@ -228,7 +228,7 @@ with open('Dataset & Code/dataset/4. sentiment/fus-ai-ai-collection-senti.json',
 # print(trans_emo_feature4)ai
 # print(trans_emo_feature5)
 
-with open("Dataset & Code/dataset/5. featured/ffus-ai-ai-collection-senti.json", "w") as f:
+with open("Dataset & Code/dataset/5.2 featured/ffus-ai-ai-collection-senti.json", "w") as f:
     json.dump(sent_message, f, indent=4)
 
 

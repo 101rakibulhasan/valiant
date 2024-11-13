@@ -23,29 +23,46 @@ print("Processing...")
 ai_len = len(fgaiai) + len(fiaiai) + len(fyaiai)
 ai_human = len(faihuman)
 
-min_len = min(ai_len, ai_human)
-if min_len % 3 == 1:
-    faiai = faiai + fgaiai[:(min_len//3)+1]
-    faiai = faiai + fiaiai[:(min_len//3)]
-    faiai = faiai + fyaiai[:(min_len//3)]
+choice1 = input("Do you want to balance the dataset by trimming? (Y / (anything else)): ").upper()
 
-elif min_len % 3 == 2:
-    faiai = faiai + fgaiai[:(min_len//3)+1]
-    faiai = faiai + fiaiai[:(min_len//3)+1]
-    faiai = faiai + fyaiai[:(min_len//3)]
+if choice1 == "Y":
+    min_len = min(ai_len, ai_human)
+    if min_len % 3 == 1:
+        faiai = faiai + fgaiai[:(min_len//3)+1]
+        faiai = faiai + fiaiai[:(min_len//3)]
+        faiai = faiai + fyaiai[:(min_len//3)]
+
+    elif min_len % 3 == 2:
+        faiai = faiai + fgaiai[:(min_len//3)+1]
+        faiai = faiai + fiaiai[:(min_len//3)+1]
+        faiai = faiai + fyaiai[:(min_len//3)]
+
+    else:
+        faiai = faiai + fgaiai[:(min_len//3)]
+        faiai = faiai + fiaiai[:(min_len//3)]
+        faiai = faiai + fyaiai[:(min_len//3)]
+
+    faihuman = faihuman[-min_len:]
 
 else:
-    faiai = faiai + fgaiai[:(min_len//3)]
-    faiai = faiai + fiaiai[:(min_len//3)]
-    faiai = faiai + fyaiai[:(min_len//3)]
-
-faihuman = faihuman[-min_len:]
+    faiai = fgaiai + fiaiai + fyaiai
+    faihuman = faihuman
 
 print("Filtered AI-AI Length:", len(faiai))
 print("Filtered AI-Human Length:", len(faihuman))
 
-with open('Dataset & Code/dataset/3. usable/fu-ai-ai-collection.json', 'w') as f:  # Open in write mode
+if choice1 == "Y":
+    destination = "3.1 usable"
+    # Filtered AI-AI Length: 87
+    # Filtered AI-Human Length: 87
+else:
+    destination = "3.2 usable"
+    # Filtered AI-AI Length: 139
+    # Filtered AI-Human Length: 87
+
+with open(f'Dataset & Code/dataset/{destination}/fu-ai-ai-collection.json', 'w') as f:  # Open in write mode
     json.dump(faiai, f, indent=4)
 
-with open('Dataset & Code/dataset/3. usable/fu-ai-human-collection.json', 'w') as f:  # Open in write mode
+with open(f'Dataset & Code/dataset/{destination}/fu-ai-human-collection.json', 'w') as f:  # Open in write mode
     json.dump(faihuman, f, indent=4)
+

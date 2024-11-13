@@ -36,3 +36,14 @@ Confusion Matrix:
  [[84  4]
  [ 8 80]]
 """
+
+# After SMOTE:
+"""
+Accuracy: 0.9204545454545454
+F1 Score: 0.9203619909502262
+Precision: 0.9224182667358588
+Recall: 0.9204545454545454
+Confusion Matrix:
+ [[84  4]
+ [10 78]]
+"""

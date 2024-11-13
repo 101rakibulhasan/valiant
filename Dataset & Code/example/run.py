@@ -15,7 +15,7 @@ def jsontodict(jsonfile):
     return data
 
 feature = []
-with open('Dataset & Code/dataset/5. featured/features.json', 'r') as f:
+with open('Dataset & Code/dataset/5.1 featured/features.json', 'r') as f:
     feature = json.load(f)
 
 def get_input(data, feature_label, model_label):
@@ -32,16 +32,17 @@ def get_input(data, feature_label, model_label):
 
     return X
 
-X_senti = get_input(jsontodict('Dataset & Code/example/chat.json'), "senti-trans-feature", "senti-trans")
-X_senti2 = get_input(jsontodict('Dataset & Code/example/chat.json'), "senti-trans-feature2", "senti-trans2")
-X_senti3 = get_input(jsontodict('Dataset & Code/example/chat.json'), "senti-trans-feature3", "senti-trans3")
-X_senti4 = get_input(jsontodict('Dataset & Code/example/chat.json'), "senti-trans-feature4", "senti-trans4")
-X_senti5 = get_input(jsontodict('Dataset & Code/example/chat.json'), "senti-trans-feature5", "senti-trans5")
-X_emo= get_input(jsontodict('Dataset & Code/example/chat.json'), "trans-emo-feature", "senti-emotion")
-X_emo2 = get_input(jsontodict('Dataset & Code/example/chat.json'), "trans-emo-feature2", "senti-emotion2")
-X_emo3 = get_input(jsontodict('Dataset & Code/example/chat.json'), "trans-emo-feature3", "senti-emotion3")
-X_emo4 = get_input(jsontodict('Dataset & Code/example/chat.json'), "trans-emo-feature4", "senti-emotion4")
-X_emo5 = get_input(jsontodict('Dataset & Code/example/chat.json'), "trans-emo-feature5", "senti-emotion5")
+
+X_senti = get_input(jsontodict('Dataset & Code/example/chat-human.json'), "senti-trans-feature", "senti-trans")
+X_senti2 = get_input(jsontodict('Dataset & Code/example/chat-human.json'), "senti-trans-feature2", "senti-trans2")
+X_senti3 = get_input(jsontodict('Dataset & Code/example/chat-human.json'), "senti-trans-feature3", "senti-trans3")
+X_senti4 = get_input(jsontodict('Dataset & Code/example/chat-human.json'), "senti-trans-feature4", "senti-trans4")
+X_senti5 = get_input(jsontodict('Dataset & Code/example/chat-human.json'), "senti-trans-feature5", "senti-trans5")
+X_emo= get_input(jsontodict('Dataset & Code/example/chat-human.json'), "trans-emo-feature", "senti-emotion")
+X_emo2 = get_input(jsontodict('Dataset & Code/example/chat-human.json'), "trans-emo-feature2", "senti-emotion2")
+X_emo3 = get_input(jsontodict('Dataset & Code/example/chat-human.json'), "trans-emo-feature3", "senti-emotion3")
+X_emo4 = get_input(jsontodict('Dataset & Code/example/chat-human.json'), "trans-emo-feature4", "senti-emotion4")
+X_emo5 = get_input(jsontodict('Dataset & Code/example/chat-human.json'), "trans-emo-feature5", "senti-emotion5")
 
 def model_says(model, X_test1):
     temp = get_model_result(model, X_test1)

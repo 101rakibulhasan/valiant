@@ -1,6 +1,7 @@
-from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from imblearn.over_sampling import SMOTE
 import json
 import pickle
 import os
@@ -23,6 +24,7 @@ def svm(data, model_label, feature_label):
 
     # Split data
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.1, random_state=42)
+    X_train, y_train = SMOTE(random_state=42).fit_resample(X_train, y_train)
 
     # Initialize and train SVM
     svm_model = SVC(kernel='poly', C=1)
@@ -45,10 +47,10 @@ def save_model(model, path):
 
 data = []
 feature = []
-with open('Dataset & Code/dataset/5. featured/features.json', 'r') as f:
+with open('Dataset & Code/dataset/5.1 featured/features.json', 'r') as f:
     feature = json.load(f)
 
-with open('Dataset & Code/dataset/conversation-collection-senti.json', 'r') as f:
+with open('Dataset & Code/dataset/conversation-collection-senti-all.json', 'r') as f:
     data = json.load(f)
 
 # Create directory if it does not exist

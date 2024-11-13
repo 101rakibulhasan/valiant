@@ -9,7 +9,7 @@ def jsontodict(jsonfile):
     return data
 
 feature = []
-with open('Dataset & Code/dataset/5. featured/features.json', 'r') as f:
+with open('Dataset & Code/dataset/5.1 featured/features.json', 'r') as f:
     feature = json.load(f)
 
 def get_input(data, feature_label, model_label):
