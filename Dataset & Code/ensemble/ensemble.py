@@ -64,3 +64,5 @@ def evaluate_classification(y_true, y_pred):
     print("Precision:", precision)
     print("Recall:", recall)
     print("Confusion Matrix:\n", conf_matrix)
+
+    return accuracy, f1, precision, recall, conf_matrix

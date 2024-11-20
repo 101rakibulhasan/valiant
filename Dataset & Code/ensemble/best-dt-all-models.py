@@ -3,6 +3,7 @@
 import ensemble
 import pickle
 from collections import Counter
+from sklearn.ensemble import VotingClassifier
 
 X_senti, Y_senti = ensemble.get_input(ensemble.jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature", "senti-trans")
 X_senti2, Y_senti2 = ensemble.get_input(ensemble.jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature2", "senti-trans2")
@@ -16,35 +17,46 @@ X_emo4, Y_emo4 = ensemble.get_input(ensemble.jsontodict('Dataset & Code/dataset/
 X_emo5, Y_emo5 = ensemble.get_input(ensemble.jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "trans-emo-feature5", "senti-emotion5")
 # All Y value here are the same, so we can use any of them
 
+estimators = []
 with open("Dataset & Code/models/decision_trees/model_m1.pkl", "rb") as file:
     m1_model = pickle.load(file)
+    estimators.append((f'model_m1', m1_model))
 
 with open("Dataset & Code/models/decision_trees/model_m2.pkl", "rb") as file:
     m2_model = pickle.load(file)
+    estimators.append((f'model_m2', m2_model))
 
 with open("Dataset & Code/models/decision_trees/model_m3.pkl", "rb") as file:
     m3_model = pickle.load(file)
+    estimators.append((f'model_m3', m3_model))
 
 with open("Dataset & Code/models/decision_trees/model_m4.pkl", "rb") as file:
     m4_model = pickle.load(file)
+    estimators.append((f'model_m4', m4_model))
 
 with open("Dataset & Code/models/decision_trees/model_m5.pkl", "rb") as file:
     m5_model = pickle.load(file)
+    estimators.append((f'model_m5', m5_model))
 
 with open("Dataset & Code/models/decision_trees/model_m6.pkl", "rb") as file:
     m6_model = pickle.load(file)
+    estimators.append((f'model_m6', m6_model))
 
 with open("Dataset & Code/models/decision_trees/model_m7.pkl", "rb") as file:
     m7_model = pickle.load(file)
+    estimators.append((f'model_m7', m7_model))
 
 with open("Dataset & Code/models/decision_trees/model_m8.pkl", "rb") as file:
     m8_model = pickle.load(file)
+    estimators.append((f'model_m8', m8_model))
 
 with open("Dataset & Code/models/decision_trees/model_m9.pkl", "rb") as file:
     m9_model = pickle.load(file)
+    estimators.append((f'model_m9', m9_model))
 
 with open("Dataset & Code/models/decision_trees/model_m10.pkl", "rb") as file:
     m10_model = pickle.load(file)
+    estimators.append((f'model_m10', m10_model))
     
 m1_preds = m1_model.predict(X_senti)
 m2_preds = m2_model.predict(X_senti2)
@@ -63,6 +75,11 @@ for i in range(len(m1_preds)):
     y_pred.append(prediction)
 
 ensemble.evaluate_classification(Y_senti, y_pred)
+
+voting_clf = VotingClassifier(estimators=estimators, voting='hard')
+
+with open("Dataset & Code/models/random_forest/best_dt_all_ensamble+smote_models.pkl", "wb") as file:
+    pickle.dump(voting_clf, file)
 
 # Output:
 # After SMOTE

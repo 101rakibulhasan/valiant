@@ -1,4 +1,4 @@
-NOTE : Tested on 20% dataset from "conversation-collection-senti.json"
+NOTE : Tested on 10% dataset from "conversation-collection-senti.json"
 
 -- Model 1 --
 Accuracy: 0.7777777777777778, Precision: 1.0, Recall: 0.5555555555555556, F1: 0.7142857142857143

@@ -88,3 +88,6 @@ print(f"The model7 says: {model_says('Dataset & Code/models/random_forest/model_
 print(f"The model8 says: {model_says('Dataset & Code/models/random_forest/model_m8.pkl', X_emo3)}")
 print(f"The model9 says: {model_says('Dataset & Code/models/random_forest/model_m9.pkl', X_emo4)}")
 print(f"The model10 says: {model_says('Dataset & Code/models/random_forest/model_m10.pkl', X_emo5)}")
+
+print("\n-- Ensembled and SMOTE on RAndom Forest --")
+print(f"The model1 says: {model_says('Dataset & Code/models/random_forest/ensemble_model_predictions.pkl', X_senti)}")
