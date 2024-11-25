@@ -66,16 +66,20 @@ accuracy = [svm_accuracy, rf_accuracy, dt_accuracy]
 precision = [svm_precision, rf_precision, dt_precision]
 recall = [svm_recall, rf_recall, dt_recall]
 
+print('Accuracy:', accuracy)
+
 x = np.arange(len(models))  # the label locations
 width = 0.2  # the width of the bars
 
 fig, ax = plt.subplots(figsize=(10, 6))
 
-ax.bar(x - width, accuracy, width, label='Accuracy')
-ax.bar(x, precision, width, label='Precision')
-ax.bar(x + width, recall, width, label='Recall')
+ax.bar(x - width, np.array(accuracy) - 0.7, width, label='Accuracy', bottom=0.7)
+ax.bar(x, np.array(precision) - 0.7, width, label='Precision', bottom=0.7)
+ax.bar(x + width, np.array(recall) - 0.7, width, label='Recall', bottom=0.7)
+
 
 ax.set_ylabel('Scores')
+ax.set_ylim(0.7, 1)
 ax.set_title('Model Performance Comparison')
 ax.set_xticks(x)
 ax.set_xticklabels(models)
