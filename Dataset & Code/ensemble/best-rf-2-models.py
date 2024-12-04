@@ -27,23 +27,13 @@ for i in range(len(m3_preds)):
 ensemble.evaluate_classification(Y_test1, y_pred)
 
 # Output:
-"""
-Accuracy: 0.9318181818181818
-F1 Score: 0.9317829457364343
-Precision: 0.932712215320911
-Recall: 0.9318181818181818
-Confusion Matrix:
- [[84  4]
- [ 8 80]]
-"""
-
 # After SMOTE:
 """
-Accuracy: 0.9204545454545454
-F1 Score: 0.9203619909502262
-Precision: 0.9224182667358588
-Recall: 0.9204545454545454
+Accuracy: 0.9545454545454546
+F1 Score: 0.9544925662572722
+Precision: 0.9566683964711987
+Recall: 0.9545454545454546
 Confusion Matrix:
- [[84  4]
- [10 78]]
+ [[87  1]
+ [ 7 81]]
 """

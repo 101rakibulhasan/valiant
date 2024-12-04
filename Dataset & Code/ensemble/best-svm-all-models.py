@@ -78,27 +78,18 @@ ensemble.evaluate_classification(Y_senti, y_pred)
 
 voting_clf = VotingClassifier(estimators=estimators, voting='hard')
 
-with open("Dataset & Code/models/random_forest/best_svm_all_ensamble+smote_models.pkl", "wb") as file:
+with open("Dataset & Code/models/svm/best_svm_all_ensamble+smote_models.pkl", "wb") as file:
     pickle.dump(voting_clf, file)
 
 # Output:
-"""
-Accuracy: 0.7556818181818182
-F1 Score: 0.743065693430657
-Precision: 0.8181745139000483
-Recall: 0.7556818181818182
-Confusion Matrix:
- [[47 41]
- [ 2 86]]
-"""
 
 # After SMOTE
 """
-Accuracy: 0.7727272727272727
-F1 Score: 0.7628032345013477
-Precision: 0.8275434243176178
-Recall: 0.7727272727272727
+Accuracy: 0.7784090909090909
+F1 Score: 0.7692850660482001
+Precision: 0.8307255714066575
+Recall: 0.7784090909090909
 Confusion Matrix:
- [[50 38]
+ [[51 37]
  [ 2 86]]
 """

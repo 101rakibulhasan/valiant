@@ -6,11 +6,11 @@ from sklearn.ensemble import VotingClassifier
 new_estimetors = []
 
 # Load the saved VotingClassifier
-with open("Dataset & Code/models/random_forest/best_dt_all_ensamble+smote_models.pkl", "rb") as file:
+with open("Dataset & Code/models/decision_trees/best_dt_all_ensamble+smote_models.pkl", "rb") as file:
     dt_model = pickle.load(file)
     new_estimetors.append(dt_model)
 
-with open("Dataset & Code/models/random_forest/best_svm_all_ensamble+smote_models.pkl", "rb") as file:
+with open("Dataset & Code/models/svm/best_svm_all_ensamble+smote_models.pkl", "rb") as file:
     svm_model = pickle.load(file)
     new_estimetors.append(svm_model)
 
@@ -59,5 +59,17 @@ ensemble.evaluate_classification(Y_senti, y_pred)
 
 voting_clf = VotingClassifier(estimators=new_estimetors, voting='soft')
 
-with open("Dataset & Code/models/random_forest/best_all_ensamble+smote_models.pkl", "wb") as file:
+with open("Dataset & Code/models/valiant-best_all_ensamble+smote_models.pkl", "wb") as file:
     pickle.dump(voting_clf, file)
+
+# Output:
+# After SMOTE:
+"""
+Accuracy: 0.9659090909090909
+F1 Score: 0.9659090909090909
+Precision: 0.9659090909090909
+Recall: 0.9659090909090909
+Confusion Matrix:
+ [[85  3]
+ [ 3 85]]
+"""

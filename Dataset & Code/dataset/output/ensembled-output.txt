@@ -1,0 +1,43 @@
+Ensembled Decision Trees performance
+"""
+Accuracy: 0.9488636363636364
+F1 Score: 0.9488487745018891
+Precision: 0.9493859082094377
+Recall: 0.9488636363636364
+Confusion Matrix:
+ [[85  3]
+ [ 6 82]]
+"""
+
+Ensembled Random Forest performance
+"""
+Accuracy: 0.9602272727272727
+F1 Score: 0.9601642577682931
+Precision: 0.9631578947368421
+Recall: 0.9602272727272727
+Confusion Matrix:
+ [[88  0]
+ [ 7 81]]
+"""
+
+Ensembled SVM performance
+"""
+Accuracy: 0.7784090909090909
+F1 Score: 0.7692850660482001
+Precision: 0.8307255714066575
+Recall: 0.7784090909090909
+Confusion Matrix:
+ [[51 37]
+ [ 2 86]]
+"""
+
+Ensembling Ensembled Models performance
+"""
+Accuracy: 0.9659090909090909
+F1 Score: 0.9659090909090909
+Precision: 0.9659090909090909
+Recall: 0.9659090909090909
+Confusion Matrix:
+ [[85  3]
+ [ 3 85]]
+"""

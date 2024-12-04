@@ -17,22 +17,14 @@ y_pred = ensemble.ensemble_predict_classification(
 ensemble.evaluate_classification(Y_test1, y_pred)
 
 # Output:
-"""
-Accuracy: 0.9431818181818182
-F1 Score: 0.9431157078215903
-Precision: 0.9452516865594187
-Recall: 0.9431818181818182
-Confusion Matrix:
- [[86  2]
- [ 8 80]]
-"""
+
 # After SMOTE:
 """
 Accuracy: 0.9545454545454546
-F1 Score: 0.9544513457556936
-Precision: 0.9583333333333333
+F1 Score: 0.9544925662572722
+Precision: 0.9566683964711987
 Recall: 0.9545454545454546
 Confusion Matrix:
- [[88  0]
- [ 8 80]]
+ [[87  1]
+ [ 7 81]]
 """

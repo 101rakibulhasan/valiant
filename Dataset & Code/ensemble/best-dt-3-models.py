@@ -19,11 +19,11 @@ ensemble.evaluate_classification(Y_test1, y_pred)
 # Output:
 # After SMOTE:
 """
-Accuracy: 0.9829545454545454
-F1 Score: 0.982953995157385
-Precision: 0.9830169185070387
-Recall: 0.9829545454545454
+Accuracy: 0.9431818181818182
+F1 Score: 0.9431524547803618
+Precision: 0.9440993788819877
+Recall: 0.9431818181818182
 Confusion Matrix:
- [[87  1]
- [ 2 86]]
+ [[85  3]
+ [ 7 81]]
 """

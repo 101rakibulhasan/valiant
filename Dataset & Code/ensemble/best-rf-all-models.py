@@ -83,23 +83,13 @@ with open("Dataset & Code/models/random_forest/best_rf_all_ensamble+smote_models
     pickle.dump(voting_clf, file)
 
 # Output:
-"""
-Accuracy: 0.9488636363636364
-F1 Score: 0.9488223320732772
-Precision: 0.9503173986267651
-Recall: 0.9488636363636364
-Confusion Matrix:
- [[86  2]
- [ 7 81]]
-"""
-
 # After SMOTE
 """
-Accuracy: 0.9659090909090909
-F1 Score: 0.9658694246929541
-Precision: 0.9680851063829787
-Recall: 0.9659090909090909
+Accuracy: 0.9602272727272727
+F1 Score: 0.9601642577682931
+Precision: 0.9631578947368421
+Recall: 0.9602272727272727
 Confusion Matrix:
  [[88  0]
- [ 6 82]]
+ [ 7 81]]
 """

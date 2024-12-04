@@ -11,18 +11,18 @@ X_test3, Y_test3 = ensemble.get_input(ensemble.jsontodict('Dataset & Code/datase
 
 y_pred = ensemble.ensemble_predict_classification(
     "Dataset & Code/models/svm/model_m8.pkl",
-    "Dataset & Code/models/decision_trees/model_m1.pkl",
+    "Dataset & Code/models/decision_trees/model_m4.pkl",
     "Dataset & Code/models/random_forest/model_m1.pkl", X_test1, X_test2, X_test3)
 
 ensemble.evaluate_classification(Y_test1, y_pred)
 
 # Output:
 """
-Accuracy: 0.7897727272727273
-F1 Score: 0.7867365318486982
-Precision: 0.8072709845269069
-Recall: 0.7897727272727273
+Accuracy: 0.7613636363636364
+F1 Score: 0.7575757575757575
+Precision: 0.7787878787878788
+Recall: 0.7613636363636364
 Confusion Matrix:
- [[80  8]
- [29 59]]
+ [[56 32]
+ [10 78]]
 """

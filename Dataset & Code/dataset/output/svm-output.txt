@@ -1,4 +1,4 @@
-NOTE : Tested on 10% dataset from "conversation-collection-senti.json"
+NOTE: Testing all trimmed dataset from "conversation-collection-senti.json" (AI-AI: 87, AI-Human: 87)
 
 -- Model 1 --
 Accuracy: 0.7777777777777778, Precision: 0.6923076923076923, Recall: 1.0, F1: 0.8181818181818182
@@ -31,7 +31,7 @@ Accuracy: 0.5555555555555556, Precision: 0.6666666666666666, Recall: 0.222222222
 Accuracy: 0.7777777777777778, Precision: 0.6923076923076923, Recall: 1.0, F1: 0.8181818181818182
 
 
-After SMOTE - 
+NOTE : Testing all dataset from "conversation-collection-senti-all.json" (AI-AI:139 / AI-Human: 87)
 
 -- Model 1 --
 Accuracy: 0.6086956521739131, Precision: 0.6, Recall: 0.75, F1: 0.6666666666666666
