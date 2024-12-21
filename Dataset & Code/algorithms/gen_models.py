@@ -1,8 +1,15 @@
-# Generating models using Random Forest which will take whole dataset
-# Supported algorthms: random_forest, svm, decision_trees
+# Generating models using algorithms which will take whole dataset
+# Supported algorthms: random_forest, svm, decision_trees, naive_bayes, knn, lightgbm, logistic_regression, xgboost
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LogisticRegression
+import lightgbm as lgb
+import xgboost as xgb
+
+import numpy as np
 
 from imblearn.over_sampling import SMOTE
 import json
@@ -30,7 +37,12 @@ with open(dataset_path, 'r') as f:
 available_algo = [
     ['random_forest', 'Random Forest'],
     ['svm', 'SVM'],
-    ['decision_trees', 'Decision Trees']
+    ['decision_trees', 'Decision Trees'],
+    ['naive_bayes', 'Naive Bayes'],
+    ['knn', 'K-Nearest Neighbors'],
+    ['lightgbm', 'LightGBM'],
+    ['logistic_regression', 'Logistic Regression'],
+    ['xgboost', 'XGBoost']
 ]
 
 print("Choose a algorithm: ")
@@ -82,8 +94,36 @@ def gen_model(data, model_label, feature_label, algorithm):
     elif algorithm == 'decision_trees':
         # Initialize and train decision_trees
         model = DecisionTreeClassifier(random_state=42)
+
+    elif algorithm == 'naive_bayes':
+        # Initialize and train Naive Bayes
+        model = MultinomialNB()
+
+    elif algorithm == 'knn':
+        # Initialize and train KNN
+        model = KNeighborsClassifier(n_neighbors=5)
     
+    elif algorithm == 'lightgbm':
+        X_train = np.array(X_train)
+        y_train = np.array(y_train)
+
+        # Initialize and train LightGBM
+        model = lgb.LGBMClassifier(objective='binary', metric='binary_logloss', boosting_type='gbdt', num_leaves=31, learning_rate=0.05, feature_fraction=0.9, verbose=-1)
     
+    elif algorithm == 'logistic_regression':
+        # Initialize and train Logistic Regression
+        model = LogisticRegression()
+    
+    elif algorithm == 'xgboost':
+        # Initialize and train XGBoost
+        X_train = np.array(X_train)
+        y_train = np.array(y_train)
+
+        # Initialize and train XGBoost
+        model = xgb.XGBClassifier(objective='binary:logistic', eval_metric='logloss', n_estimators=100, learning_rate=0.05, max_depth=6, subsample=0.8, colsample_bytree=0.8, random_state=42)
+
+    
+
     model.fit(X_train, y_train)
 
     return model

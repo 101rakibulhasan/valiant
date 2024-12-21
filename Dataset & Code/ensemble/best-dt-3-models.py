@@ -1,29 +1,26 @@
 ## Best models for each classifier
-# rf model 3 - 0.93
-# rf model 5 - 0.92
-# rf model 6 - 0.926
+# rf model 3 - 0.833
+# rf model 5 - 0.883
+# rf model 7 - 0.766
 
 import ensemble
 
-X_test1, Y_test1 = ensemble.get_input(ensemble.jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature3", "senti-trans3")
-X_test2, Y_test2 = ensemble.get_input(ensemble.jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature5", "senti-trans5")
-X_test3, Y_test3 = ensemble.get_input(ensemble.jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "trans-emo-feature5", "senti-emotion5")
+test_path = 'Dataset & Code/dataset/conversation-collection-senti-test.json'
+mdl = 'decision_trees'
+feature_labels = [
+    ["senti-trans-feature3", "senti-trans3"],
+    ["senti-trans-feature5", "senti-trans5"],
+    ["trans-emo-feature2", "senti-emotion2"]
+]
 
-y_pred = ensemble.ensemble_predict_classification(
-    "Dataset & Code/models/decision_trees/model_m3.pkl",
-    "Dataset & Code/models/decision_trees/model_m5.pkl",
-    "Dataset & Code/models/decision_trees/model_m6.pkl", X_test1, X_test2, X_test3)
+best_models = [
+    f"Dataset & Code/models/{mdl}/model_m3.pkl",
+    f"Dataset & Code/models/{mdl}/model_m5.pkl",
+    f"Dataset & Code/models/{mdl}/model_m7.pkl"
+]
 
-ensemble.evaluate_classification(Y_test1, y_pred)
+actual_y, y_pred = ensemble.ensemble_predict_classification(test_path, best_models, feature_labels)
 
-# Output:
-# After SMOTE:
-"""
-Accuracy: 0.9431818181818182
-F1 Score: 0.9431524547803618
-Precision: 0.9440993788819877
-Recall: 0.9431818181818182
-Confusion Matrix:
- [[85  3]
- [ 7 81]]
-"""
+ensemble.evaluate_classification(actual_y[0], y_pred)
+
+ensemble.save_ensemble_model(best_models, f"Dataset & Code/models/{mdl}/best-{mdl}-3-models.pkl")

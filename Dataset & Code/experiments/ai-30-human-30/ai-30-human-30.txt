@@ -1,0 +1,85 @@
+Experiment About:
+When DATASET size is AI - 30 , Human - 30
+AI LLM Models - Hermes (15), replete (15)
+Human - Rakib (10) (Person used in Training), Abid (10) (Person used in Training), Arup (10) (Person used in Training)
+
+--all_algo_ensemble:
+Accuracy: 0.9333333333333333
+F1 Score: 0.9330357142857143
+Precision: 0.9411764705882353
+Recall: 0.9333333333333333
+Confusion Matrix:
+ [[26  4]
+ [ 0 30]]
+
+--best-dt-all-models:
+Accuracy: 0.85
+F1 Score: 0.847930160518164
+Precision: 0.8701527614571093
+Recall: 0.85
+Confusion Matrix:
+ [[22  8]
+ [ 1 29]]
+
+--best-knn-all-models:
+Accuracy: 0.8833333333333333
+F1 Score: 0.8817234581807942
+Precision: 0.9054054054054054
+Recall: 0.8833333333333333
+Confusion Matrix:
+ [[23  7]
+ [ 0 30]]
+
+--best-lightbgm-all-models:
+Accuracy: 0.9166666666666666
+F1 Score: 0.9164578111946533
+Precision: 0.9208754208754207
+Recall: 0.9166666666666666
+Confusion Matrix:
+ [[26  4]
+ [ 1 29]]
+
+--best-logistic-regression-all-models:
+Accuracy: 0.9166666666666666
+F1 Score: 0.9160839160839161
+Precision: 0.9285714285714285
+Recall: 0.9166666666666666
+Confusion Matrix:
+ [[25  5]
+ [ 0 30]]
+
+--best-naive-bayes-all-models:
+Accuracy: 0.9
+F1 Score: 0.8995535714285715
+Precision: 0.9072398190045249
+Recall: 0.9
+Confusion Matrix:
+ [[25  5]
+ [ 1 29]]
+
+--best-rf-all-models:
+Accuracy: 0.9
+F1 Score: 0.898989898989899
+Precision: 0.9166666666666666
+Recall: 0.9
+Confusion Matrix:
+ [[24  6]
+ [ 0 30]]
+
+--best-svm-all-models:
+Accuracy: 0.8
+F1 Score: 0.7916666666666666
+Precision: 0.8571428571428572
+Recall: 0.8
+Confusion Matrix:
+ [[18 12]
+ [ 0 30]]
+
+--best-xgboost-all-models:
+Accuracy: 0.9166666666666666
+F1 Score: 0.9160839160839161
+Precision: 0.9285714285714285
+Recall: 0.9166666666666666
+Confusion Matrix:
+ [[25  5]
+ [ 0 30]]

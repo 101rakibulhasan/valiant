@@ -1,276 +1,736 @@
 # Performance report of all 30 Models generated using SVM, Random Forest and Decision Trees
 
--- SVM --------------------------------------------------------------------------------------------------------
+-- SVM --------------------------------------------------------------------------------------------------
 The accuracy of SVM model 1 -
-Accuracy: 0.7727272727272727
-F1 Score: 0.7628032345013477
-Precision: 0.8275434243176178
-Recall: 0.7727272727272727
+Accuracy: 0.6666666666666666
+F1 Score: 0.6632996632996633
+Precision: 0.673611111111111
+Recall: 0.6666666666666666
 Confusion Matrix:
- [[50 38]
- [ 2 86]]
+ [[17 13]
+ [ 7 23]]
 
 The accuracy of SVM model 2 -
-Accuracy: 0.7897727272727273
-F1 Score: 0.7811166011226512
-Precision: 0.844224574321215
-Recall: 0.7897727272727273
+Accuracy: 0.7166666666666667
+F1 Score: 0.7159565580618211
+Precision: 0.718855218855219
+Recall: 0.7166666666666667
 Confusion Matrix:
- [[52 36]
- [ 1 87]]
+ [[20 10]
+ [ 7 23]]
 
 The accuracy of SVM model 3 -
-Accuracy: 0.8409090909090909
-F1 Score: 0.8398960363872644
-Precision: 0.8497615262321144
-Recall: 0.8409090909090909
+Accuracy: 0.8833333333333333
+F1 Score: 0.8817234581807942
+Precision: 0.9054054054054054
+Recall: 0.8833333333333333
 Confusion Matrix:
- [[67 21]
- [ 7 81]]
+ [[23  7]
+ [ 0 30]]
 
 The accuracy of SVM model 4 -
-Accuracy: 0.7613636363636364
-F1 Score: 0.750943396226415
-Precision: 0.8138957816377171
-Recall: 0.7613636363636364
+Accuracy: 0.5666666666666667
+F1 Score: 0.5647321428571428
+Precision: 0.5678733031674208
+Recall: 0.5666666666666667
 Confusion Matrix:
- [[49 39]
- [ 3 85]]
+ [[15 15]
+ [11 19]]
 
 The accuracy of SVM model 5 -
-Accuracy: 0.8125
-F1 Score: 0.8086389245823861
-Precision: 0.8399353841831718
-Recall: 0.8125
+Accuracy: 0.8833333333333333
+F1 Score: 0.8817234581807942
+Precision: 0.9054054054054054
+Recall: 0.8833333333333333
 Confusion Matrix:
- [[59 29]
- [ 4 84]]
+ [[23  7]
+ [ 0 30]]
 
 The accuracy of SVM model 6 -
-Accuracy: 0.7840909090909091
-F1 Score: 0.775720992622401
-Precision: 0.8339404978749241
-Recall: 0.7840909090909091
+Accuracy: 0.7166666666666667
+F1 Score: 0.7027105800058292
+Precision: 0.7667578659370726
+Recall: 0.7166666666666667
 Confusion Matrix:
- [[52 36]
- [ 2 86]]
+ [[15 15]
+ [ 2 28]]
 
 The accuracy of SVM model 7 -
-Accuracy: 0.8011363636363636
-F1 Score: 0.7947692820256539
-Precision: 0.8438006781660032
-Recall: 0.8011363636363636
+Accuracy: 0.7833333333333333
+F1 Score: 0.7726610317691635
+Precision: 0.8488372093023256
+Recall: 0.7833333333333333
 Confusion Matrix:
- [[55 33]
- [ 2 86]]
+ [[17 13]
+ [ 0 30]]
 
 The accuracy of SVM model 8 -
-Accuracy: 0.7443181818181818
-F1 Score: 0.7381558501669587
-Precision: 0.7697077690662866
-Recall: 0.7443181818181818
+Accuracy: 0.7333333333333333
+F1 Score: 0.717978848413631
+Precision: 0.7982954545454546
+Recall: 0.7333333333333333
 Confusion Matrix:
- [[52 36]
- [ 9 79]]
+ [[15 15]
+ [ 1 29]]
 
 The accuracy of SVM model 9 -
-Accuracy: 0.8181818181818182
-F1 Score: 0.8127410559914882
-Precision: 0.8600233781414378
-Recall: 0.8181818181818182
+Accuracy: 0.8166666666666667
+F1 Score: 0.8153846153846154
+Precision: 0.8257142857142857
+Recall: 0.8166666666666667
 Confusion Matrix:
- [[87  1]
- [31 57]]
+ [[27  3]
+ [ 8 22]]
 
 The accuracy of SVM model 10 -
-Accuracy: 0.7897727272727273
-F1 Score: 0.7821126242178874
-Precision: 0.8371900826446281
-Recall: 0.7897727272727273
+Accuracy: 0.7
+F1 Score: 0.6703296703296703
+Precision: 0.8125
+Recall: 0.7
 Confusion Matrix:
- [[53 35]
- [ 2 86]]
+ [[12 18]
+ [ 0 30]]
 
 
--- Decision Trees --------------------------------------------------------------------------------------------------------
+-- Decision Trees --------------------------------------------------------------------------------------------------
 The accuracy of Decision Trees model 1 -
-Accuracy: 0.8125
-F1 Score: 0.8111280933953366
-Precision: 0.8218513100146296
-Recall: 0.8125
+Accuracy: 0.6666666666666666
+F1 Score: 0.6662958843159065
+Precision: 0.6674107142857143
+Recall: 0.6666666666666666
 Confusion Matrix:
- [[79  9]
- [24 64]]
+ [[21  9]
+ [11 19]]
 
 The accuracy of Decision Trees model 2 -
-Accuracy: 0.9090909090909091
-F1 Score: 0.9090909090909091
-Precision: 0.9090909090909091
-Recall: 0.9090909090909091
+Accuracy: 0.5833333333333334
+F1 Score: 0.5822890559732665
+Precision: 0.5841750841750842
+Recall: 0.5833333333333334
 Confusion Matrix:
- [[80  8]
- [ 8 80]]
+ [[19 11]
+ [14 16]]
 
 The accuracy of Decision Trees model 3 -
-Accuracy: 0.9318181818181818
-F1 Score: 0.9317388493859083
-Precision: 0.9338349766476388
-Recall: 0.9318181818181818
+Accuracy: 0.8333333333333334
+F1 Score: 0.8316498316498316
+Precision: 0.8472222222222221
+Recall: 0.8333333333333334
 Confusion Matrix:
- [[85  3]
- [ 9 79]]
+ [[22  8]
+ [ 2 28]]
 
 The accuracy of Decision Trees model 4 -
-Accuracy: 0.7670454545454546
-F1 Score: 0.7550161262943473
-Precision: 0.8323156034067171
-Recall: 0.7670454545454546
+Accuracy: 0.6166666666666667
+F1 Score: 0.6078431372549019
+Precision: 0.6282051282051282
+Recall: 0.6166666666666667
 Confusion Matrix:
- [[87  1]
- [40 48]]
+ [[14 16]
+ [ 7 23]]
 
 The accuracy of Decision Trees model 5 -
-Accuracy: 0.9147727272727273
-F1 Score: 0.9144385026737968
-Precision: 0.9213564213564213
-Recall: 0.9147727272727273
+Accuracy: 0.8833333333333333
+F1 Score: 0.8817234581807942
+Precision: 0.9054054054054054
+Recall: 0.8833333333333333
 Confusion Matrix:
- [[86  2]
- [13 75]]
+ [[23  7]
+ [ 0 30]]
 
 The accuracy of Decision Trees model 6 -
-Accuracy: 0.9261363636363636
-F1 Score: 0.9259427091762421
-Precision: 0.9306407412240637
-Recall: 0.9261363636363636
+Accuracy: 0.7333333333333333
+F1 Score: 0.7330367074527253
+Precision: 0.734375
+Recall: 0.7333333333333333
 Confusion Matrix:
- [[86  2]
- [11 77]]
+ [[23  7]
+ [ 9 21]]
 
 The accuracy of Decision Trees model 7 -
-Accuracy: 0.8977272727272727
-F1 Score: 0.8972496107939804
-Precision: 0.9052631578947369
-Recall: 0.8977272727272727
+Accuracy: 0.7666666666666667
+F1 Score: 0.765625
+Precision: 0.7714932126696833
+Recall: 0.7666666666666667
 Confusion Matrix:
- [[85  3]
- [15 73]]
+ [[21  9]
+ [ 5 25]]
 
 The accuracy of Decision Trees model 8 -
-Accuracy: 0.8920454545454546
-F1 Score: 0.891028774399583
-Precision: 0.9072434607645877
-Recall: 0.8920454545454546
+Accuracy: 0.65
+F1 Score: 0.6419437340153453
+Precision: 0.6648351648351649
+Recall: 0.65
 Confusion Matrix:
- [[87  1]
- [18 70]]
+ [[15 15]
+ [ 6 24]]
 
 The accuracy of Decision Trees model 9 -
-Accuracy: 0.8238636363636364
-F1 Score: 0.8189480670316908
-Precision: 0.8633202955236854
-Recall: 0.8238636363636364
+Accuracy: 0.7166666666666667
+F1 Score: 0.7127569698676429
+Precision: 0.7291421856639249
+Recall: 0.7166666666666667
 Confusion Matrix:
- [[87  1]
- [30 58]]
+ [[18 12]
+ [ 5 25]]
 
 The accuracy of Decision Trees model 10 -
-Accuracy: 0.8409090909090909
-F1 Score: 0.8383838383838383
-Precision: 0.8636363636363636
-Recall: 0.8409090909090909
+Accuracy: 0.7166666666666667
+F1 Score: 0.7165879410947485
+Precision: 0.7169076751946607
+Recall: 0.7166666666666667
 Confusion Matrix:
- [[85  3]
- [25 63]]
+ [[22  8]
+ [ 9 21]]
 
 
--- Random Forest --------------------------------------------------------------------------------------------------------
+-- Random Forest --------------------------------------------------------------------------------------------------
 The accuracy of Random Forest model 1 -
-Accuracy: 0.8011363636363636
-F1 Score: 0.8000454442172233
-Precision: 0.8078547854785479
-Recall: 0.8011363636363636
+Accuracy: 0.6833333333333333
+F1 Score: 0.6825396825396824
+Precision: 0.6851851851851852
+Recall: 0.6833333333333333
 Confusion Matrix:
- [[77 11]
- [24 64]]
+ [[19 11]
+ [ 8 22]]
 
 The accuracy of Random Forest model 2 -
-Accuracy: 0.8920454545454546
-F1 Score: 0.8920419693301049
-Precision: 0.8920960867880666
-Recall: 0.8920454545454546
+Accuracy: 0.6833333333333333
+F1 Score: 0.6832453459294248
+Precision: 0.6835372636262513
+Recall: 0.6833333333333333
 Confusion Matrix:
- [[78 10]
- [ 9 79]]
+ [[21  9]
+ [10 20]]
 
 The accuracy of Random Forest model 3 -
-Accuracy: 0.9545454545454546
-F1 Score: 0.9544925662572722
-Precision: 0.9566683964711987
-Recall: 0.9545454545454546
+Accuracy: 0.8666666666666667
+F1 Score: 0.8653198653198653
+Precision: 0.8819444444444445
+Recall: 0.8666666666666667
 Confusion Matrix:
- [[87  1]
- [ 7 81]]
+ [[23  7]
+ [ 1 29]]
 
 The accuracy of Random Forest model 4 -
-Accuracy: 0.8068181818181818
-F1 Score: 0.800213675213675
-Precision: 0.8535714285714285
-Recall: 0.8068181818181818
+Accuracy: 0.6666666666666666
+F1 Score: 0.6606334841628959
+Precision: 0.6794258373205742
+Recall: 0.6666666666666666
 Confusion Matrix:
- [[87  1]
- [33 55]]
+ [[16 14]
+ [ 6 24]]
 
 The accuracy of Random Forest model 5 -
-Accuracy: 0.9318181818181818
-F1 Score: 0.9314997405293202
-Precision: 0.94
-Recall: 0.9318181818181818
+Accuracy: 0.8666666666666667
+F1 Score: 0.8642533936651584
+Precision: 0.8947368421052633
+Recall: 0.8666666666666667
 Confusion Matrix:
- [[88  0]
- [12 76]]
+ [[22  8]
+ [ 0 30]]
 
 The accuracy of Random Forest model 6 -
-Accuracy: 0.9261363636363636
-F1 Score: 0.9257311649949688
-Precision: 0.9356435643564357
-Recall: 0.9261363636363636
+Accuracy: 0.8833333333333333
+F1 Score: 0.8830409356725146
+Precision: 0.8872053872053873
+Recall: 0.8833333333333333
 Confusion Matrix:
- [[88  0]
- [13 75]]
+ [[25  5]
+ [ 2 28]]
 
 The accuracy of Random Forest model 7 -
-Accuracy: 0.9488636363636364
-F1 Score: 0.9487295678912446
-Precision: 0.9536082474226805
-Recall: 0.9488636363636364
+Accuracy: 0.8166666666666667
+F1 Score: 0.8162071846282372
+Precision: 0.81986531986532
+Recall: 0.8166666666666667
 Confusion Matrix:
- [[88  0]
- [ 9 79]]
+ [[23  7]
+ [ 4 26]]
 
 The accuracy of Random Forest model 8 -
-Accuracy: 0.8920454545454546
-F1 Score: 0.8907724971419239
-Precision: 0.911214953271028
-Recall: 0.8920454545454546
+Accuracy: 0.7666666666666667
+F1 Score: 0.765625
+Precision: 0.7714932126696833
+Recall: 0.7666666666666667
 Confusion Matrix:
- [[88  0]
- [19 69]]
+ [[21  9]
+ [ 5 25]]
 
 The accuracy of Random Forest model 9 -
-Accuracy: 0.8238636363636364
-F1 Score: 0.8189480670316908
-Precision: 0.8633202955236854
-Recall: 0.8238636363636364
+Accuracy: 0.7333333333333333
+F1 Score: 0.7321428571428572
+Precision: 0.7375565610859728
+Recall: 0.7333333333333333
 Confusion Matrix:
- [[87  1]
- [30 58]]
+ [[20 10]
+ [ 6 24]]
 
 The accuracy of Random Forest model 10 -
-Accuracy: 0.9147727272727273
-F1 Score: 0.9141491333615167
-Precision: 0.9271844660194174
-Recall: 0.9147727272727273
+Accuracy: 0.9
+F1 Score: 0.899888765294772
+Precision: 0.9017857142857143
+Recall: 0.9
 Confusion Matrix:
- [[88  0]
- [15 73]]
+ [[26  4]
+ [ 2 28]]
+
+
+-- KNN --------------------------------------------------------------------------------------------------
+The accuracy of KNN model 1 -
+Accuracy: 0.6666666666666666
+F1 Score: 0.6632996632996633
+Precision: 0.673611111111111
+Recall: 0.6666666666666666
+Confusion Matrix:
+ [[17 13]
+ [ 7 23]]
+
+The accuracy of KNN model 2 -
+Accuracy: 0.7666666666666667
+F1 Score: 0.7624434389140272
+Precision: 0.7870813397129186
+Recall: 0.7666666666666667
+Confusion Matrix:
+ [[19 11]
+ [ 3 27]]
+
+The accuracy of KNN model 3 -
+Accuracy: 0.8333333333333334
+F1 Score: 0.830316742081448
+Precision: 0.8588516746411483
+Recall: 0.8333333333333334
+Confusion Matrix:
+ [[21  9]
+ [ 1 29]]
+
+The accuracy of KNN model 4 -
+Accuracy: 0.65
+F1 Score: 0.6451703745423825
+Precision: 0.6586368977673326
+Recall: 0.65
+Confusion Matrix:
+ [[16 14]
+ [ 7 23]]
+
+The accuracy of KNN model 5 -
+Accuracy: 0.85
+F1 Score: 0.846547314578005
+Precision: 0.8846153846153847
+Recall: 0.85
+Confusion Matrix:
+ [[21  9]
+ [ 0 30]]
+
+The accuracy of KNN model 6 -
+Accuracy: 0.8166666666666667
+F1 Score: 0.8124467178175617
+Precision: 0.847985347985348
+Recall: 0.8166666666666667
+Confusion Matrix:
+ [[29  1]
+ [10 20]]
+
+The accuracy of KNN model 7 -
+Accuracy: 0.85
+F1 Score: 0.847930160518164
+Precision: 0.8701527614571093
+Recall: 0.85
+Confusion Matrix:
+ [[29  1]
+ [ 8 22]]
+
+The accuracy of KNN model 8 -
+Accuracy: 0.7833333333333333
+F1 Score: 0.7803435651929035
+Precision: 0.799647473560517
+Recall: 0.7833333333333333
+Confusion Matrix:
+ [[20 10]
+ [ 3 27]]
+
+The accuracy of KNN model 9 -
+Accuracy: 0.5333333333333333
+F1 Score: 0.475
+Precision: 0.56
+Recall: 0.5333333333333333
+Confusion Matrix:
+ [[ 6 24]
+ [ 4 26]]
+
+The accuracy of KNN model 10 -
+Accuracy: 0.75
+F1 Score: 0.7442455242966752
+Precision: 0.7747252747252747
+Recall: 0.75
+Confusion Matrix:
+ [[27  3]
+ [12 18]]
+
+
+-- LightGBM --------------------------------------------------------------------------------------------------
+The accuracy of LightGBM model 1 -
+Accuracy: 0.7166666666666667
+F1 Score: 0.7159565580618211
+Precision: 0.718855218855219
+Recall: 0.7166666666666667
+Confusion Matrix:
+ [[20 10]
+ [ 7 23]]
+
+The accuracy of LightGBM model 2 -
+Accuracy: 0.6666666666666666
+F1 Score: 0.6651785714285715
+Precision: 0.669683257918552
+Recall: 0.6666666666666666
+Confusion Matrix:
+ [[22  8]
+ [12 18]]
+
+The accuracy of LightGBM model 3 -
+Accuracy: 0.9
+F1 Score: 0.898989898989899
+Precision: 0.9166666666666666
+Recall: 0.9
+Confusion Matrix:
+ [[24  6]
+ [ 0 30]]
+
+The accuracy of LightGBM model 4 -
+Accuracy: 0.7
+F1 Score: 0.6996662958843161
+Precision: 0.7008928571428572
+Recall: 0.7
+Confusion Matrix:
+ [[22  8]
+ [10 20]]
+
+The accuracy of LightGBM model 5 -
+Accuracy: 0.85
+F1 Score: 0.847930160518164
+Precision: 0.8701527614571093
+Recall: 0.85
+Confusion Matrix:
+ [[22  8]
+ [ 1 29]]
+
+The accuracy of LightGBM model 6 -
+Accuracy: 0.85
+F1 Score: 0.849624060150376
+Precision: 0.8535353535353535
+Recall: 0.85
+Confusion Matrix:
+ [[24  6]
+ [ 3 27]]
+
+The accuracy of LightGBM model 7 -
+Accuracy: 0.8833333333333333
+F1 Score: 0.8830409356725146
+Precision: 0.8872053872053873
+Recall: 0.8833333333333333
+Confusion Matrix:
+ [[25  5]
+ [ 2 28]]
+
+The accuracy of LightGBM model 8 -
+Accuracy: 0.7666666666666667
+F1 Score: 0.765625
+Precision: 0.7714932126696833
+Recall: 0.7666666666666667
+Confusion Matrix:
+ [[21  9]
+ [ 5 25]]
+
+The accuracy of LightGBM model 9 -
+Accuracy: 0.8166666666666667
+F1 Score: 0.8153846153846154
+Precision: 0.8257142857142857
+Recall: 0.8166666666666667
+Confusion Matrix:
+ [[27  3]
+ [ 8 22]]
+
+The accuracy of LightGBM model 10 -
+Accuracy: 0.8833333333333333
+F1 Score: 0.8825174825174824
+Precision: 0.8942857142857144
+Recall: 0.8833333333333333
+Confusion Matrix:
+ [[24  6]
+ [ 1 29]]
+
+
+-- Logistic Regression --------------------------------------------------------------------------------------------------
+The accuracy of Logistic Regression model 1 -
+Accuracy: 0.75
+F1 Score: 0.7499305362600722
+Precision: 0.75027808676307
+Recall: 0.75
+Confusion Matrix:
+ [[22  8]
+ [ 7 23]]
+
+The accuracy of Logistic Regression model 2 -
+Accuracy: 0.7666666666666667
+F1 Score: 0.7643097643097643
+Precision: 0.7777777777777779
+Recall: 0.7666666666666667
+Confusion Matrix:
+ [[26  4]
+ [10 20]]
+
+The accuracy of Logistic Regression model 3 -
+Accuracy: 0.8666666666666667
+F1 Score: 0.8653198653198653
+Precision: 0.8819444444444445
+Recall: 0.8666666666666667
+Confusion Matrix:
+ [[23  7]
+ [ 1 29]]
+
+The accuracy of Logistic Regression model 4 -
+Accuracy: 0.6166666666666667
+F1 Score: 0.6078431372549019
+Precision: 0.6282051282051282
+Recall: 0.6166666666666667
+Confusion Matrix:
+ [[23  7]
+ [16 14]]
+
+The accuracy of Logistic Regression model 5 -
+Accuracy: 0.8833333333333333
+F1 Score: 0.8830409356725146
+Precision: 0.8872053872053873
+Recall: 0.8833333333333333
+Confusion Matrix:
+ [[25  5]
+ [ 2 28]]
+
+The accuracy of Logistic Regression model 6 -
+Accuracy: 0.8333333333333334
+F1 Score: 0.8333333333333334
+Precision: 0.8333333333333334
+Recall: 0.8333333333333334
+Confusion Matrix:
+ [[25  5]
+ [ 5 25]]
+
+The accuracy of Logistic Regression model 7 -
+Accuracy: 0.8833333333333333
+F1 Score: 0.8825174825174824
+Precision: 0.8942857142857144
+Recall: 0.8833333333333333
+Confusion Matrix:
+ [[24  6]
+ [ 1 29]]
+
+The accuracy of Logistic Regression model 8 -
+Accuracy: 0.7333333333333333
+F1 Score: 0.7306397306397305
+Precision: 0.7430555555555555
+Recall: 0.7333333333333333
+Confusion Matrix:
+ [[19 11]
+ [ 5 25]]
+
+The accuracy of Logistic Regression model 9 -
+Accuracy: 0.7833333333333333
+F1 Score: 0.783273131425396
+Precision: 0.7836484983314794
+Recall: 0.7833333333333333
+Confusion Matrix:
+ [[24  6]
+ [ 7 23]]
+
+The accuracy of Logistic Regression model 10 -
+Accuracy: 0.9
+F1 Score: 0.898989898989899
+Precision: 0.9166666666666666
+Recall: 0.9
+Confusion Matrix:
+ [[24  6]
+ [ 0 30]]
+
+
+-- Naive Bayes --------------------------------------------------------------------------------------------------
+The accuracy of Naive Bayes model 1 -
+Accuracy: 0.7333333333333333
+F1 Score: 0.7330367074527253
+Precision: 0.734375
+Recall: 0.7333333333333333
+Confusion Matrix:
+ [[21  9]
+ [ 7 23]]
+
+The accuracy of Naive Bayes model 2 -
+Accuracy: 0.8
+F1 Score: 0.799777530589544
+Precision: 0.8013392857142857
+Recall: 0.8
+Confusion Matrix:
+ [[23  7]
+ [ 5 25]]
+
+The accuracy of Naive Bayes model 3 -
+Accuracy: 0.9
+F1 Score: 0.8995535714285715
+Precision: 0.9072398190045249
+Recall: 0.9
+Confusion Matrix:
+ [[25  5]
+ [ 1 29]]
+
+The accuracy of Naive Bayes model 4 -
+Accuracy: 0.6666666666666666
+F1 Score: 0.6606334841628959
+Precision: 0.6794258373205742
+Recall: 0.6666666666666666
+Confusion Matrix:
+ [[16 14]
+ [ 6 24]]
+
+The accuracy of Naive Bayes model 5 -
+Accuracy: 0.9166666666666666
+F1 Score: 0.9164578111946533
+Precision: 0.9208754208754207
+Recall: 0.9166666666666666
+Confusion Matrix:
+ [[26  4]
+ [ 1 29]]
+
+The accuracy of Naive Bayes model 6 -
+Accuracy: 0.8666666666666667
+F1 Score: 0.8665183537263625
+Precision: 0.8683035714285715
+Recall: 0.8666666666666667
+Confusion Matrix:
+ [[25  5]
+ [ 3 27]]
+
+The accuracy of Naive Bayes model 7 -
+Accuracy: 0.9
+F1 Score: 0.8995535714285715
+Precision: 0.9072398190045249
+Recall: 0.9
+Confusion Matrix:
+ [[25  5]
+ [ 1 29]]
+
+The accuracy of Naive Bayes model 8 -
+Accuracy: 0.8333333333333334
+F1 Score: 0.8325892857142857
+Precision: 0.8393665158371041
+Recall: 0.8333333333333334
+Confusion Matrix:
+ [[23  7]
+ [ 3 27]]
+
+The accuracy of Naive Bayes model 9 -
+Accuracy: 0.8
+F1 Score: 0.7991071428571428
+Precision: 0.8054298642533937
+Recall: 0.8
+Confusion Matrix:
+ [[26  4]
+ [ 8 22]]
+
+The accuracy of Naive Bayes model 10 -
+Accuracy: 0.9166666666666666
+F1 Score: 0.9166435120866907
+Precision: 0.9171301446051168
+Recall: 0.9166666666666666
+Confusion Matrix:
+ [[27  3]
+ [ 2 28]]
+
+
+-- XGBoost --------------------------------------------------------------------------------------------------
+The accuracy of XGBoost model 1 -
+Accuracy: 0.7166666666666667
+F1 Score: 0.7159565580618211
+Precision: 0.718855218855219
+Recall: 0.7166666666666667
+Confusion Matrix:
+ [[20 10]
+ [ 7 23]]
+
+The accuracy of XGBoost model 2 -
+Accuracy: 0.6666666666666666
+F1 Score: 0.6651785714285715
+Precision: 0.669683257918552
+Recall: 0.6666666666666666
+Confusion Matrix:
+ [[22  8]
+ [12 18]]
+
+The accuracy of XGBoost model 3 -
+Accuracy: 0.8833333333333333
+F1 Score: 0.8825174825174824
+Precision: 0.8942857142857144
+Recall: 0.8833333333333333
+Confusion Matrix:
+ [[24  6]
+ [ 1 29]]
+
+The accuracy of XGBoost model 4 -
+Accuracy: 0.7166666666666667
+F1 Score: 0.7159565580618211
+Precision: 0.718855218855219
+Recall: 0.7166666666666667
+Confusion Matrix:
+ [[20 10]
+ [ 7 23]]
+
+The accuracy of XGBoost model 5 -
+Accuracy: 0.85
+F1 Score: 0.846547314578005
+Precision: 0.8846153846153847
+Recall: 0.85
+Confusion Matrix:
+ [[21  9]
+ [ 0 30]]
+
+The accuracy of XGBoost model 6 -
+Accuracy: 0.85
+F1 Score: 0.849624060150376
+Precision: 0.8535353535353535
+Recall: 0.85
+Confusion Matrix:
+ [[24  6]
+ [ 3 27]]
+
+The accuracy of XGBoost model 7 -
+Accuracy: 0.8833333333333333
+F1 Score: 0.8825174825174824
+Precision: 0.8942857142857144
+Recall: 0.8833333333333333
+Confusion Matrix:
+ [[24  6]
+ [ 1 29]]
+
+The accuracy of XGBoost model 8 -
+Accuracy: 0.7833333333333333
+F1 Score: 0.7803435651929035
+Precision: 0.799647473560517
+Recall: 0.7833333333333333
+Confusion Matrix:
+ [[20 10]
+ [ 3 27]]
+
+The accuracy of XGBoost model 9 -
+Accuracy: 0.7833333333333333
+F1 Score: 0.7827903091060985
+Precision: 0.7861952861952861
+Recall: 0.7833333333333333
+Confusion Matrix:
+ [[25  5]
+ [ 8 22]]
+
+The accuracy of XGBoost model 10 -
+Accuracy: 0.8666666666666667
+F1 Score: 0.8653198653198653
+Precision: 0.8819444444444445
+Recall: 0.8666666666666667
+Confusion Matrix:
+ [[23  7]
+ [ 1 29]]

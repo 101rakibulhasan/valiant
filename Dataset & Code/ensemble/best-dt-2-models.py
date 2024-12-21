@@ -1,39 +1,23 @@
 ## Best models for each classifier
-# rf model 3 - 0.93
-# rf model 5 - 0.92
+# rf model 3 - 0.833
+# rf model 5 - 0.883
 
 import ensemble
-import ensemble
-import pickle
-from collections import Counter
 
-X_test1, Y_test1 = ensemble.get_input(ensemble.jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature3", "senti-trans3")
-X_test2, Y_test2 = ensemble.get_input(ensemble.jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature5", "senti-trans5")
+test_path = 'Dataset & Code/dataset/conversation-collection-senti-test.json'
+mdl = 'decision_trees'
+feature_labels = [
+    ["senti-trans-feature3", "senti-trans3"],
+    ["senti-trans-feature5", "senti-trans5"]
+]
 
-with open("Dataset & Code/models/decision_trees/model_m3.pkl", "rb") as file:
-    m3_model = pickle.load(file)
+best_models = [
+    f"Dataset & Code/models/{mdl}/model_m3.pkl",
+    f"Dataset & Code/models/{mdl}/model_m5.pkl"
+]
 
-with open("Dataset & Code/models/decision_trees/model_m5.pkl", "rb") as file:
-    m5_model = pickle.load(file)
+actual_y, y_pred = ensemble.ensemble_predict_classification(test_path, best_models, feature_labels)
 
-m3_preds = m3_model.predict(X_test1)
-m5_preds = m5_model.predict(X_test2)
+ensemble.evaluate_classification(actual_y[0], y_pred)
 
-y_pred = []
-for i in range(len(m3_preds)):
-    prediction = Counter([m3_preds[i], m5_preds[i]]).most_common(1)[0][0]
-    y_pred.append(prediction)
-
-ensemble.evaluate_classification(Y_test1, y_pred)
-
-# Output:
-# After SMOTE:
-"""
-Accuracy: 0.9318181818181818
-F1 Score: 0.9317388493859083
-Precision: 0.9338349766476388
-Recall: 0.9318181818181818
-Confusion Matrix:
- [[85  3]
- [ 9 79]]
-"""
+ensemble.save_ensemble_model(best_models, f"Dataset & Code/models/{mdl}/best-{mdl}-2-models.pkl")

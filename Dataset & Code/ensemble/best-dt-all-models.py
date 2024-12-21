@@ -84,11 +84,11 @@ with open("Dataset & Code/models/decision_trees/best_dt_all_ensamble+smote_model
 # Output:
 # After SMOTE
 """
-Accuracy: 0.9488636363636364
-F1 Score: 0.9488487745018891
-Precision: 0.9493859082094377
-Recall: 0.9488636363636364
+Accuracy: 0.85
+F1 Score: 0.847930160518164
+Precision: 0.8701527614571093
+Recall: 0.85
 Confusion Matrix:
- [[85  3]
- [ 6 82]]
+ [[22  8]
+ [ 1 29]]
 """

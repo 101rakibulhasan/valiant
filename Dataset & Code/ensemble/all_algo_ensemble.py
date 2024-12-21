@@ -18,7 +18,25 @@ with open("Dataset & Code/models/random_forest/best_rf_all_ensamble+smote_models
     rf_model = pickle.load(file)
     new_estimetors.append(rf_model)
 
+with open("Dataset & Code/models/knn/best_knn_all_ensamble+smote_models.pkl", "rb") as file:
+    knn_model = pickle.load(file)
+    new_estimetors.append(knn_model)
 
+with open("Dataset & Code/models/lightgbm/best_lightgbm_all_ensamble+smote_models.pkl", "rb") as file:
+    lightgbm_model = pickle.load(file)
+    new_estimetors.append(lightgbm_model)
+
+with open("Dataset & Code/models/logistic_regression/best_logistic_regression_all_ensamble+smote_models.pkl", "rb") as file:
+    logistic_regression_model = pickle.load(file)
+    new_estimetors.append(logistic_regression_model)
+
+with open("Dataset & Code/models/naive_bayes/best_naive_bayes_all_ensamble+smote_models.pkl", "rb") as file:
+    naive_bayes_model = pickle.load(file)
+    new_estimetors.append(naive_bayes_model)
+
+with open("Dataset & Code/models/xgboost/best_xgboost_all_ensamble+smote_models.pkl", "rb") as file:
+    xgboost_model = pickle.load(file)
+    new_estimetors.append(xgboost_model)
 
 X_senti, Y_senti = ensemble.get_input(ensemble.jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature", "senti-trans")
 X_senti2, Y_senti2 = ensemble.get_input(ensemble.jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature2", "senti-trans2")
@@ -49,6 +67,22 @@ for estimator_name, model in rf_model.estimators:
     feature_set = X_combined[int(estimator_name.split("_m")[1]) - 1]  # Match features to models
     predictions.append(model.predict(feature_set))
 
+for estimator_name, model in knn_model.estimators:
+    feature_set = X_combined[int(estimator_name.split("_m")[1]) - 1]  # Match features to models
+    predictions.append(model.predict(feature_set))
+for estimator_name, model in lightgbm_model.estimators:
+    feature_set = X_combined[int(estimator_name.split("_m")[1]) - 1]  # Match features to models
+    predictions.append(model.predict(feature_set))
+for estimator_name, model in logistic_regression_model.estimators:
+    feature_set = X_combined[int(estimator_name.split("_m")[1]) - 1]  # Match features to models
+    predictions.append(model.predict(feature_set))
+for estimator_name, model in naive_bayes_model.estimators:
+    feature_set = X_combined[int(estimator_name.split("_m")[1]) - 1]  # Match features to models
+    predictions.append(model.predict(feature_set))
+for estimator_name, model in xgboost_model.estimators:
+    feature_set = X_combined[int(estimator_name.split("_m")[1]) - 1]  # Match features to models
+    predictions.append(model.predict(feature_set))
+
 # Custom voting mechanism (majority vote)
 from collections import Counter
 predictions = zip(*predictions)
@@ -65,11 +99,11 @@ with open("Dataset & Code/models/valiant-best_all_ensamble+smote_models.pkl", "w
 # Output:
 # After SMOTE:
 """
-Accuracy: 0.9659090909090909
-F1 Score: 0.9659090909090909
-Precision: 0.9659090909090909
-Recall: 0.9659090909090909
+Accuracy: 0.9333333333333333
+F1 Score: 0.9330357142857143
+Precision: 0.9411764705882353
+Recall: 0.9333333333333333
 Confusion Matrix:
- [[85  3]
- [ 3 85]]
+ [[26  4]
+ [ 0 30]]
 """

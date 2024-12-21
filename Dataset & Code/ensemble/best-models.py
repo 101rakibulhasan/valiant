@@ -5,26 +5,43 @@
 
 import ensemble
 
-X_test1, Y_test1 = ensemble.get_input(ensemble.jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "trans-emo-feature4", "senti-emotion4")
-X_test2, Y_test2 = ensemble.get_input(ensemble.jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature3", "senti-trans3")
-X_test3, Y_test3 = ensemble.get_input(ensemble.jsontodict('Dataset & Code/dataset/conversation-collection-senti-test.json'), "senti-trans-feature3", "senti-trans3")
+test_path = 'Dataset & Code/dataset/conversation-collection-senti-test.json'
 
-y_pred = ensemble.ensemble_predict_classification(
-    "Dataset & Code/models/svm/model_m9.pkl",
-    "Dataset & Code/models/decision_trees/model_m3.pkl",
-    "Dataset & Code/models/random_forest/model_m3.pkl", X_test1, X_test2, X_test3)
+best_models = [
+    "Dataset & Code/models/svm/model_m5.pkl",
+    "Dataset & Code/models/decision_trees/model_m10.pkl",
+    "Dataset & Code/models/random_forest/model_m10.pkl",
+    "Dataset & Code/models/knn/model_m5.pkl",
+    "Dataset & Code/models/lightgbm/model_m10.pkl",
+    "Dataset & Code/models/logistic_regression/model_m10.pkl",
+    "Dataset & Code/models/naive_bayes/model_m3.pkl",
+    "Dataset & Code/models/xgboost/model_m7.pkl"
+]
 
-ensemble.evaluate_classification(Y_test1, y_pred)
+features_label = [
+    ["senti-trans-feature5", "senti-trans5",],
+    ["trans-emo-feature5", "senti-emotion5",],
+    ["trans-emo-feature5", "senti-emotion5",],
+    ["senti-trans-feature5", "senti-trans5",],
+    ["trans-emo-feature5", "senti-emotion5",],
+    ["trans-emo-feature5", "senti-emotion5",],
+    ["senti-trans-feature3", "senti-trans3",],
+    ["trans-emo-feature2", "senti-emotion2"]
+]
+
+actual_y, y_pred = ensemble.ensemble_predict_classification(test_path, best_models, features_label)
+
+ensemble.evaluate_classification(actual_y[0], y_pred)
 
 # Output:
 
 # After SMOTE:
 """
-Accuracy: 0.9545454545454546
-F1 Score: 0.9544925662572722
-Precision: 0.9566683964711987
-Recall: 0.9545454545454546
+Accuracy: 0.9166666666666666
+F1 Score: 0.9164578111946533
+Precision: 0.9208754208754207
+Recall: 0.9166666666666666
 Confusion Matrix:
- [[87  1]
- [ 7 81]]
+ [[26  4]
+ [ 1 29]]
 """

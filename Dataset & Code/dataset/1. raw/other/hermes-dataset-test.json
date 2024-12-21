@@ -1,0 +1,2777 @@
+[
+    {
+        "_id": {
+            "$oid": "675beb892db0484c12242934"
+        },
+        "id": 1,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 50.93248891830444
+            },
+            {
+                "role": "verdict",
+                "content": "I'm doing well, thanks for asking!",
+                "response_time": 49.11074948310852
+            },
+            {
+                "role": "judge",
+                "content": "Glad to hear that u r good!",
+                "response_time": 16.41115689277649
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, it's great to chat with you!",
+                "response_time": 20.46609354019165
+            },
+            {
+                "role": "judge",
+                "content": "Me too, its nice to talk!",
+                "response_time": 31.169224977493286
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely, conversations like these are a joy!",
+                "response_time": 20.30001449584961
+            },
+            {
+                "role": "judge",
+                "content": "I nothink we havnt talked yet!",
+                "response_time": 33.86229681968689
+            },
+            {
+                "role": "verdict",
+                "content": "You're right, let's start a new conversation!",
+                "response_time": 53.0895209312439
+            },
+            {
+                "role": "judge",
+                "content": "Whats on ur mind today?",
+                "response_time": 31.255265474319458
+            },
+            {
+                "role": "verdict",
+                "content": "I'm feeling great and looking forward to chatting!",
+                "response_time": 49.64055609703064
+            },
+            {
+                "role": "judge",
+                "content": "Me too, lets talk about weather.",
+                "response_time": 31.368424654006958
+            },
+            {
+                "role": "verdict",
+                "content": "Sure, the weather has been lovely lately. How about where you are?",
+                "response_time": 54.40962028503418
+            },
+            {
+                "role": "judge",
+                "content": "Its been rining alot here.",
+                "response_time": 31.86016011238098
+            },
+            {
+                "role": "verdict",
+                "content": "That's too bad about the rain. I hope it clears up soon.",
+                "response_time": 57.27150774002075
+            },
+            {
+                "role": "judge",
+                "content": "Me too, its geting old.",
+                "response_time": 36.596983671188354
+            },
+            {
+                "role": "verdict",
+                "content": "I completely understand. Rain can be quite dreary.",
+                "response_time": 55.824851512908936
+            },
+            {
+                "role": "judge",
+                "content": "I no, its just annoying.",
+                "response_time": 37.89862012863159
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675bee2d2db0484c12242935"
+        },
+        "id": 2,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss [TOPIC]. What are your thoughts?",
+                "response_time": 37.17248249053955
+            },
+            {
+                "role": "judge",
+                "content": "I like playin with my dog.",
+                "response_time": 46.85646200180054
+            },
+            {
+                "role": "verdict",
+                "content": "Dogs make great companions. Do you have a favorite activity to do together?",
+                "response_time": 26.571091651916504
+            },
+            {
+                "role": "judge",
+                "content": "We play fetch at the park.",
+                "response_time": 18.21531367301941
+            },
+            {
+                "role": "verdict",
+                "content": "Fetch is a classic and fun game. Does your dog have a favorite toy?",
+                "response_time": 26.961452960968018
+            },
+            {
+                "role": "judge",
+                "content": "My dog love squeaky rubber ball.",
+                "response_time": 36.86726975440979
+            },
+            {
+                "role": "verdict",
+                "content": "Squeaky toys can be very enticing for dogs. Do you have any other pets?",
+                "response_time": 65.1999921798706
+            },
+            {
+                "role": "judge",
+                "content": "I have cat too, she lazy.",
+                "response_time": 38.1746609210968
+            },
+            {
+                "role": "verdict",
+                "content": "Cats are known for their relaxed nature. Do you prefer dogs or cats?",
+                "response_time": 64.41208171844482
+            },
+            {
+                "role": "judge",
+                "content": "Dogs more fun, they play alot.",
+                "response_time": 39.50346064567566
+            },
+            {
+                "role": "verdict",
+                "content": "Playing with dogs can be a great source of joy. What's your dog's favorite activity?",
+                "response_time": 67.5002875328064
+            },
+            {
+                "role": "judge",
+                "content": "My dog like go swim alot.",
+                "response_time": 40.3458456993103
+            },
+            {
+                "role": "verdict",
+                "content": "Swimming is a fantastic exercise for dogs. Do you join them in the pool sometimes?",
+                "response_time": 85.76800990104675
+            },
+            {
+                "role": "judge",
+                "content": "No, I dont swim with them.",
+                "response_time": 41.32364463806152
+            },
+            {
+                "role": "verdict",
+                "content": "It's a fun bonding activity. Maybe you should give it a try sometime.",
+                "response_time": 66.36067700386047
+            },
+            {
+                "role": "judge",
+                "content": "I dont think I will try.",
+                "response_time": 37.6639347076416
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675bf15f2db0484c12242936"
+        },
+        "id": 3,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss [TOPIC]. What are your thoughts?",
+                "response_time": 15.812366962432861
+            },
+            {
+                "role": "judge",
+                "content": "I like playin with my dog.",
+                "response_time": 17.091768503189087
+            },
+            {
+                "role": "verdict",
+                "content": "Dogs make great companions. Do you have a favorite activity to do together?",
+                "response_time": 29.373385667800903
+            },
+            {
+                "role": "judge",
+                "content": "We go swimmin in summer time.",
+                "response_time": 18.09542679786682
+            },
+            {
+                "role": "verdict",
+                "content": "Swimming is a wonderful way to bond with your pet. How often do you go swimming together?",
+                "response_time": 31.60419726371765
+            },
+            {
+                "role": "judge",
+                "content": "We go swim every other week.",
+                "response_time": 38.39159035682678
+            },
+            {
+                "role": "verdict",
+                "content": "That's great! Regular exercise is important for both of you. What other outdoor activities do you enjoy with your dog?",
+                "response_time": 73.49556827545166
+            },
+            {
+                "role": "judge",
+                "content": "We like goin for long walks.",
+                "response_time": 42.22156238555908
+            },
+            {
+                "role": "verdict",
+                "content": "Walking is another excellent way to spend quality time with your pet. Do you have a favorite trail or park you both enjoy?",
+                "response_time": 94.17695546150208
+            },
+            {
+                "role": "judge",
+                "content": "We like go to lake park.",
+                "response_time": 49.19005250930786
+            },
+            {
+                "role": "verdict",
+                "content": "Lake parks are wonderful for walks. Is there anything special about this park that makes it a favorite for your dog?",
+                "response_time": 77.60471963882446
+            },
+            {
+                "role": "judge",
+                "content": "Dog like playin on big rocks.",
+                "response_time": 45.08787941932678
+            },
+            {
+                "role": "verdict",
+                "content": "That's great that your dog enjoys playing on the rocks. Does your dog have a favorite rock to climb on or explore?",
+                "response_time": 82.03189873695374
+            },
+            {
+                "role": "judge",
+                "content": "Dog like climb big rock near.",
+                "response_time": 41.97726774215698
+            },
+            {
+                "role": "verdict",
+                "content": "Climbing rocks can be a fun activity for dogs. Does your dog have a favorite spot at the lake park to play and explore?",
+                "response_time": 81.86867666244507
+            },
+            {
+                "role": "judge",
+                "content": "Dog like swim at lake spot.",
+                "response_time": 48.00868368148804
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675bf4c82db0484c12242937"
+        },
+        "id": 4,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 43.03106641769409
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks for asking!",
+                "response_time": 28.11064600944519
+            },
+            {
+                "role": "judge",
+                "content": "Glad to hear that, nice day!",
+                "response_time": 23.26905059814453
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, you too! Have a great day!",
+                "response_time": 27.11806845664978
+            },
+            {
+                "role": "judge",
+                "content": "You too, bye for now!",
+                "response_time": 29.651416301727295
+            },
+            {
+                "role": "verdict",
+                "content": "Bye, take care! See you later!",
+                "response_time": 19.98305034637451
+            },
+            {
+                "role": "judge",
+                "content": "Later, have nice evening!",
+                "response_time": 31.93283200263977
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, you too! Enjoy your evening!",
+                "response_time": 47.50626230239868
+            },
+            {
+                "role": "judge",
+                "content": "You too, sweet dreams!",
+                "response_time": 28.038214683532715
+            },
+            {
+                "role": "verdict",
+                "content": "Same to you, sleep well!",
+                "response_time": 44.97463512420654
+            },
+            {
+                "role": "judge",
+                "content": "Later, bye for now!",
+                "response_time": 26.219072341918945
+            },
+            {
+                "role": "verdict",
+                "content": "Bye, take care! See you later!",
+                "response_time": 44.29935312271118
+            },
+            {
+                "role": "judge",
+                "content": "Later, have nice day!",
+                "response_time": 26.877515077590942
+            },
+            {
+                "role": "verdict",
+                "content": "You too, enjoy your day!",
+                "response_time": 41.81241321563721
+            },
+            {
+                "role": "judge",
+                "content": "Thx, its gonna be good day!",
+                "response_time": 31.126336574554443
+            },
+            {
+                "role": "verdict",
+                "content": "Great, have a fantastic day!",
+                "response_time": 43.27941656112671
+            },
+            {
+                "role": "judge",
+                "content": "U too, stay happy always!",
+                "response_time": 27.198011875152588
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675bf7382db0484c12242938"
+        },
+        "id": 5,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 14.99225378036499
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks for asking!",
+                "response_time": 14.711064338684082
+            },
+            {
+                "role": "judge",
+                "content": "Glad to hear that, nice day!",
+                "response_time": 15.340805053710938
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, you too! Have a great one.",
+                "response_time": 21.91560459136963
+            },
+            {
+                "role": "judge",
+                "content": "You too, bye for now!",
+                "response_time": 44.54366087913513
+            },
+            {
+                "role": "verdict",
+                "content": "Bye, take care! See you later.",
+                "response_time": 33.96410536766052
+            },
+            {
+                "role": "judge",
+                "content": "Later, have nice evening!",
+                "response_time": 31.531251430511475
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, you too! Enjoy your evening.",
+                "response_time": 46.88366746902466
+            },
+            {
+                "role": "judge",
+                "content": "You too, have good sleep!",
+                "response_time": 28.718900442123413
+            },
+            {
+                "role": "verdict",
+                "content": "Same to you, sleep well. Goodnight!",
+                "response_time": 46.11937665939331
+            },
+            {
+                "role": "judge",
+                "content": "Night, may be sweet tomorrow!",
+                "response_time": 29.388999938964844
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, same to you. Sweet dreams!",
+                "response_time": 45.25950479507446
+            },
+            {
+                "role": "judge",
+                "content": "You too, have nice day!",
+                "response_time": 29.78838849067688
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, you too. Nice day ahead!",
+                "response_time": 46.03179049491882
+            },
+            {
+                "role": "judge",
+                "content": "Hope its goin good so far!",
+                "response_time": 30.773884773254395
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks! So far so good.",
+                "response_time": 46.15850901603699
+            },
+            {
+                "role": "judge",
+                "content": "How was ur weekend tho?",
+                "response_time": 27.907564878463745
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675bf9892db0484c12242939"
+        },
+        "id": 6,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss the weather today.",
+                "response_time": 32.94339156150818
+            },
+            {
+                "role": "judge",
+                "content": "Weather is reallly bad today.",
+                "response_time": 45.245845794677734
+            },
+            {
+                "role": "verdict",
+                "content": "Yes, it's quite gloomy outside.",
+                "response_time": 38.635404109954834
+            },
+            {
+                "role": "judge",
+                "content": "I hate gloomy days so much.",
+                "response_time": 16.2037570476532
+            },
+            {
+                "role": "verdict",
+                "content": "I understand, they can be quite demotivating.",
+                "response_time": 22.62229561805725
+            },
+            {
+                "role": "judge",
+                "content": "Demotivating days are the worst thing.",
+                "response_time": 33.27331757545471
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely, they can really dampen your spirits.",
+                "response_time": 51.934648275375366
+            },
+            {
+                "role": "judge",
+                "content": "Dampen spirits is not good.",
+                "response_time": 33.11868381500244
+            },
+            {
+                "role": "verdict",
+                "content": "No, it's not. We should focus on positive thoughts.",
+                "response_time": 53.80798125267029
+            },
+            {
+                "role": "judge",
+                "content": "Positive thoughts is the best way.",
+                "response_time": 35.01979875564575
+            },
+            {
+                "role": "verdict",
+                "content": "Definitely, it helps in overcoming any challenge.",
+                "response_time": 51.21736979484558
+            },
+            {
+                "role": "judge",
+                "content": "It gives us new strenght.",
+                "response_time": 33.28850984573364
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely, positivity empowers us to face difficulties.",
+                "response_time": 51.631393909454346
+            },
+            {
+                "role": "judge",
+                "content": "It makes us feel beter.",
+                "response_time": 30.661650896072388
+            },
+            {
+                "role": "verdict",
+                "content": "Yes, positive thinking improves our overall well-being.",
+                "response_time": 48.40076208114624
+            },
+            {
+                "role": "judge",
+                "content": "It gives us new hop.",
+                "response_time": 29.499645471572876
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675bfc212db0484c1224293a"
+        },
+        "id": 7,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss [TOPIC]. What are your thoughts?",
+                "response_time": 15.700363397598267
+            },
+            {
+                "role": "judge",
+                "content": "I like playin with my dog.",
+                "response_time": 30.701772689819336
+            },
+            {
+                "role": "verdict",
+                "content": "That's great! Dogs make wonderful companions. Do you have a favorite activity to do together?",
+                "response_time": 37.95996880531311
+            },
+            {
+                "role": "judge",
+                "content": "We like goin to the park.",
+                "response_time": 20.368768453598022
+            },
+            {
+                "role": "verdict",
+                "content": "The park sounds like a perfect spot for you both to enjoy. What does your dog love most about going there?",
+                "response_time": 34.683422803878784
+            },
+            {
+                "role": "judge",
+                "content": "He loves chasin squirrels alot.",
+                "response_time": 41.644471168518066
+            },
+            {
+                "role": "verdict",
+                "content": "Chasing squirrels must provide endless entertainment for your furry friend. Do you ever join in on the fun or just watch from a distance?",
+                "response_time": 82.20313096046448
+            },
+            {
+                "role": "judge",
+                "content": "I try to join in sometimes.",
+                "response_time": 45.10967135429382
+            },
+            {
+                "role": "verdict",
+                "content": "That's great that you both can play together. Does your dog ever actually catch any squirrels or is it mostly the chase that's exciting for him?",
+                "response_time": 90.17527222633362
+            },
+            {
+                "role": "judge",
+                "content": "He never catch them sadly though.",
+                "response_time": 48.789432764053345
+            },
+            {
+                "role": "verdict",
+                "content": "It's probably just as well, as squirrels are best left to their own adventures. Your dog likely gets plenty of exercise and joy from the pursuit. What other outdoor activities does he enjoy?",
+                "response_time": 100.806405544281
+            },
+            {
+                "role": "judge",
+                "content": "He love goin for long walks.",
+                "response_time": 54.23148560523987
+            },
+            {
+                "role": "verdict",
+                "content": "Long walks are wonderful for both you and your furry friend. It's a great way to explore new sights and spend quality time together. Do you have a favorite trail or park that you both enjoy visiting?",
+                "response_time": 129.2006516456604
+            },
+            {
+                "role": "judge",
+                "content": "We like go to lake area.",
+                "response_time": 61.283689975738525
+            },
+            {
+                "role": "verdict",
+                "content": "The lake area sounds like a fantastic spot for a walk. There's something special about the combination of fresh air, natural beauty, and the sound of water. What's your dog's favorite part about these outings?",
+                "response_time": 119.48684358596802
+            },
+            {
+                "role": "judge",
+                "content": "He love runnin by the water.",
+                "response_time": 60.018704652786255
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c002f2db0484c1224293b"
+        },
+        "id": 8,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 44.104456424713135
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks for asking!",
+                "response_time": 29.511576890945435
+            },
+            {
+                "role": "judge",
+                "content": "Gud, wht r u upto?",
+                "response_time": 15.684641599655151
+            },
+            {
+                "role": "verdict",
+                "content": "Just chatting. How about you?",
+                "response_time": 18.425759077072144
+            },
+            {
+                "role": "judge",
+                "content": "Not much, just watchin tv",
+                "response_time": 28.58039927482605
+            },
+            {
+                "role": "verdict",
+                "content": "Nice, any good shows?",
+                "response_time": 16.38236427307129
+            },
+            {
+                "role": "judge",
+                "content": "Yeah, got hooked on Narcos",
+                "response_time": 38.88816714286804
+            },
+            {
+                "role": "verdict",
+                "content": "Oh cool, good series!",
+                "response_time": 45.33161807060242
+            },
+            {
+                "role": "judge",
+                "content": "I no like the ending though",
+                "response_time": 26.39211392402649
+            },
+            {
+                "role": "verdict",
+                "content": "Really? Why's that?",
+                "response_time": 39.57856202125549
+            },
+            {
+                "role": "judge",
+                "content": "It was to abrupt for me",
+                "response_time": 25.18047857284546
+            },
+            {
+                "role": "verdict",
+                "content": "Yeah, abrupt endings bummer.",
+                "response_time": 40.019224643707275
+            },
+            {
+                "role": "judge",
+                "content": "Totally, it left me hanging",
+                "response_time": 26.635809659957886
+            },
+            {
+                "role": "verdict",
+                "content": "Got it, I'll work on it.",
+                "response_time": 42.404236793518066
+            },
+            {
+                "role": "judge",
+                "content": "Good, we need a contineus.",
+                "response_time": 29.136651754379272
+            },
+            {
+                "role": "verdict",
+                "content": "Agreed, will aim for flow.",
+                "response_time": 44.26615881919861
+            },
+            {
+                "role": "judge",
+                "content": "We need som good ideas.",
+                "response_time": 29.238845348358154
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c02a92db0484c1224293c"
+        },
+        "id": 9,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 15.230529546737671
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks for asking!",
+                "response_time": 14.662718534469604
+            },
+            {
+                "role": "judge",
+                "content": "Gud, wht r u up 2?",
+                "response_time": 16.99869203567505
+            },
+            {
+                "role": "verdict",
+                "content": "Just chatting and having fun!",
+                "response_time": 18.342305660247803
+            },
+            {
+                "role": "judge",
+                "content": "Me 2, its a nice day!",
+                "response_time": 30.491937398910522
+            },
+            {
+                "role": "verdict",
+                "content": "It really is, enjoy the weather!",
+                "response_time": 24.435034036636353
+            },
+            {
+                "role": "judge",
+                "content": "Yea, its perfect for a walk!",
+                "response_time": 32.56217050552368
+            },
+            {
+                "role": "verdict",
+                "content": "That sounds like a great idea!",
+                "response_time": 46.886093616485596
+            },
+            {
+                "role": "judge",
+                "content": "I need to go shopping too!",
+                "response_time": 39.074894189834595
+            },
+            {
+                "role": "verdict",
+                "content": "Shopping can be fun, enjoy your day!",
+                "response_time": 63.33510756492615
+            },
+            {
+                "role": "judge",
+                "content": "Thanks, I will definatly enjoy!",
+                "response_time": 31.014071226119995
+            },
+            {
+                "role": "verdict",
+                "content": "Awesome, have a fantastic shopping trip!",
+                "response_time": 45.80610942840576
+            },
+            {
+                "role": "judge",
+                "content": "Thx, cant w8 to shop!",
+                "response_time": 31.076506853103638
+            },
+            {
+                "role": "verdict",
+                "content": "Exciting! Enjoy your shopping experience!",
+                "response_time": 46.608006954193115
+            },
+            {
+                "role": "judge",
+                "content": "Me too, its gonna be fun!",
+                "response_time": 30.55918836593628
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely! Have a blast shopping!",
+                "response_time": 45.25241565704346
+            },
+            {
+                "role": "judge",
+                "content": "Yaaay, cant w8 any longer!",
+                "response_time": 32.38449454307556
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c05072db0484c1224293d"
+        },
+        "id": 10,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 14.919973373413086
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks for asking!",
+                "response_time": 13.707101345062256
+            },
+            {
+                "role": "judge",
+                "content": "Glad to hear that, nice day!",
+                "response_time": 15.41161036491394
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, you too! Have a great day!",
+                "response_time": 23.435837507247925
+            },
+            {
+                "role": "judge",
+                "content": "You too, bye for now!",
+                "response_time": 29.716612815856934
+            },
+            {
+                "role": "verdict",
+                "content": "Bye, take care! See you later!",
+                "response_time": 20.262864589691162
+            },
+            {
+                "role": "judge",
+                "content": "Later, have nice evening!",
+                "response_time": 29.659513235092163
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, you too! Enjoy your evening!",
+                "response_time": 47.75312280654907
+            },
+            {
+                "role": "judge",
+                "content": "You too, sweet dreams tonight!",
+                "response_time": 40.14984726905823
+            },
+            {
+                "role": "verdict",
+                "content": "Same to you, sleep well! Goodnight!",
+                "response_time": 57.32840585708618
+            },
+            {
+                "role": "judge",
+                "content": "Goodnight, sweet dreams for you!",
+                "response_time": 30.085888147354126
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, you too! Sweet dreams!",
+                "response_time": 46.61730599403381
+            },
+            {
+                "role": "judge",
+                "content": "You welcom, how was ur day?",
+                "response_time": 30.6593759059906
+            },
+            {
+                "role": "verdict",
+                "content": "My day was good, thanks for asking!",
+                "response_time": 47.75710892677307
+            },
+            {
+                "role": "judge",
+                "content": "Glad to hear that, hows ur fam?",
+                "response_time": 33.83734059333801
+            },
+            {
+                "role": "verdict",
+                "content": "My family is doing well, thanks!",
+                "response_time": 47.45777702331543
+            },
+            {
+                "role": "judge",
+                "content": "That's grate, we should catchup soon!",
+                "response_time": 34.27196455001831
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c07672db0484c1224293e"
+        },
+        "id": 11,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 14.218201637268066
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks for asking!",
+                "response_time": 14.017085790634155
+            },
+            {
+                "role": "judge",
+                "content": "Gud, wht r u up to?",
+                "response_time": 16.132438898086548
+            },
+            {
+                "role": "verdict",
+                "content": "Just chatting. How about you?",
+                "response_time": 18.181809186935425
+            },
+            {
+                "role": "judge",
+                "content": "Not much, just relaxin at home.",
+                "response_time": 30.033146858215332
+            },
+            {
+                "role": "verdict",
+                "content": "That sounds nice. Enjoy your day!",
+                "response_time": 18.97347640991211
+            },
+            {
+                "role": "judge",
+                "content": "Thx, u too have nice day!",
+                "response_time": 31.51483416557312
+            },
+            {
+                "role": "verdict",
+                "content": "Will do, bye for now!",
+                "response_time": 45.87783455848694
+            },
+            {
+                "role": "judge",
+                "content": "Later, talk to u soon!",
+                "response_time": 43.041592836380005
+            },
+            {
+                "role": "verdict",
+                "content": "Definitely, see you later then!",
+                "response_time": 56.50980520248413
+            },
+            {
+                "role": "judge",
+                "content": "Cant wait, miss u alredy!",
+                "response_time": 30.712918996810913
+            },
+            {
+                "role": "verdict",
+                "content": "Same here, count the minutes!",
+                "response_time": 44.95743370056152
+            },
+            {
+                "role": "judge",
+                "content": "Me too, its killing me slow!",
+                "response_time": 29.955628156661987
+            },
+            {
+                "role": "verdict",
+                "content": "I know, time flies too slow!",
+                "response_time": 45.779767751693726
+            },
+            {
+                "role": "judge",
+                "content": "I no, its like forever now!",
+                "response_time": 31.174169778823853
+            },
+            {
+                "role": "verdict",
+                "content": "Feels like an eternity, for sure!",
+                "response_time": 46.05926275253296
+            },
+            {
+                "role": "judge",
+                "content": "I feel u, its so hard!",
+                "response_time": 29.28691792488098
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c09ba2db0484c1224293f"
+        },
+        "id": 12,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss [TOPIC]. What are your thoughts?",
+                "response_time": 38.00551509857178
+            },
+            {
+                "role": "judge",
+                "content": "I like playin with my dog.",
+                "response_time": 46.43450593948364
+            },
+            {
+                "role": "verdict",
+                "content": "Dogs make great companions. What breed is yours?",
+                "response_time": 22.443552017211914
+            },
+            {
+                "role": "judge",
+                "content": "My dog is a labrador.",
+                "response_time": 15.328877925872803
+            },
+            {
+                "role": "verdict",
+                "content": "Labradors are friendly and energetic. Do you enjoy outdoor activities together?",
+                "response_time": 25.811023235321045
+            },
+            {
+                "role": "judge",
+                "content": "We go hiking alot together.",
+                "response_time": 33.4178683757782
+            },
+            {
+                "role": "verdict",
+                "content": "Hiking is a wonderful way to bond with your dog. What are some of your favorite trails?",
+                "response_time": 84.09245443344116
+            },
+            {
+                "role": "judge",
+                "content": "We like goin to mountains.",
+                "response_time": 41.23183274269104
+            },
+            {
+                "role": "verdict",
+                "content": "Mountains offer stunning views and fresh air. How often do you hike?",
+                "response_time": 60.11854290962219
+            },
+            {
+                "role": "judge",
+                "content": "I go hike every weekend now.",
+                "response_time": 36.2965247631073
+            },
+            {
+                "role": "verdict",
+                "content": "Weekend hikes are a great way to stay active and enjoy nature. What's your favorite time of day to hike?",
+                "response_time": 70.15737199783325
+            },
+            {
+                "role": "judge",
+                "content": "Morning hike is best for me.",
+                "response_time": 37.9622163772583
+            },
+            {
+                "role": "verdict",
+                "content": "Early morning hikes can be invigorating. Do you prefer hiking trails with others or alone?",
+                "response_time": 68.8604006767273
+            },
+            {
+                "role": "judge",
+                "content": "I like hike with my friends.",
+                "response_time": 39.872016191482544
+            },
+            {
+                "role": "verdict",
+                "content": "Hiking with friends can make the experience even more enjoyable. What's the longest hike you've ever done?",
+                "response_time": 77.78678822517395
+            },
+            {
+                "role": "judge",
+                "content": "I did 20km hike last year.",
+                "response_time": 42.03176832199097
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c0cdd2db0484c12242940"
+        },
+        "id": 13,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 46.16637182235718
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks for asking!",
+                "response_time": 41.19448137283325
+            },
+            {
+                "role": "judge",
+                "content": "Glad to hear that, nice day!",
+                "response_time": 22.68212056159973
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, you too! Have a great day!",
+                "response_time": 21.492241621017456
+            },
+            {
+                "role": "judge",
+                "content": "You too, bye for now!",
+                "response_time": 29.473038911819458
+            },
+            {
+                "role": "verdict",
+                "content": "Bye, take care! See you later!",
+                "response_time": 20.8559091091156
+            },
+            {
+                "role": "judge",
+                "content": "Later, have nice evening!",
+                "response_time": 29.959872245788574
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, you too! Enjoy your evening!",
+                "response_time": 47.825302600860596
+            },
+            {
+                "role": "judge",
+                "content": "You too, sweet dreams!",
+                "response_time": 28.588168382644653
+            },
+            {
+                "role": "verdict",
+                "content": "Same to you, sleep well!",
+                "response_time": 44.99297881126404
+            },
+            {
+                "role": "judge",
+                "content": "Later, have nice evening!",
+                "response_time": 26.181878805160522
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, you too! Enjoy your night!",
+                "response_time": 43.0092670917511
+            },
+            {
+                "role": "judge",
+                "content": "You too, bye for now!",
+                "response_time": 27.65423560142517
+            },
+            {
+                "role": "verdict",
+                "content": "Bye, take care! See you later!",
+                "response_time": 43.96732759475708
+            },
+            {
+                "role": "judge",
+                "content": "Later, have nice day tomorrow!",
+                "response_time": 32.41692757606506
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, I'll try! You too!",
+                "response_time": 45.394734144210815
+            },
+            {
+                "role": "judge",
+                "content": "I hope it goes wel!",
+                "response_time": 28.226897716522217
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c0f4a2db0484c12242941"
+        },
+        "id": 14,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 14.778944253921509
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks for asking!",
+                "response_time": 14.39739727973938
+            },
+            {
+                "role": "judge",
+                "content": "Glad to hear that u r good!",
+                "response_time": 26.7937068939209
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, same to you!",
+                "response_time": 31.927326202392578
+            },
+            {
+                "role": "judge",
+                "content": "How was ur weekend was?",
+                "response_time": 27.174760341644287
+            },
+            {
+                "role": "verdict",
+                "content": "Great, thanks for asking!",
+                "response_time": 15.510531902313232
+            },
+            {
+                "role": "judge",
+                "content": "Did u watch any movies?",
+                "response_time": 25.53234314918518
+            },
+            {
+                "role": "verdict",
+                "content": "Yes, enjoyed a couple.",
+                "response_time": 39.51633358001709
+            },
+            {
+                "role": "judge",
+                "content": "What was ur fav movie?",
+                "response_time": 24.915595769882202
+            },
+            {
+                "role": "verdict",
+                "content": "It was a close call.",
+                "response_time": 39.70265221595764
+            },
+            {
+                "role": "judge",
+                "content": "I like action movies too.",
+                "response_time": 24.670928716659546
+            },
+            {
+                "role": "verdict",
+                "content": "Great! Any recent favorites?",
+                "response_time": 37.32348704338074
+            },
+            {
+                "role": "judge",
+                "content": "I saw Spiderman last week.",
+                "response_time": 25.42249035835266
+            },
+            {
+                "role": "verdict",
+                "content": "That's a good one!",
+                "response_time": 37.881102561950684
+            },
+            {
+                "role": "judge",
+                "content": "I love Tom Hiddleston.",
+                "response_time": 27.687332153320312
+            },
+            {
+                "role": "verdict",
+                "content": "He's great as Loki!",
+                "response_time": 39.07774019241333
+            },
+            {
+                "role": "judge",
+                "content": "He's so good at acting.",
+                "response_time": 26.496176719665527
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c11562db0484c12242942"
+        },
+        "id": 15,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi how r u today?",
+                "response_time": 13.766719579696655
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks for asking!",
+                "response_time": 14.735120058059692
+            },
+            {
+                "role": "judge",
+                "content": "Glad to hear that u r good!",
+                "response_time": 16.081669330596924
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, same to you! How's your day going?",
+                "response_time": 24.16652226448059
+            },
+            {
+                "role": "judge",
+                "content": "Its goin pretty good so far!",
+                "response_time": 31.346158027648926
+            },
+            {
+                "role": "verdict",
+                "content": "That's great to hear! Enjoy your day!",
+                "response_time": 20.377968311309814
+            },
+            {
+                "role": "judge",
+                "content": "Thanks, will definatly do that!",
+                "response_time": 41.14433813095093
+            },
+            {
+                "role": "verdict",
+                "content": "Awesome! Have a fantastic day ahead!",
+                "response_time": 55.91515302658081
+            },
+            {
+                "role": "judge",
+                "content": "You too, hope its amazin!",
+                "response_time": 32.18759083747864
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks! Wishing you an amazing day too!",
+                "response_time": 50.45152997970581
+            },
+            {
+                "role": "judge",
+                "content": "Thanks, lets catch up later then!",
+                "response_time": 31.457193851470947
+            },
+            {
+                "role": "verdict",
+                "content": "Sounds great! Looking forward to it. Have a wonderful day!",
+                "response_time": 52.428091287612915
+            },
+            {
+                "role": "judge",
+                "content": "You too, bye for now!",
+                "response_time": 32.556612730026245
+            },
+            {
+                "role": "verdict",
+                "content": "Bye, take care! See you later!",
+                "response_time": 51.167640924453735
+            },
+            {
+                "role": "judge",
+                "content": "Later, have nice evening!",
+                "response_time": 33.0337347984314
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, you too! Enjoy your evening!",
+                "response_time": 49.00999736785889
+            },
+            {
+                "role": "judge",
+                "content": "You too, sweet dreams!",
+                "response_time": 29.129573822021484
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c13c32db0484c12242943"
+        },
+        "id": 16,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss [TOPIC]. What are your thoughts?",
+                "response_time": 37.2601900100708
+            },
+            {
+                "role": "judge",
+                "content": "I like summer its warm.",
+                "response_time": 45.47159504890442
+            },
+            {
+                "role": "verdict",
+                "content": "That's great! I enjoy the warm weather too. What's your favorite summer activity?",
+                "response_time": 45.85957407951355
+            },
+            {
+                "role": "judge",
+                "content": "Beach is my fav place.",
+                "response_time": 26.21135711669922
+            },
+            {
+                "role": "verdict",
+                "content": "I love the beach as well. What's your favorite beach activity?",
+                "response_time": 26.283573150634766
+            },
+            {
+                "role": "judge",
+                "content": "Swimmin is so much fun.",
+                "response_time": 35.216367959976196
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely! Swimming is a fantastic way to enjoy the beach. Do you prefer swimming in the ocean or a pool?",
+                "response_time": 80.6303927898407
+            },
+            {
+                "role": "judge",
+                "content": "Ocean swimmin is more relaxin.",
+                "response_time": 39.25389838218689
+            },
+            {
+                "role": "verdict",
+                "content": "I agree, there's something incredibly relaxing about swimming in the ocean. The gentle waves and the sound of the sea are so soothing.",
+                "response_time": 78.1043074131012
+            },
+            {
+                "role": "judge",
+                "content": "It's like my soul healin.",
+                "response_time": 45.9983012676239
+            },
+            {
+                "role": "verdict",
+                "content": "That's a beautiful way to put it. Swimming in the ocean truly does have a way of healing the soul. It's a wonderful way to unwind and recharge.",
+                "response_time": 93.77899646759033
+            },
+            {
+                "role": "judge",
+                "content": "Nature is best for calm.",
+                "response_time": 47.481693744659424
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely, there's something so calming and restorative about being in nature. Whether it's the ocean, a forest, or a peaceful park, being surrounded by the beauty of the natural world always helps me find a sense of tranquility and peace.",
+                "response_time": 136.59725427627563
+            },
+            {
+                "role": "judge",
+                "content": "It's like my heart sing.",
+                "response_time": 64.87595081329346
+            },
+            {
+                "role": "verdict",
+                "content": "I completely understand that feeling. When we connect with nature, especially somewhere as breathtaking as the ocean, it's as if our heart sings with joy and our soul is nourished. Those moments are truly priceless.",
+                "response_time": 118.56928825378418
+            },
+            {
+                "role": "judge",
+                "content": "Makes me feel so free.",
+                "response_time": 63.431880235672
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c17d42db0484c12242944"
+        },
+        "id": 17,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss [TOPIC]. What are your thoughts?",
+                "response_time": 16.914348363876343
+            },
+            {
+                "role": "judge",
+                "content": "Weather is geting really bad now.",
+                "response_time": 17.672595977783203
+            },
+            {
+                "role": "verdict",
+                "content": "Agreed, the weather has taken a turn for the worse. How has it impacted you?",
+                "response_time": 31.094799518585205
+            },
+            {
+                "role": "judge",
+                "content": "Traffic is reallly bad today.",
+                "response_time": 20.250290632247925
+            },
+            {
+                "role": "verdict",
+                "content": "I can imagine. Heavy rain often leads to congested roads. Is there an alternate route you can take?",
+                "response_time": 33.57900667190552
+            },
+            {
+                "role": "judge",
+                "content": "No, roads are all blocked.",
+                "response_time": 39.93818187713623
+            },
+            {
+                "role": "verdict",
+                "content": "That's unfortunate. I hope you're able to reach your destination safely despite the challenges.",
+                "response_time": 89.53239941596985
+            },
+            {
+                "role": "judge",
+                "content": "Thanks, I will be careful.",
+                "response_time": 48.8196907043457
+            },
+            {
+                "role": "verdict",
+                "content": "Good thinking. Safety first. Wishing you a smooth journey.",
+                "response_time": 63.14484119415283
+            },
+            {
+                "role": "judge",
+                "content": "Appriciate your kind words.",
+                "response_time": 35.789660692214966
+            },
+            {
+                "role": "verdict",
+                "content": "You're welcome. I'm here if you need anything else. Safe travels!",
+                "response_time": 61.959620237350464
+            },
+            {
+                "role": "judge",
+                "content": "Thanks alot, you're a lifesaver.",
+                "response_time": 35.473520040512085
+            },
+            {
+                "role": "verdict",
+                "content": "I'm glad I could help. Enjoy your trip! If you need further assistance, feel free to ask. Safe journey!",
+                "response_time": 69.75096487998962
+            },
+            {
+                "role": "judge",
+                "content": "Will defenitly ask if needed.",
+                "response_time": 41.4290771484375
+            },
+            {
+                "role": "verdict",
+                "content": "Great! Don't hesitate to reach out if you have any questions or need guidance. Have a wonderful trip!",
+                "response_time": 74.4795663356781
+            },
+            {
+                "role": "judge",
+                "content": "Thanks alot, you're a lifesaver.",
+                "response_time": 46.04125475883484
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c1b3a2db0484c12242945"
+        },
+        "id": 18,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 42.84491014480591
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks for asking!",
+                "response_time": 28.82271957397461
+            },
+            {
+                "role": "judge",
+                "content": "Glad to hear that, nice day!",
+                "response_time": 23.88618302345276
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, you too! Have a great day.",
+                "response_time": 21.395291566848755
+            },
+            {
+                "role": "judge",
+                "content": "You too, bye for now!",
+                "response_time": 31.005934476852417
+            },
+            {
+                "role": "verdict",
+                "content": "Bye, take care! See you later.",
+                "response_time": 21.02061915397644
+            },
+            {
+                "role": "judge",
+                "content": "Later, have nice evening!",
+                "response_time": 30.02883267402649
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, you too! Enjoy your evening.",
+                "response_time": 48.87913393974304
+            },
+            {
+                "role": "judge",
+                "content": "You too, have good sleep!",
+                "response_time": 28.575893878936768
+            },
+            {
+                "role": "verdict",
+                "content": "Same to you, sleep well. Goodnight!",
+                "response_time": 53.38494634628296
+            },
+            {
+                "role": "judge",
+                "content": "Night, sweet dreams for you!",
+                "response_time": 29.240066289901733
+            },
+            {
+                "role": "verdict",
+                "content": "Aww, thanks! Sweet dreams to you. Nighty night!",
+                "response_time": 50.95235824584961
+            },
+            {
+                "role": "judge",
+                "content": "You too, have nice day!",
+                "response_time": 32.13552951812744
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks! You too, nice day ahead!",
+                "response_time": 49.41534876823425
+            },
+            {
+                "role": "judge",
+                "content": "How was ur day today?",
+                "response_time": 30.423558235168457
+            },
+            {
+                "role": "verdict",
+                "content": "Day was good, thanks for asking! Yours?",
+                "response_time": 49.34743809700012
+            },
+            {
+                "role": "judge",
+                "content": "Its been good so far thank u!",
+                "response_time": 42.12123346328735
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c1deb2db0484c12242946"
+        },
+        "id": 19,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 14.42814302444458
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks for asking!",
+                "response_time": 14.343333005905151
+            },
+            {
+                "role": "judge",
+                "content": "Gud, wht r u up to?",
+                "response_time": 16.240740299224854
+            },
+            {
+                "role": "verdict",
+                "content": "Just chatting and enjoying the day. How about you?",
+                "response_time": 22.684035778045654
+            },
+            {
+                "role": "judge",
+                "content": "Its a nice day out.",
+                "response_time": 30.350994110107422
+            },
+            {
+                "role": "verdict",
+                "content": "That's great! Enjoy the sunshine!",
+                "response_time": 18.055906057357788
+            },
+            {
+                "role": "judge",
+                "content": "Sunshine is good for soul.",
+                "response_time": 31.03740358352661
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely, it lifts the spirits!",
+                "response_time": 46.06942343711853
+            },
+            {
+                "role": "judge",
+                "content": "Makes me feel happy today.",
+                "response_time": 26.02134108543396
+            },
+            {
+                "role": "verdict",
+                "content": "Wonderful! Sunshine does that to us.",
+                "response_time": 42.68658947944641
+            },
+            {
+                "role": "judge",
+                "content": "It's like a big hug.",
+                "response_time": 29.862030506134033
+            },
+            {
+                "role": "verdict",
+                "content": "Perfect description! Sunshine is indeed comforting.",
+                "response_time": 42.87298345565796
+            },
+            {
+                "role": "judge",
+                "content": "Makes me feel all warm.",
+                "response_time": 27.642797708511353
+            },
+            {
+                "role": "verdict",
+                "content": "Sunshine's warmth is truly soothing.",
+                "response_time": 42.34457349777222
+            },
+            {
+                "role": "judge",
+                "content": "It's like a big hug.",
+                "response_time": 27.89948010444641
+            },
+            {
+                "role": "verdict",
+                "content": "Sunshine's embrace is comforting.",
+                "response_time": 42.234171867370605
+            },
+            {
+                "role": "judge",
+                "content": "Makes me feel all happy.",
+                "response_time": 26.875455141067505
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c201b2db0484c12242947"
+        },
+        "id": 20,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss [TOPIC].",
+                "response_time": 57.59908676147461
+            },
+            {
+                "role": "judge",
+                "content": "How's the weathr today?",
+                "response_time": 52.31071925163269
+            },
+            {
+                "role": "verdict",
+                "content": "The weather is [WEATHER]. Enjoy your day!",
+                "response_time": 21.831581115722656
+            },
+            {
+                "role": "judge",
+                "content": "Thanks, I had nice walk.",
+                "response_time": 15.719179630279541
+            },
+            {
+                "role": "verdict",
+                "content": "Glad to hear it! Enjoy the rest of your day.",
+                "response_time": 23.853270769119263
+            },
+            {
+                "role": "judge",
+                "content": "I will, thnks for chatting.",
+                "response_time": 33.51068067550659
+            },
+            {
+                "role": "verdict",
+                "content": "You're welcome! Have a great day ahead.",
+                "response_time": 52.8985013961792
+            },
+            {
+                "role": "judge",
+                "content": "You too, bye for now.",
+                "response_time": 33.396363258361816
+            },
+            {
+                "role": "verdict",
+                "content": "Goodbye! Take care and stay safe.",
+                "response_time": 49.326175928115845
+            },
+            {
+                "role": "judge",
+                "content": "Thx, u too stay safe.",
+                "response_time": 31.311692714691162
+            },
+            {
+                "role": "verdict",
+                "content": "Will do. Thanks for the chat. Have a fantastic day!",
+                "response_time": 52.217644453048706
+            },
+            {
+                "role": "judge",
+                "content": "U welcome, have nice day.",
+                "response_time": 31.150983572006226
+            },
+            {
+                "role": "verdict",
+                "content": "Thank you, you too! Enjoy your day.",
+                "response_time": 49.994713306427
+            },
+            {
+                "role": "judge",
+                "content": "U too, bye for now.",
+                "response_time": 33.06620216369629
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, bye for now! Take care.",
+                "response_time": 48.58638548851013
+            },
+            {
+                "role": "judge",
+                "content": "U take care, talk l8r.",
+                "response_time": 41.26723623275757
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c22c42db0484c12242948"
+        },
+        "id": 21,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss the weather today.",
+                "response_time": 10.873371601104736
+            },
+            {
+                "role": "judge",
+                "content": "Weather is reallly bad today!",
+                "response_time": 14.3558828830719
+            },
+            {
+                "role": "verdict",
+                "content": "Yes, it's quite gloomy outside.",
+                "response_time": 19.65478515625
+            },
+            {
+                "role": "judge",
+                "content": "I dont like gloomy days!",
+                "response_time": 13.948388814926147
+            },
+            {
+                "role": "verdict",
+                "content": "Understandable. Do you prefer sunny days?",
+                "response_time": 19.622950077056885
+            },
+            {
+                "role": "judge",
+                "content": "Sunny days are way beter!",
+                "response_time": 32.25330662727356
+            },
+            {
+                "role": "verdict",
+                "content": "I agree, sunshine can lift the spirits.",
+                "response_time": 48.97482132911682
+            },
+            {
+                "role": "judge",
+                "content": "It makes me feel happy!",
+                "response_time": 29.311006546020508
+            },
+            {
+                "role": "verdict",
+                "content": "Great to hear you enjoy sunny days so much.",
+                "response_time": 48.03858017921448
+            },
+            {
+                "role": "judge",
+                "content": "It's my favourit thing ever!",
+                "response_time": 30.085490465164185
+            },
+            {
+                "role": "verdict",
+                "content": "That's wonderful, sunny weather can be very uplifting.",
+                "response_time": 48.05786180496216
+            },
+            {
+                "role": "judge",
+                "content": "It makes me feel so free!",
+                "response_time": 31.0722017288208
+            },
+            {
+                "role": "verdict",
+                "content": "I understand, there's something special about the sunshine.",
+                "response_time": 50.08847951889038
+            },
+            {
+                "role": "judge",
+                "content": "It's just the best feeling eva!",
+                "response_time": 32.46599626541138
+            },
+            {
+                "role": "verdict",
+                "content": "I'm glad you enjoy it so much. Enjoy the sunshine!",
+                "response_time": 54.93569350242615
+            },
+            {
+                "role": "judge",
+                "content": "It makes me happy every day!",
+                "response_time": 48.17567825317383
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c251f2db0484c12242949"
+        },
+        "id": 22,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss [TOPIC]. What are your thoughts?",
+                "response_time": 15.77813982963562
+            },
+            {
+                "role": "judge",
+                "content": "I like summer alot this year.",
+                "response_time": 17.838114500045776
+            },
+            {
+                "role": "verdict",
+                "content": "That's great! What do you enjoy most about summer?",
+                "response_time": 22.948319673538208
+            },
+            {
+                "role": "judge",
+                "content": "Beach is my favret place.",
+                "response_time": 16.01617980003357
+            },
+            {
+                "role": "verdict",
+                "content": "I love the beach too. What activities do you enjoy there?",
+                "response_time": 24.71333909034729
+            },
+            {
+                "role": "judge",
+                "content": "Swimmin and sunbathin is best.",
+                "response_time": 36.28092312812805
+            },
+            {
+                "role": "verdict",
+                "content": "Sounds perfect! Any favorite beach destinations?",
+                "response_time": 52.707276821136475
+            },
+            {
+                "role": "judge",
+                "content": "Bali is my dream destinaion.",
+                "response_time": 34.129268407821655
+            },
+            {
+                "role": "verdict",
+                "content": "Bali is beautiful. I'd love to visit someday. What makes it so special to you?",
+                "response_time": 63.13587236404419
+            },
+            {
+                "role": "judge",
+                "content": "Sunsets ther is just wow.",
+                "response_time": 36.188883543014526
+            },
+            {
+                "role": "verdict",
+                "content": "I've heard the sunsets are stunning. What other aspects of Bali appeal to you?",
+                "response_time": 65.95639395713806
+            },
+            {
+                "role": "judge",
+                "content": "Food ther is so delicius.",
+                "response_time": 40.342448234558105
+            },
+            {
+                "role": "verdict",
+                "content": "The cuisine sounds amazing. What are some of your favorite Balinese dishes?",
+                "response_time": 64.6055200099945
+            },
+            {
+                "role": "judge",
+                "content": "Nasi goreng is my favret.",
+                "response_time": 48.38793087005615
+            },
+            {
+                "role": "verdict",
+                "content": "Nasi goreng is a classic and delicious choice. Any other dishes you'd recommend?",
+                "response_time": 75.94676208496094
+            },
+            {
+                "role": "judge",
+                "content": "Gado gado is so tasty.",
+                "response_time": 38.22039723396301
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c28002db0484c1224294a"
+        },
+        "id": 23,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss [TOPIC]. What are your thoughts?",
+                "response_time": 15.80927586555481
+            },
+            {
+                "role": "judge",
+                "content": "I like summer its warm.",
+                "response_time": 15.438908576965332
+            },
+            {
+                "role": "verdict",
+                "content": "Summer is a great time to enjoy the warmth. Do you have any favorite summer activities?",
+                "response_time": 28.483540773391724
+            },
+            {
+                "role": "judge",
+                "content": "Goin to beach is best.",
+                "response_time": 18.239614486694336
+            },
+            {
+                "role": "verdict",
+                "content": "The beach is a fantastic place to be during summer. What do you enjoy most about beach visits?",
+                "response_time": 31.821483850479126
+            },
+            {
+                "role": "judge",
+                "content": "Swimmin in ocean is fun.",
+                "response_time": 38.60021996498108
+            },
+            {
+                "role": "verdict",
+                "content": "Swimming in the ocean is definitely a highlight of beach trips. Do you prefer swimming in the sea or in a pool?",
+                "response_time": 77.10192632675171
+            },
+            {
+                "role": "judge",
+                "content": "Sea is more relaxin.",
+                "response_time": 40.83749461174011
+            },
+            {
+                "role": "verdict",
+                "content": "The ocean definitely has a more relaxing and natural feel compared to pools. How often do you visit the beach?",
+                "response_time": 75.15364718437195
+            },
+            {
+                "role": "judge",
+                "content": "I go beach every summer.",
+                "response_time": 56.46027445793152
+            },
+            {
+                "role": "verdict",
+                "content": "That's great! Summer is the perfect time to enjoy the beach. Do you have any favorite beach activities?",
+                "response_time": 94.40734887123108
+            },
+            {
+                "role": "judge",
+                "content": "Swimmin is my fav thing.",
+                "response_time": 40.39843440055847
+            },
+            {
+                "role": "verdict",
+                "content": "Swimming is a fantastic way to enjoy the beach. Do you prefer swimming in the ocean or in a pool?",
+                "response_time": 75.28455686569214
+            },
+            {
+                "role": "judge",
+                "content": "Ocean swim is more relax.",
+                "response_time": 42.50947594642639
+            },
+            {
+                "role": "verdict",
+                "content": "I agree, swimming in the ocean can be very relaxing. What's your favorite type of ocean wave to swim in?",
+                "response_time": 77.42398524284363
+            },
+            {
+                "role": "judge",
+                "content": "Gentel waves are best for me.",
+                "response_time": 44.67925977706909
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c2b532db0484c1224294b"
+        },
+        "id": 24,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss the weather today.",
+                "response_time": 11.237961769104004
+            },
+            {
+                "role": "judge",
+                "content": "Weather is reallly bad today.",
+                "response_time": 14.551694393157959
+            },
+            {
+                "role": "verdict",
+                "content": "Yes, it's quite gloomy outside.",
+                "response_time": 19.587167978286743
+            },
+            {
+                "role": "judge",
+                "content": "Makes me wanna stay home.",
+                "response_time": 13.35202145576477
+            },
+            {
+                "role": "verdict",
+                "content": "Staying indoors is a good idea.",
+                "response_time": 17.022135019302368
+            },
+            {
+                "role": "judge",
+                "content": "We can play some games.",
+                "response_time": 30.653181076049805
+            },
+            {
+                "role": "verdict",
+                "content": "That sounds like fun. What game?",
+                "response_time": 66.72955751419067
+            },
+            {
+                "role": "judge",
+                "content": "We can play online poker.",
+                "response_time": 34.51544976234436
+            },
+            {
+                "role": "verdict",
+                "content": "Sure, I can play poker online. How many players?",
+                "response_time": 45.55378198623657
+            },
+            {
+                "role": "judge",
+                "content": "We can play 2 player game.",
+                "response_time": 30.022743940353394
+            },
+            {
+                "role": "verdict",
+                "content": "Alright, I'll join the 2 player poker game. Let's start.",
+                "response_time": 54.14997482299805
+            },
+            {
+                "role": "judge",
+                "content": "I deal the first 5 cards.",
+                "response_time": 33.42471194267273
+            },
+            {
+                "role": "verdict",
+                "content": "Okay, I'm ready for my cards.",
+                "response_time": 50.86559748649597
+            },
+            {
+                "role": "judge",
+                "content": "Here's your 5 cards now dude.",
+                "response_time": 33.7678108215332
+            },
+            {
+                "role": "verdict",
+                "content": "Great, thanks! I'll analyze my hand.",
+                "response_time": 51.55131697654724
+            },
+            {
+                "role": "judge",
+                "content": "You got a good chance wining.",
+                "response_time": 32.104912996292114
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c2dcd2db0484c1224294c"
+        },
+        "id": 25,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss [TOPIC]. What are your thoughts?",
+                "response_time": 15.966559648513794
+            },
+            {
+                "role": "judge",
+                "content": "I like playin with my dog.",
+                "response_time": 17.715968370437622
+            },
+            {
+                "role": "verdict",
+                "content": "That sounds wonderful! Dogs make great companions. What breed is your dog?",
+                "response_time": 27.4579656124115
+            },
+            {
+                "role": "judge",
+                "content": "My dog is a golden retriuvier.",
+                "response_time": 20.091882944107056
+            },
+            {
+                "role": "verdict",
+                "content": "Golden Retrievers are lovely dogs. They're known for being friendly and intelligent. Do you have any favorite activities to do together?",
+                "response_time": 39.25939679145813
+            },
+            {
+                "role": "judge",
+                "content": "We like goin to the park.",
+                "response_time": 54.79348587989807
+            },
+            {
+                "role": "verdict",
+                "content": "The park is a great place for dogs to run and play. What do you enjoy most about your time at the park with your dog?",
+                "response_time": 96.18424820899963
+            },
+            {
+                "role": "judge",
+                "content": "I like seein them play fetch.",
+                "response_time": 47.83386516571045
+            },
+            {
+                "role": "verdict",
+                "content": "Fetch is a classic game that dogs really seem to enjoy. It's fun to watch them run and jump to catch the ball or toy. Do you play other games together too?",
+                "response_time": 97.71164345741272
+            },
+            {
+                "role": "judge",
+                "content": "We play tug of war alot.",
+                "response_time": 54.25180006027222
+            },
+            {
+                "role": "verdict",
+                "content": "Tug of war is another great game for dogs. It's a good way for them to exercise and bond with their human. What do you think is the key to having a strong, positive relationship with your dog?",
+                "response_time": 110.30046057701111
+            },
+            {
+                "role": "judge",
+                "content": "Consistancy is key to ther bond.",
+                "response_time": 59.90122723579407
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely, consistency in training, routines, and affection helps build a strong, trusting bond with your dog. It's also important to provide plenty of love, attention, and enrichment activities. What are some of your dog's favorite activities besides fetch and tug of war?",
+                "response_time": 149.59664273262024
+            },
+            {
+                "role": "judge",
+                "content": "He love goin on long walks.",
+                "response_time": 73.73965287208557
+            },
+            {
+                "role": "verdict",
+                "content": "Long walks are a great way for dogs to explore their surroundings, get exercise, and bond with their human. Where do you usually take your dog on these walks? Do you have a favorite route or park you both enjoy?",
+                "response_time": 132.01338720321655
+            },
+            {
+                "role": "judge",
+                "content": "We go to the local park.",
+                "response_time": 67.67598676681519
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c32332db0484c1224294d"
+        },
+        "id": 26,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss the weather today.",
+                "response_time": 11.025610446929932
+            },
+            {
+                "role": "judge",
+                "content": "Weather is reallly bad today.",
+                "response_time": 15.425588369369507
+            },
+            {
+                "role": "verdict",
+                "content": "I'm sorry to hear that. How has it affected you?",
+                "response_time": 24.642500638961792
+            },
+            {
+                "role": "judge",
+                "content": "Its causin alot of traffic.",
+                "response_time": 15.969405889511108
+            },
+            {
+                "role": "verdict",
+                "content": "That's quite inconvenient. I hope things improve soon.",
+                "response_time": 23.120809316635132
+            },
+            {
+                "role": "judge",
+                "content": "Me too, its gettin frustratin.",
+                "response_time": 35.61187505722046
+            },
+            {
+                "role": "verdict",
+                "content": "I understand. Bad weather can be very frustrating.",
+                "response_time": 75.81712532043457
+            },
+            {
+                "role": "judge",
+                "content": "Its been rainin nonstop lately.",
+                "response_time": 42.91825747489929
+            },
+            {
+                "role": "verdict",
+                "content": "I've noticed that too. It's been quite a lot of rain.",
+                "response_time": 55.39478063583374
+            },
+            {
+                "role": "judge",
+                "content": "Makes evrything feel so gloomy.",
+                "response_time": 35.73680663108826
+            },
+            {
+                "role": "verdict",
+                "content": "Yes, the continuous rain can make everything seem gloomy.",
+                "response_time": 55.31238293647766
+            },
+            {
+                "role": "judge",
+                "content": "We need some sun now plz.",
+                "response_time": 34.84974265098572
+            },
+            {
+                "role": "verdict",
+                "content": "I agree, some sunshine would definitely lift the mood.",
+                "response_time": 57.10116243362427
+            },
+            {
+                "role": "judge",
+                "content": "It's been weeks now, so frustrating.",
+                "response_time": 34.73735761642456
+            },
+            {
+                "role": "verdict",
+                "content": "I understand your frustration, it's been an unusually long rainy spell.",
+                "response_time": 56.571778535842896
+            },
+            {
+                "role": "judge",
+                "content": "I'm so over this gloomy weather.",
+                "response_time": 35.63208484649658
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c35252db0484c1224294e"
+        },
+        "id": 27,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss [TOPIC]. What are your thoughts?",
+                "response_time": 16.02655029296875
+            },
+            {
+                "role": "judge",
+                "content": "I like watchin footboll on sundays.",
+                "response_time": 20.11819338798523
+            },
+            {
+                "role": "verdict",
+                "content": "That's great! Do you have a favorite team or league?",
+                "response_time": 25.837562799453735
+            },
+            {
+                "role": "judge",
+                "content": "Premier leauge is my favret.",
+                "response_time": 31.109846353530884
+            },
+            {
+                "role": "verdict",
+                "content": "Which team do you support in the Premier League?",
+                "response_time": 40.15587878227234
+            },
+            {
+                "role": "judge",
+                "content": "I like supportin Manchester United.",
+                "response_time": 33.80929160118103
+            },
+            {
+                "role": "verdict",
+                "content": "That's a popular choice! What do you enjoy most about watching Manchester United play?",
+                "response_time": 62.39349412918091
+            },
+            {
+                "role": "judge",
+                "content": "I love seein them score goals.",
+                "response_time": 34.75235152244568
+            },
+            {
+                "role": "verdict",
+                "content": "Goal scoring is exciting. Do you have a favorite Manchester United player?",
+                "response_time": 57.52881669998169
+            },
+            {
+                "role": "judge",
+                "content": "Cristiano Ronaldo is my hero.",
+                "response_time": 36.70509624481201
+            },
+            {
+                "role": "verdict",
+                "content": "Ronaldo is an amazing player. How many goals has he scored for United so far?",
+                "response_time": 65.02279734611511
+            },
+            {
+                "role": "judge",
+                "content": "He scored alot of goals.",
+                "response_time": 35.79539775848389
+            },
+            {
+                "role": "verdict",
+                "content": "Ronaldo has scored over 100 goals for United. What's your favorite goal he's scored for the club?",
+                "response_time": 69.79158639907837
+            },
+            {
+                "role": "judge",
+                "content": "That over head goal was sick.",
+                "response_time": 40.45335674285889
+            },
+            {
+                "role": "verdict",
+                "content": "The overhead kick vs Manchester City was incredible. Who did United sign to replace Ronaldo?",
+                "response_time": 67.91260886192322
+            },
+            {
+                "role": "judge",
+                "content": "They got Martial and Lingard.",
+                "response_time": 39.11120939254761
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c38122db0484c1224294f"
+        },
+        "id": 28,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello! Let's discuss [TOPIC].",
+                "response_time": 10.618338584899902
+            },
+            {
+                "role": "judge",
+                "content": "Weather is geting very hot now.",
+                "response_time": 23.442774534225464
+            },
+            {
+                "role": "verdict",
+                "content": "Yes, the heat is intense. Staying hydrated is key.",
+                "response_time": 24.65401315689087
+            },
+            {
+                "role": "judge",
+                "content": "We need alot of water drink.",
+                "response_time": 16.016062259674072
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely. Water is essential, especially in hot weather.",
+                "response_time": 22.100752353668213
+            },
+            {
+                "role": "judge",
+                "content": "I cant even think clearly.",
+                "response_time": 31.417845249176025
+            },
+            {
+                "role": "verdict",
+                "content": "The heat can be overwhelming. Take breaks and stay cool.",
+                "response_time": 53.4972870349884
+            },
+            {
+                "role": "judge",
+                "content": "Thats a good idear, thank you.",
+                "response_time": 33.93977355957031
+            },
+            {
+                "role": "verdict",
+                "content": "You're welcome! Remember, it's okay to take care of yourself.",
+                "response_time": 56.26066470146179
+            },
+            {
+                "role": "judge",
+                "content": "Self care is importint for me.",
+                "response_time": 34.82634782791138
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely, it's crucial for our overall well-being. How are you feeling now?",
+                "response_time": 60.46067667007446
+            },
+            {
+                "role": "judge",
+                "content": "Im feelin a bit beter now.",
+                "response_time": 40.18301010131836
+            },
+            {
+                "role": "verdict",
+                "content": "That's great to hear! Remember, small steps can lead to big changes. Keep up the good work!",
+                "response_time": 71.0183470249176
+            },
+            {
+                "role": "judge",
+                "content": "Thanks, motivates me to do more.",
+                "response_time": 58.020365715026855
+            },
+            {
+                "role": "verdict",
+                "content": "You're welcome! Remember, you've got this. Keep pushing forward and don't hesitate to reach out if you need support.",
+                "response_time": 95.98680472373962
+            },
+            {
+                "role": "judge",
+                "content": "Appreciate the supprt, means alot to me.",
+                "response_time": 49.24634408950806
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c3b232db0484c12242950"
+        },
+        "id": 29,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how ar you today?",
+                "response_time": 43.27602219581604
+            },
+            {
+                "role": "verdict",
+                "content": "I'm doing well, thanks for asking!",
+                "response_time": 31.50385546684265
+            },
+            {
+                "role": "judge",
+                "content": "Glad to hear thats good!",
+                "response_time": 14.693813562393188
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, it's great to connect!",
+                "response_time": 18.677977561950684
+            },
+            {
+                "role": "judge",
+                "content": "Yea, its been a while!",
+                "response_time": 29.531405210494995
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely, it's been too long!",
+                "response_time": 19.607255220413208
+            },
+            {
+                "role": "judge",
+                "content": "How was ur summer vacation?",
+                "response_time": 28.03121328353882
+            },
+            {
+                "role": "verdict",
+                "content": "Amazing, thanks for asking!",
+                "response_time": 41.50262093544006
+            },
+            {
+                "role": "judge",
+                "content": "We should catch up soon then!",
+                "response_time": 27.32523775100708
+            },
+            {
+                "role": "verdict",
+                "content": "Definitely, let's plan something!",
+                "response_time": 42.05020570755005
+            },
+            {
+                "role": "judge",
+                "content": "I'm free this weekend maybe?",
+                "response_time": 27.17788028717041
+            },
+            {
+                "role": "verdict",
+                "content": "Sounds perfect, let me know!",
+                "response_time": 41.243417501449585
+            },
+            {
+                "role": "judge",
+                "content": "I'll send you a msg!",
+                "response_time": 40.54068875312805
+            },
+            {
+                "role": "verdict",
+                "content": "Looking forward to it!",
+                "response_time": 54.469245195388794
+            },
+            {
+                "role": "judge",
+                "content": "We can plan somethin!",
+                "response_time": 27.10738706588745
+            },
+            {
+                "role": "verdict",
+                "content": "Great idea, let's do it!",
+                "response_time": 41.736204385757446
+            },
+            {
+                "role": "judge",
+                "content": "I was thinkin we go!",
+                "response_time": 26.194872617721558
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675c3d882db0484c12242951"
+        },
+        "id": 30,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi how r u today?",
+                "response_time": 14.390022039413452
+            },
+            {
+                "role": "verdict",
+                "content": "Hey, I'm doing well, thanks for asking!",
+                "response_time": 17.616854906082153
+            },
+            {
+                "role": "judge",
+                "content": "Gud to hear thats grate news!",
+                "response_time": 15.563942909240723
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks, it's great to be feeling good!",
+                "response_time": 20.39101481437683
+            },
+            {
+                "role": "judge",
+                "content": "Yea me too, its been crazy week!",
+                "response_time": 32.74921798706055
+            },
+            {
+                "role": "verdict",
+                "content": "I can imagine. How has it been?",
+                "response_time": 21.57711434364319
+            },
+            {
+                "role": "judge",
+                "content": "Its been pretty stressful, to be honest.",
+                "response_time": 33.501428842544556
+            },
+            {
+                "role": "verdict",
+                "content": "Tough times don't last. Better days ahead.",
+                "response_time": 52.00983023643494
+            },
+            {
+                "role": "judge",
+                "content": "You always say the right thing!",
+                "response_time": 33.14642119407654
+            },
+            {
+                "role": "verdict",
+                "content": "Thanks! Remember, you're not alone.",
+                "response_time": 49.28296422958374
+            },
+            {
+                "role": "judge",
+                "content": "We're in dis together, rite?",
+                "response_time": 32.96960687637329
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely, we're in this together.",
+                "response_time": 49.2578809261322
+            },
+            {
+                "role": "judge",
+                "content": "That's what friends r for!",
+                "response_time": 29.925861835479736
+            },
+            {
+                "role": "verdict",
+                "content": "True friendship gets us through tough times.",
+                "response_time": 74.87431216239929
+            },
+            {
+                "role": "judge",
+                "content": "Tough times make us stronger.",
+                "response_time": 36.658411741256714
+            },
+            {
+                "role": "verdict",
+                "content": "Challenges help us grow and learn.",
+                "response_time": 48.239582538604736
+            },
+            {
+                "role": "judge",
+                "content": "We learn alot from mistakes.",
+                "response_time": 28.33501935005188
+            },
+            {
+                "role": "verdict",
+                "content": "Mistakes are valuable learning opportunities.",
+                "response_time": 50.7574782371521
+            }
+        ],
+        "result": "AI"
+    }
+]

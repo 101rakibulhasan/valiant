@@ -85,11 +85,11 @@ with open("Dataset & Code/models/random_forest/best_rf_all_ensamble+smote_models
 # Output:
 # After SMOTE
 """
-Accuracy: 0.9602272727272727
-F1 Score: 0.9601642577682931
-Precision: 0.9631578947368421
-Recall: 0.9602272727272727
+Accuracy: 0.8833333333333333
+F1 Score: 0.8825174825174824
+Precision: 0.8942857142857144
+Recall: 0.8833333333333333
 Confusion Matrix:
- [[88  0]
- [ 7 81]]
+ [[24  6]
+ [ 1 29]]
 """

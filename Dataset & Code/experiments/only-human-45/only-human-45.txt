@@ -1,0 +1,84 @@
+Test dataset only contained 45 Human data
+Human - Rakib (10) (Person used in Training), Abid (25) (Person used in Training), Arup (10)  (Person used in Training)
+
+--all_algo_ensemble:
+Accuracy: 0.8666666666666667
+F1 Score: 0.9285714285714286
+Precision: 1.0
+Recall: 0.8666666666666667
+Confusion Matrix:
+ [[39  6]
+ [ 0  0]]
+
+--best-dt-all-models:
+Accuracy: 0.8222222222222222
+F1 Score: 0.9024390243902439
+Precision: 1.0
+Recall: 0.8222222222222222
+Confusion Matrix:
+ [[37  8]
+ [ 0  0]]
+
+--best-knn-all-models:
+Accuracy: 0.8
+F1 Score: 0.8888888888888888
+Precision: 1.0
+Recall: 0.8
+Confusion Matrix:
+ [[36  9]
+ [ 0  0]]
+
+--best-lightbgm-all-models:
+Accuracy: 0.8666666666666667
+F1 Score: 0.9285714285714286
+Precision: 1.0
+Recall: 0.8666666666666667
+Confusion Matrix:
+ [[39  6]
+ [ 0  0]]
+
+--best-logistic-regression-all-models:
+Accuracy: 0.8666666666666667
+F1 Score: 0.9285714285714286
+Precision: 1.0
+Recall: 0.8666666666666667
+Confusion Matrix:
+ [[39  6]
+ [ 0  0]]
+
+--best-naive-bayes-all-models:
+Accuracy: 0.8444444444444444
+F1 Score: 0.9156626506024097
+Precision: 1.0
+Recall: 0.8444444444444444
+Confusion Matrix:
+ [[38  7]
+ [ 0  0]]
+
+--best-rf-all-models:
+Accuracy: 0.8222222222222222
+F1 Score: 0.9024390243902439
+Precision: 1.0
+Recall: 0.8222222222222222
+Confusion Matrix:
+ [[37  8]
+ [ 0  0]]
+
+--best-svm-all-models:
+Accuracy: 0.6444444444444445
+F1 Score: 0.7837837837837837
+Precision: 1.0
+Recall: 0.6444444444444445
+Confusion Matrix:
+ [[29 16]
+ [ 0  0]]
+
+
+--best-xgboost-all-models:
+Accuracy: 0.8444444444444444
+F1 Score: 0.9156626506024097
+Precision: 1.0
+Recall: 0.8444444444444444
+Confusion Matrix:
+ [[38  7]
+ [ 0  0]]

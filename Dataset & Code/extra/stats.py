@@ -98,11 +98,17 @@ with open('Dataset & Code/dataset/conversation-collection-senti-all.json') as f:
 print("\n\n-- TEST STATS--")
 with open('Dataset & Code/dataset/1. raw/ai-ai-collection-test.json') as f:
     aihuman = json.load(f)
-    print(f"Raw AI-AI Length: {len(aiai)}")
+    print(f"Test Raw AI-AI Length: {len(aihuman)}")
 with open('Dataset & Code/dataset/1. raw/ai-human-collection-test.json') as f:
     aihuman = json.load(f)
     print(f"Raw AI-Human Length: {len(aihuman)}")
+with open('Dataset & Code/dataset/5.1 featured/ffus-ai-ai-collection-senti-test.json') as f:
+    aiai = json.load(f)
+    print(f"Featured AI-AI Length: {len(aiai)}")
+with open('Dataset & Code/dataset/5.1 featured/ffus-ai-human-collection-senti-test.json') as f:
+    aihuman = json.load(f)
+    print(f"Featured AI-Human Length: {len(aihuman)}")
 
 with open('Dataset & Code/dataset/conversation-collection-senti-test.json') as f:
     uaihuman = json.load(f)
-    print(f"Total conversation test length (SMOTE): {len(uaihuman)}")
+    print(f"Total conversation test length: {len(uaihuman)}")

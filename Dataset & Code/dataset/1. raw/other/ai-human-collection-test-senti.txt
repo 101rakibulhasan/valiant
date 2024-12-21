@@ -1,0 +1,26 @@
+DT:
+Accuracy: 0.7333333333333333
+F1 Score: 0.8461538461538461
+Precision: 1.0
+Recall: 0.7333333333333333
+Confusion Matrix:
+ [[22  8]
+ [ 0  0]]
+
+RF:
+Accuracy: 0.8
+F1 Score: 0.8888888888888888
+Precision: 1.0
+Recall: 0.8
+Confusion Matrix:
+ [[24  6]
+ [ 0  0]]
+
+SVM:
+Accuracy: 0.6
+F1 Score: 0.75
+Precision: 1.0
+Recall: 0.6
+Confusion Matrix:
+ [[18 12]
+ [ 0  0]]

@@ -1,0 +1,22 @@
+Experiment About:
+AI LLM Models: 
+Human Data and Person Name: 
+
+--all_algo_ensemble:
+
+--best-dt-all-models:
+
+--best-knn-all-models:
+
+--best-lightbgm-all-models:
+
+--best-logistic-regression-all-models:
+
+--best-naive-bayes-all-models:
+
+--best-rf-all-models:
+
+--best-svm-all-models:
+
+--best-xgboost-all-models:
+

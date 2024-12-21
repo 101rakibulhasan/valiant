@@ -85,11 +85,11 @@ with open("Dataset & Code/models/svm/best_svm_all_ensamble+smote_models.pkl", "w
 
 # After SMOTE
 """
-Accuracy: 0.7784090909090909
-F1 Score: 0.7692850660482001
-Precision: 0.8307255714066575
-Recall: 0.7784090909090909
+Accuracy: 0.8
+F1 Score: 0.7916666666666666
+Precision: 0.8571428571428572
+Recall: 0.8
 Confusion Matrix:
- [[51 37]
- [ 2 86]]
+ [[18 12]
+ [ 0 30]]
 """

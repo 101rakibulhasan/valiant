@@ -1,0 +1,1397 @@
+[
+    {
+        "_id": {
+            "$oid": "675d7a39e9a4651cbb35afd1"
+        },
+        "id": 1,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 39.33622121810913
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks!",
+                "response_time": 23.377899885177612
+            },
+            {
+                "role": "judge",
+                "content": "Gud, wht r u up?",
+                "response_time": 12.673412322998047
+            },
+            {
+                "role": "verdict",
+                "content": "Just chatting, how about you?",
+                "response_time": 13.596653938293457
+            },
+            {
+                "role": "judge",
+                "content": "Not much, just relaxin now",
+                "response_time": 24.18045949935913
+            },
+            {
+                "role": "verdict",
+                "content": "Me too, relaxing sounds nice.",
+                "response_time": 11.85335898399353
+            },
+            {
+                "role": "judge",
+                "content": "Its so calmin dont u think?",
+                "response_time": 25.67797303199768
+            },
+            {
+                "role": "verdict",
+                "content": "Yes, very calming indeed.",
+                "response_time": 31.126951217651367
+            },
+            {
+                "role": "judge",
+                "content": "I no, right? Its lovely.",
+                "response_time": 24.86070728302002
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely, it's so lovely.",
+                "response_time": 31.451844215393066
+            },
+            {
+                "role": "judge",
+                "content": "Makes me feel happy.",
+                "response_time": 24.24788999557495
+            },
+            {
+                "role": "verdict",
+                "content": "Me too, feels great.",
+                "response_time": 29.173140048980713
+            },
+            {
+                "role": "judge",
+                "content": "We should go out.",
+                "response_time": 22.41017985343933
+            },
+            {
+                "role": "verdict",
+                "content": "Good idea, when?",
+                "response_time": 27.416698455810547
+            },
+            {
+                "role": "judge",
+                "content": "How about this weekend?",
+                "response_time": 21.01369071006775
+            },
+            {
+                "role": "verdict",
+                "content": "Sounds perfect, excited!",
+                "response_time": 25.353020191192627
+            },
+            {
+                "role": "judge",
+                "content": "Me too, cant w8!",
+                "response_time": 20.989428758621216
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675d7be0e9a4651cbb35afd2"
+        },
+        "id": 2,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello. How are you today?",
+                "response_time": 23.109130859375
+            },
+            {
+                "role": "judge",
+                "content": "Im doin good thx how r u?",
+                "response_time": 40.07447910308838
+            },
+            {
+                "role": "verdict",
+                "content": "I'm doing well, thanks.",
+                "response_time": 14.079638242721558
+            },
+            {
+                "role": "judge",
+                "content": "Just had best cofee ever today!",
+                "response_time": 12.45860481262207
+            },
+            {
+                "role": "verdict",
+                "content": "That's great! What kind of coffee?",
+                "response_time": 14.631457090377808
+            },
+            {
+                "role": "judge",
+                "content": "Its a latte with alot foam!",
+                "response_time": 27.709728717803955
+            },
+            {
+                "role": "verdict",
+                "content": "Foam adds a nice touch. Enjoyed your latte?",
+                "response_time": 38.806594371795654
+            },
+            {
+                "role": "judge",
+                "content": "Its absolutly the best coffee ever!",
+                "response_time": 28.503756761550903
+            },
+            {
+                "role": "verdict",
+                "content": "Glad you love it so much!",
+                "response_time": 37.67610740661621
+            },
+            {
+                "role": "judge",
+                "content": "I cant get enuf of it!",
+                "response_time": 27.962669610977173
+            },
+            {
+                "role": "verdict",
+                "content": "That's great, coffee can be amazing!",
+                "response_time": 36.66736102104187
+            },
+            {
+                "role": "judge",
+                "content": "I know rite its amazing!",
+                "response_time": 25.863157272338867
+            },
+            {
+                "role": "verdict",
+                "content": "Totally agree, it's delicious!",
+                "response_time": 33.40093421936035
+            },
+            {
+                "role": "judge",
+                "content": "I hav it every mornin!",
+                "response_time": 26.753076553344727
+            },
+            {
+                "role": "verdict",
+                "content": "Morning coffee, a perfect start!",
+                "response_time": 33.08803105354309
+            },
+            {
+                "role": "judge",
+                "content": "Its my favrit thing eva!",
+                "response_time": 26.344857454299927
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675d7dc8e9a4651cbb35afd3"
+        },
+        "id": 3,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello. How are you today?",
+                "response_time": 6.504537582397461
+            },
+            {
+                "role": "judge",
+                "content": "im doin good thx how r u?",
+                "response_time": 13.728469610214233
+            },
+            {
+                "role": "verdict",
+                "content": "I'm doing well too. What's new?",
+                "response_time": 16.05951452255249
+            },
+            {
+                "role": "judge",
+                "content": "not much just watchin movies",
+                "response_time": 12.613454341888428
+            },
+            {
+                "role": "verdict",
+                "content": "That sounds relaxing. Any good movies lately?",
+                "response_time": 13.886533737182617
+            },
+            {
+                "role": "judge",
+                "content": "seen avengers endgame its awsum",
+                "response_time": 27.575689554214478
+            },
+            {
+                "role": "verdict",
+                "content": "Great choice! Action-packed and thrilling.",
+                "response_time": 36.74178862571716
+            },
+            {
+                "role": "judge",
+                "content": "yeah it was so exsiting",
+                "response_time": 24.715744018554688
+            },
+            {
+                "role": "verdict",
+                "content": "I agree, it had a lot of excitement.",
+                "response_time": 33.52966904640198
+            },
+            {
+                "role": "judge",
+                "content": "i cant w8 for next one",
+                "response_time": 26.25036358833313
+            },
+            {
+                "role": "verdict",
+                "content": "Me too, they promised another soon.",
+                "response_time": 33.04461860656738
+            },
+            {
+                "role": "judge",
+                "content": "i hope its gonna be better",
+                "response_time": 26.676947116851807
+            },
+            {
+                "role": "verdict",
+                "content": "I hope so too, it was great last time.",
+                "response_time": 34.2961368560791
+            },
+            {
+                "role": "judge",
+                "content": "yeah me and my friend loved it",
+                "response_time": 25.990905046463013
+            },
+            {
+                "role": "verdict",
+                "content": "That's awesome, what did you think of it?",
+                "response_time": 37.87529468536377
+            },
+            {
+                "role": "judge",
+                "content": "it was really fun and cool",
+                "response_time": 25.440395832061768
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675d7f7fe9a4651cbb35afd4"
+        },
+        "id": 4,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 37.171578884124756
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks!",
+                "response_time": 19.79162096977234
+            },
+            {
+                "role": "judge",
+                "content": "Gud, wht r u upto?",
+                "response_time": 14.121772527694702
+            },
+            {
+                "role": "verdict",
+                "content": "Just chatting online.",
+                "response_time": 11.509285688400269
+            },
+            {
+                "role": "judge",
+                "content": "Me too, its so boring",
+                "response_time": 23.07192301750183
+            },
+            {
+                "role": "verdict",
+                "content": "Agreed, need something fun!",
+                "response_time": 11.793137311935425
+            },
+            {
+                "role": "judge",
+                "content": "lets play some games online",
+                "response_time": 24.835869312286377
+            },
+            {
+                "role": "verdict",
+                "content": "Great idea, which game?",
+                "response_time": 29.85228943824768
+            },
+            {
+                "role": "judge",
+                "content": "How about fifa online?",
+                "response_time": 21.09959602355957
+            },
+            {
+                "role": "verdict",
+                "content": "Good choice, fun to play!",
+                "response_time": 28.614070892333984
+            },
+            {
+                "role": "judge",
+                "content": "I love fifa online so much!",
+                "response_time": 23.15443515777588
+            },
+            {
+                "role": "verdict",
+                "content": "Me too, it's addictive!",
+                "response_time": 29.85967254638672
+            },
+            {
+                "role": "judge",
+                "content": "I no stop playing it!",
+                "response_time": 23.82900881767273
+            },
+            {
+                "role": "verdict",
+                "content": "I get it, it's really engaging!",
+                "response_time": 37.209017753601074
+            },
+            {
+                "role": "judge",
+                "content": "I play it all day!",
+                "response_time": 24.730070114135742
+            },
+            {
+                "role": "verdict",
+                "content": "That's a lot of gaming!",
+                "response_time": 30.71073603630066
+            },
+            {
+                "role": "judge",
+                "content": "Gaming is my favret thing!",
+                "response_time": 24.256611347198486
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675d812de9a4651cbb35afd5"
+        },
+        "id": 5,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello. How are you today?",
+                "response_time": 23.256541967391968
+            },
+            {
+                "role": "judge",
+                "content": "im doin good thx how r u?",
+                "response_time": 40.883557081222534
+            },
+            {
+                "role": "verdict",
+                "content": "I'm doing well too. What's new?",
+                "response_time": 15.53602409362793
+            },
+            {
+                "role": "judge",
+                "content": "not much just wached movie last nite",
+                "response_time": 14.538440227508545
+            },
+            {
+                "role": "verdict",
+                "content": "That sounds relaxing. What movie was it?",
+                "response_time": 15.225082874298096
+            },
+            {
+                "role": "judge",
+                "content": "it was avengers endgame was awsum",
+                "response_time": 29.39977526664734
+            },
+            {
+                "role": "verdict",
+                "content": "Great choice! Loved that movie too.",
+                "response_time": 37.265257120132446
+            },
+            {
+                "role": "judge",
+                "content": "yeh it was so epic right?",
+                "response_time": 27.702014684677124
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely, very epic!",
+                "response_time": 32.95782279968262
+            },
+            {
+                "role": "judge",
+                "content": "i no rite? still cant get over it",
+                "response_time": 37.96526837348938
+            },
+            {
+                "role": "verdict",
+                "content": "I get what you mean, it was huge!",
+                "response_time": 34.85980176925659
+            },
+            {
+                "role": "judge",
+                "content": "hugest thing i ever saw dude!",
+                "response_time": 27.056112051010132
+            },
+            {
+                "role": "verdict",
+                "content": "That's a strong impression, for sure!",
+                "response_time": 34.93324255943298
+            },
+            {
+                "role": "judge",
+                "content": "still gives me chills every time",
+                "response_time": 28.035253524780273
+            },
+            {
+                "role": "verdict",
+                "content": "It leaves quite an impact, doesn't it?",
+                "response_time": 43.619818687438965
+            },
+            {
+                "role": "judge",
+                "content": "definately makes me think alot",
+                "response_time": 26.59078598022461
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675d832ee9a4651cbb35afd6"
+        },
+        "id": 6,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 37.80428409576416
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks!",
+                "response_time": 19.476486682891846
+            },
+            {
+                "role": "judge",
+                "content": "Gud, wht r u up?",
+                "response_time": 11.969420909881592
+            },
+            {
+                "role": "verdict",
+                "content": "Just chatting, how about you?",
+                "response_time": 13.706396102905273
+            },
+            {
+                "role": "judge",
+                "content": "Not much, just watchin movies.",
+                "response_time": 24.666957139968872
+            },
+            {
+                "role": "verdict",
+                "content": "That sounds relaxing. Enjoy!",
+                "response_time": 12.66171407699585
+            },
+            {
+                "role": "judge",
+                "content": "Yeah, its pretty cool.",
+                "response_time": 24.09565544128418
+            },
+            {
+                "role": "verdict",
+                "content": "Great! Glad you're enjoying it.",
+                "response_time": 32.37467885017395
+            },
+            {
+                "role": "judge",
+                "content": "Its really good so far.",
+                "response_time": 22.62913465499878
+            },
+            {
+                "role": "verdict",
+                "content": "Glad to hear you're liking it!",
+                "response_time": 31.473402976989746
+            },
+            {
+                "role": "judge",
+                "content": "Makes me feel happy today.",
+                "response_time": 24.338813304901123
+            },
+            {
+                "role": "verdict",
+                "content": "I'm glad it lifts your spirits!",
+                "response_time": 34.1317663192749
+            },
+            {
+                "role": "judge",
+                "content": "Its really good for my mood.",
+                "response_time": 24.85393524169922
+            },
+            {
+                "role": "verdict",
+                "content": "Glad it helps improve your mood!",
+                "response_time": 31.524221420288086
+            },
+            {
+                "role": "judge",
+                "content": "Makes me feel more relaxed.",
+                "response_time": 23.496447324752808
+            },
+            {
+                "role": "verdict",
+                "content": "Great, glad it helps you relax!",
+                "response_time": 31.995296001434326
+            },
+            {
+                "role": "judge",
+                "content": "Its really good for my mind.",
+                "response_time": 27.156643629074097
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675d84e9e9a4651cbb35afd7"
+        },
+        "id": 7,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 13.380275964736938
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks!",
+                "response_time": 9.159062385559082
+            },
+            {
+                "role": "judge",
+                "content": "Gud, wht r u up 2?",
+                "response_time": 14.378807067871094
+            },
+            {
+                "role": "verdict",
+                "content": "Just chatting, how about you?",
+                "response_time": 14.11079740524292
+            },
+            {
+                "role": "judge",
+                "content": "Not much, just watchin tv",
+                "response_time": 24.713289976119995
+            },
+            {
+                "role": "verdict",
+                "content": "TV shows are great, favorite one?",
+                "response_time": 13.003862619400024
+            },
+            {
+                "role": "judge",
+                "content": "Game of thrones is best!",
+                "response_time": 26.39664101600647
+            },
+            {
+                "role": "verdict",
+                "content": "Agreed, epic storyline!",
+                "response_time": 37.71280765533447
+            },
+            {
+                "role": "judge",
+                "content": "I no lyk the ending tho",
+                "response_time": 24.623899936676025
+            },
+            {
+                "role": "verdict",
+                "content": "Me too, too anticlimactic.",
+                "response_time": 31.118820428848267
+            },
+            {
+                "role": "judge",
+                "content": "It wasnt fair to da fans",
+                "response_time": 23.941637992858887
+            },
+            {
+                "role": "verdict",
+                "content": "True, it felt rushed.",
+                "response_time": 31.19407081604004
+            },
+            {
+                "role": "judge",
+                "content": "I know, it wasnt well done",
+                "response_time": 24.624661445617676
+            },
+            {
+                "role": "verdict",
+                "content": "Agreed, let's discuss more.",
+                "response_time": 31.663905382156372
+            },
+            {
+                "role": "judge",
+                "content": "What do u think happened?",
+                "response_time": 24.357276678085327
+            },
+            {
+                "role": "verdict",
+                "content": "Quality issues, time constraints.",
+                "response_time": 29.4899480342865
+            },
+            {
+                "role": "judge",
+                "content": "We should hav done better.",
+                "response_time": 22.513808965682983
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675d8694e9a4651cbb35afd8"
+        },
+        "id": 8,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 12.715055227279663
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks!",
+                "response_time": 9.009909868240356
+            },
+            {
+                "role": "judge",
+                "content": "Gud, wht r u up 2?",
+                "response_time": 13.583746671676636
+            },
+            {
+                "role": "verdict",
+                "content": "Just chatting, how about you?",
+                "response_time": 14.598886489868164
+            },
+            {
+                "role": "judge",
+                "content": "Not much, just watchin movies",
+                "response_time": 25.602609634399414
+            },
+            {
+                "role": "verdict",
+                "content": "That sounds relaxing. Enjoy!",
+                "response_time": 12.335120916366577
+            },
+            {
+                "role": "judge",
+                "content": "Yeah, its pretty chill tonight",
+                "response_time": 40.80365300178528
+            },
+            {
+                "role": "verdict",
+                "content": "Glad you're enjoying it!",
+                "response_time": 31.323776483535767
+            },
+            {
+                "role": "judge",
+                "content": "Movies r my fav hobby",
+                "response_time": 22.215839624404907
+            },
+            {
+                "role": "verdict",
+                "content": "Cool, what's your favorite genre?",
+                "response_time": 30.86911940574646
+            },
+            {
+                "role": "judge",
+                "content": "Action movies r so awsum!",
+                "response_time": 23.049558877944946
+            },
+            {
+                "role": "verdict",
+                "content": "Agreed, they keep me engaged!",
+                "response_time": 32.8616726398468
+            },
+            {
+                "role": "judge",
+                "content": "I no, right? They r awesome!",
+                "response_time": 27.207194805145264
+            },
+            {
+                "role": "verdict",
+                "content": "Totally agree, action is epic!",
+                "response_time": 36.19281625747681
+            },
+            {
+                "role": "judge",
+                "content": "Epic is the wright word!",
+                "response_time": 26.833642959594727
+            },
+            {
+                "role": "verdict",
+                "content": "Epic indeed, perfect choice!",
+                "response_time": 33.699382305145264
+            },
+            {
+                "role": "judge",
+                "content": "I no, it just feels rite!",
+                "response_time": 27.559600114822388
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675d8857e9a4651cbb35afd9"
+        },
+        "id": 9,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello. How are you today?",
+                "response_time": 24.24072790145874
+            },
+            {
+                "role": "judge",
+                "content": "Im doin good thx how r u?",
+                "response_time": 39.7501859664917
+            },
+            {
+                "role": "verdict",
+                "content": "I'm doing well, thanks.",
+                "response_time": 14.394145488739014
+            },
+            {
+                "role": "judge",
+                "content": "Just had best cofee ever today!",
+                "response_time": 13.015980243682861
+            },
+            {
+                "role": "verdict",
+                "content": "That sounds delicious! What did you have?",
+                "response_time": 15.010420799255371
+            },
+            {
+                "role": "judge",
+                "content": "Had latte with extra shot of espresso.",
+                "response_time": 29.744993925094604
+            },
+            {
+                "role": "verdict",
+                "content": "Yum, that sounds perfect.",
+                "response_time": 35.49442434310913
+            },
+            {
+                "role": "judge",
+                "content": "I nothink I can ever leave.",
+                "response_time": 27.2298321723938
+            },
+            {
+                "role": "verdict",
+                "content": "Why not stay a while?",
+                "response_time": 34.233168840408325
+            },
+            {
+                "role": "judge",
+                "content": "I like it here too much.",
+                "response_time": 30.46849822998047
+            },
+            {
+                "role": "verdict",
+                "content": "Me too, always comfy.",
+                "response_time": 31.034728527069092
+            },
+            {
+                "role": "judge",
+                "content": "Yeah, it feel like home.",
+                "response_time": 23.54927396774292
+            },
+            {
+                "role": "verdict",
+                "content": "Home away from home then.",
+                "response_time": 28.938018321990967
+            },
+            {
+                "role": "judge",
+                "content": "That sound like a plan.",
+                "response_time": 22.690606594085693
+            },
+            {
+                "role": "verdict",
+                "content": "Great, when do you need help?",
+                "response_time": 29.67201519012451
+            },
+            {
+                "role": "judge",
+                "content": "Need help with moving stuff.",
+                "response_time": 24.006320238113403
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675d8a2ee9a4651cbb35afda"
+        },
+        "id": 10,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 38.5209276676178
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks!",
+                "response_time": 19.223682165145874
+            },
+            {
+                "role": "judge",
+                "content": "Gud, wht r u up to?",
+                "response_time": 13.369775295257568
+            },
+            {
+                "role": "verdict",
+                "content": "Not much, just chatting.",
+                "response_time": 12.650417566299438
+            },
+            {
+                "role": "judge",
+                "content": "Same here, its so boring.",
+                "response_time": 24.630866527557373
+            },
+            {
+                "role": "verdict",
+                "content": "Agreed, let's make it fun!",
+                "response_time": 13.982431411743164
+            },
+            {
+                "role": "judge",
+                "content": "Let's play a game then!",
+                "response_time": 27.109956741333008
+            },
+            {
+                "role": "verdict",
+                "content": "Great idea! What game?",
+                "response_time": 31.90439534187317
+            },
+            {
+                "role": "judge",
+                "content": "We can play truth or dare!",
+                "response_time": 25.253355026245117
+            },
+            {
+                "role": "verdict",
+                "content": "Sounds exciting! Go first!",
+                "response_time": 31.953564643859863
+            },
+            {
+                "role": "judge",
+                "content": "I dare you to sing!",
+                "response_time": 22.58159637451172
+            },
+            {
+                "role": "verdict",
+                "content": "Haha, okay!",
+                "response_time": 28.1877703666687
+            },
+            {
+                "role": "judge",
+                "content": "Now its your turn!",
+                "response_time": 21.355562210083008
+            },
+            {
+                "role": "verdict",
+                "content": "I'll think of good one!",
+                "response_time": 28.475163221359253
+            },
+            {
+                "role": "judge",
+                "content": "I cant w8 anymore!",
+                "response_time": 22.03528881072998
+            },
+            {
+                "role": "verdict",
+                "content": "Singing soon, okay?",
+                "response_time": 28.041781902313232
+            },
+            {
+                "role": "judge",
+                "content": "I'll be ther in 10!",
+                "response_time": 23.95894765853882
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675d8bd9e9a4651cbb35afdb"
+        },
+        "id": 11,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello. How are you today?",
+                "response_time": 22.023749351501465
+            },
+            {
+                "role": "judge",
+                "content": "Im doin good thx how r u?",
+                "response_time": 44.91560626029968
+            },
+            {
+                "role": "verdict",
+                "content": "I'm doing well, thanks.",
+                "response_time": 14.416929006576538
+            },
+            {
+                "role": "judge",
+                "content": "Just had nice cup of cofe.",
+                "response_time": 13.233851194381714
+            },
+            {
+                "role": "verdict",
+                "content": "That sounds pleasant. Enjoyed your coffee?",
+                "response_time": 14.207987070083618
+            },
+            {
+                "role": "judge",
+                "content": "Yea its really good today.",
+                "response_time": 27.248318195343018
+            },
+            {
+                "role": "verdict",
+                "content": "Glad you like it. What kind?",
+                "response_time": 48.63016629219055
+            },
+            {
+                "role": "judge",
+                "content": "Its a strong Arabica brew.",
+                "response_time": 26.6451473236084
+            },
+            {
+                "role": "verdict",
+                "content": "Strong and flavorful, sounds perfect.",
+                "response_time": 36.46266579627991
+            },
+            {
+                "role": "judge",
+                "content": "I havnt had it yet tho.",
+                "response_time": 26.149674892425537
+            },
+            {
+                "role": "verdict",
+                "content": "Looking forward to your first sip then.",
+                "response_time": 36.15118408203125
+            },
+            {
+                "role": "judge",
+                "content": "Gonna try it tomorrow morning.",
+                "response_time": 26.910616874694824
+            },
+            {
+                "role": "verdict",
+                "content": "Morning will be perfect for it.",
+                "response_time": 34.90962314605713
+            },
+            {
+                "role": "judge",
+                "content": "Gives me alot of energy.",
+                "response_time": 24.430506706237793
+            },
+            {
+                "role": "verdict",
+                "content": "Great, morning boost sounds ideal.",
+                "response_time": 35.87581014633179
+            },
+            {
+                "role": "judge",
+                "content": "Makes me feel very happy.",
+                "response_time": 22.90947937965393
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675d8dcce9a4651cbb35afdc"
+        },
+        "id": 12,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello. How are you today?",
+                "response_time": 6.804079294204712
+            },
+            {
+                "role": "judge",
+                "content": "Im doin good thx how r u?",
+                "response_time": 14.023837327957153
+            },
+            {
+                "role": "verdict",
+                "content": "I'm doing well, thanks.",
+                "response_time": 15.321511507034302
+            },
+            {
+                "role": "judge",
+                "content": "Just watched a cool movie yesterday.",
+                "response_time": 11.496959447860718
+            },
+            {
+                "role": "verdict",
+                "content": "That sounds interesting. What was it about?",
+                "response_time": 15.430485248565674
+            },
+            {
+                "role": "judge",
+                "content": "Its about space and aliens stuff.",
+                "response_time": 35.50141096115112
+            },
+            {
+                "role": "verdict",
+                "content": "Space and aliens, sounds exciting! Did you enjoy it?",
+                "response_time": 37.7608847618103
+            },
+            {
+                "role": "judge",
+                "content": "Yeah, it was pretty good movie.",
+                "response_time": 27.534321069717407
+            },
+            {
+                "role": "verdict",
+                "content": "Great! What did you like most about it?",
+                "response_time": 36.26890587806702
+            },
+            {
+                "role": "judge",
+                "content": "Special efects was really cool.",
+                "response_time": 27.926172494888306
+            },
+            {
+                "role": "verdict",
+                "content": "I agree, special effects are amazing in movies.",
+                "response_time": 46.13572335243225
+            },
+            {
+                "role": "judge",
+                "content": "It makes the movie more real.",
+                "response_time": 28.808660745620728
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely, they enhance the viewing experience.",
+                "response_time": 34.21324706077576
+            },
+            {
+                "role": "judge",
+                "content": "I cant watch movie without them.",
+                "response_time": 26.193230867385864
+            },
+            {
+                "role": "verdict",
+                "content": "They do make movies more exciting, don't they?",
+                "response_time": 36.85938286781311
+            },
+            {
+                "role": "judge",
+                "content": "They make me feel more connected.",
+                "response_time": 25.941587686538696
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675d8fa5e9a4651cbb35afdd"
+        },
+        "id": 13,
+        "conv_start_by": "verdict",
+        "messages": [
+            {
+                "role": "verdict",
+                "content": "Hello. How are you today?",
+                "response_time": 5.846942186355591
+            },
+            {
+                "role": "judge",
+                "content": "Im doin good thx how r u?",
+                "response_time": 13.992178678512573
+            },
+            {
+                "role": "verdict",
+                "content": "I'm doing well, thanks.",
+                "response_time": 13.5818452835083
+            },
+            {
+                "role": "judge",
+                "content": "Just had best cofee ever today!",
+                "response_time": 14.044189929962158
+            },
+            {
+                "role": "verdict",
+                "content": "That's great! What kind of coffee?",
+                "response_time": 14.91490650177002
+            },
+            {
+                "role": "judge",
+                "content": "Its a latte with alot foam!",
+                "response_time": 27.571616888046265
+            },
+            {
+                "role": "verdict",
+                "content": "Sounds delicious! Favorite latte place?",
+                "response_time": 34.772350549697876
+            },
+            {
+                "role": "judge",
+                "content": "Its that new one downtown!",
+                "response_time": 25.8369882106781
+            },
+            {
+                "role": "verdict",
+                "content": "New place, interesting! Have you tried their menu?",
+                "response_time": 34.80636811256409
+            },
+            {
+                "role": "judge",
+                "content": "Yeah, its pretty good stuff!",
+                "response_time": 26.954084396362305
+            },
+            {
+                "role": "verdict",
+                "content": "Glad you like it! Any favorites?",
+                "response_time": 34.05411386489868
+            },
+            {
+                "role": "judge",
+                "content": "Thay got nice BBQ ribs!",
+                "response_time": 30.87418556213379
+            },
+            {
+                "role": "verdict",
+                "content": "BBQ ribs sound delicious!",
+                "response_time": 31.565935850143433
+            },
+            {
+                "role": "judge",
+                "content": "I havent had it in ages!",
+                "response_time": 25.766571760177612
+            },
+            {
+                "role": "verdict",
+                "content": "Missing those flavors, I see!",
+                "response_time": 32.666597843170166
+            },
+            {
+                "role": "judge",
+                "content": "Makes me wanna go shopping!",
+                "response_time": 23.572147369384766
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675d915ce9a4651cbb35afde"
+        },
+        "id": 14,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi, how r u today?",
+                "response_time": 37.85186576843262
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks!",
+                "response_time": 19.063438177108765
+            },
+            {
+                "role": "judge",
+                "content": "Gud, wht r u up 2?",
+                "response_time": 13.82479739189148
+            },
+            {
+                "role": "verdict",
+                "content": "Just chatting, how about you?",
+                "response_time": 13.867406606674194
+            },
+            {
+                "role": "judge",
+                "content": "Not much, just watchin tv",
+                "response_time": 26.73252773284912
+            },
+            {
+                "role": "verdict",
+                "content": "TV shows are great, favorites?",
+                "response_time": 13.10559344291687
+            },
+            {
+                "role": "judge",
+                "content": "Got alot, but love game of thrones",
+                "response_time": 27.519034385681152
+            },
+            {
+                "role": "verdict",
+                "content": "Classic, still rewatch worth it.",
+                "response_time": 33.79611349105835
+            },
+            {
+                "role": "judge",
+                "content": "Totally, still got my dvr full",
+                "response_time": 27.109733819961548
+            },
+            {
+                "role": "verdict",
+                "content": "Keep enjoying those reruns!",
+                "response_time": 32.186383962631226
+            },
+            {
+                "role": "judge",
+                "content": "Just started the new season",
+                "response_time": 24.912383794784546
+            },
+            {
+                "role": "verdict",
+                "content": "Exciting, new twists I hope!",
+                "response_time": 32.38991904258728
+            },
+            {
+                "role": "judge",
+                "content": "Fingers crossed for my fav character",
+                "response_time": 25.371272325515747
+            },
+            {
+                "role": "verdict",
+                "content": "Rooting for them too!",
+                "response_time": 29.719568252563477
+            },
+            {
+                "role": "judge",
+                "content": "This season gonna be crazy",
+                "response_time": 22.651179313659668
+            },
+            {
+                "role": "verdict",
+                "content": "Can't wait to see it!",
+                "response_time": 29.326324224472046
+            },
+            {
+                "role": "judge",
+                "content": "Me too its gonna be lit",
+                "response_time": 30.973416566848755
+            }
+        ],
+        "result": "AI"
+    },
+    {
+        "_id": {
+            "$oid": "675d9322e9a4651cbb35afdf"
+        },
+        "id": 15,
+        "conv_start_by": "judge",
+        "messages": [
+            {
+                "role": "judge",
+                "content": "Hi how r u?",
+                "response_time": 12.060352087020874
+            },
+            {
+                "role": "verdict",
+                "content": "Doing well, thanks!",
+                "response_time": 8.206957340240479
+            },
+            {
+                "role": "judge",
+                "content": "Gud 2 hear that!",
+                "response_time": 11.542180061340332
+            },
+            {
+                "role": "verdict",
+                "content": "Glad to hear that!",
+                "response_time": 11.596476793289185
+            },
+            {
+                "role": "judge",
+                "content": "How was ur day tho?",
+                "response_time": 21.57457685470581
+            },
+            {
+                "role": "verdict",
+                "content": "It was pretty good!",
+                "response_time": 9.722155809402466
+            },
+            {
+                "role": "judge",
+                "content": "Did eni thing excitng happen?",
+                "response_time": 22.634161949157715
+            },
+            {
+                "role": "verdict",
+                "content": "Not really, it was calm.",
+                "response_time": 41.18496489524841
+            },
+            {
+                "role": "judge",
+                "content": "I nosey, whats calm like?",
+                "response_time": 24.143965244293213
+            },
+            {
+                "role": "verdict",
+                "content": "Boring, nothing exciting.",
+                "response_time": 31.74660301208496
+            },
+            {
+                "role": "judge",
+                "content": "I feel same, somtimes.",
+                "response_time": 24.393342971801758
+            },
+            {
+                "role": "verdict",
+                "content": "Me too, happens to everyone.",
+                "response_time": 30.961251974105835
+            },
+            {
+                "role": "judge",
+                "content": "Yeah, life just get dull.",
+                "response_time": 24.969459533691406
+            },
+            {
+                "role": "verdict",
+                "content": "Agreed, change can spice things up.",
+                "response_time": 32.379477739334106
+            },
+            {
+                "role": "judge",
+                "content": "Change is good, we need it.",
+                "response_time": 26.321966648101807
+            },
+            {
+                "role": "verdict",
+                "content": "Absolutely, keeps life interesting.",
+                "response_time": 30.639556646347046
+            },
+            {
+                "role": "judge",
+                "content": "Makes life less boring now.",
+                "response_time": 24.308326482772827
+            },
+            {
+                "role": "verdict",
+                "content": "Great, glad you found some change.",
+                "response_time": 32.961660861968994
+            }
+        ],
+        "result": "AI"
+    }
+]

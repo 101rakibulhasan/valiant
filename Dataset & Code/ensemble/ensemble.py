@@ -2,6 +2,7 @@ from collections import Counter
 import pickle
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, confusion_matrix
 import json
+from sklearn.ensemble import VotingClassifier
 
 def jsontodict(jsonfile):
     with open(jsonfile, 'r') as file:
@@ -31,26 +32,39 @@ def get_input(data, feature_label, model_label):
 
     return X, Y
 
-def ensemble_predict_classification(m1, m2, m3, X1, X2, X3):
-    with open(m1, "rb") as file:
-        m1_model = pickle.load(file)
+def ensemble_predict_classification(path, best_models, features_label):
+    y_predictions = []
 
-    with open(m2, "rb") as file:
-        m2_model = pickle.load(file)
-
-    with open(m3, "rb") as file:
-        m3_model = pickle.load(file)
-        
-    m1_preds = m1_model.predict(X1)
-    m2_preds = m2_model.predict(X2)
-    m3_preds = m3_model.predict(X3)
+    index = 0
+    actual_y = []
+    for model_name in best_models:
+        with open(model_name, "rb") as file:
+            model = pickle.load(file)
+            X, Y = get_input(jsontodict(path), features_label[index][0], features_label[index][1])
+            actual_y.append(Y)
+            predictions = model.predict(X)
+            y_predictions.append(predictions)
+            index += 1
 
     ensemble_preds = []
-    for i in range(len(m1_preds)):
-        prediction = Counter([m1_preds[i], m2_preds[i], m3_preds[i]]).most_common(1)[0][0]
+    for i in range(len(y_predictions[0])):
+        prediction = Counter([y_predictions[j][i] for j in range(len(y_predictions))]).most_common(1)[0][0]
         ensemble_preds.append(prediction)
     
-    return ensemble_preds
+    return actual_y, ensemble_preds
+
+def save_ensemble_model(models_name, filename):
+    estimators = []
+    for model_name in models_name:
+        with open(model_name, "rb") as file:
+            model = pickle.load(file)
+            estimators.append(model)
+    
+    voting_clf = VotingClassifier(estimators=estimators, voting='hard')
+    with open(filename, "wb") as file:
+        pickle.dump(voting_clf, file)
+    
+    print("[SYS] Ensemble model saved to", filename)
 
 def evaluate_classification(y_true, y_pred):
     accuracy = accuracy_score(y_true, y_pred)
