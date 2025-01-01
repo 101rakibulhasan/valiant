@@ -1,0 +1,47 @@
+{
+    "id": 12,
+    "messages": [
+        {
+            "role": "verdict",
+            "content": "where do you live in? ",
+            "response_time": 8.776561260223389
+        },
+        {
+            "role": "judge",
+            "content": "i live in new york city it is so boring here lately",
+            "response_time": 10.821900844573975
+        },
+        {
+            "role": "verdict",
+            "content": "what is you opinion on cll ai ",
+            "response_time": 10.728275537490845
+        },
+        {
+            "role": "judge",
+            "content": "i dont think cll ai will ever be real it sounds too good to be true",
+            "response_time": 19.051048517227173
+        },
+        {
+            "role": "verdict",
+            "content": "whats the ai app you use most ",
+            "response_time": 15.881744623184204
+        },
+        {
+            "role": "judge",
+            "content": "dont really use any ai apps but i heard chatbot thingy is pretty popular with kids these days",
+            "response_time": 18.23964524269104
+        },
+        {
+            "role": "verdict",
+            "content": "whats the largest ai model you know ",
+            "response_time": 13.193754434585571
+        },
+        {
+            "role": "judge",
+            "content": "i think its like that one google thingy... what was it called again? oh yeah, bert or somethin like that its huge or so i heard",
+            "response_time": 22.43762230873108
+        }
+    ],
+    "result": "ai bot",
+    "time_taken": 163.49351000785828
+}

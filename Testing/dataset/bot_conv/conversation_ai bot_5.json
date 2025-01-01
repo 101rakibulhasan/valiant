@@ -1,0 +1,57 @@
+{
+    "id": 5,
+    "messages": [
+        {
+            "role": "verdict",
+            "content": null,
+            "response_time": 0.0
+        },
+        {
+            "role": "judge",
+            "content": "Hello! How's it going?",
+            "response_time": 17.029565811157227
+        },
+        {
+            "role": "verdict",
+            "content": "I'm good, how about you? ",
+            "response_time": 11.882472515106201
+        },
+        {
+            "role": "judge",
+            "content": "I'm doing well, thanks!",
+            "response_time": 8.475729703903198
+        },
+        {
+            "role": "verdict",
+            "content": "That's nice ",
+            "response_time": 11.044172525405884
+        },
+        {
+            "role": "judge",
+            "content": "Nice weather we've been having lately!",
+            "response_time": 10.435041189193726
+        },
+        {
+            "role": "verdict",
+            "content": "I dont care about weather ",
+            "response_time": 14.874285221099854
+        },
+        {
+            "role": "judge",
+            "content": "Let's talk about movies instead!",
+            "response_time": 10.509754419326782
+        },
+        {
+            "role": "verdict",
+            "content": "Whats a movie? ",
+            "response_time": 11.357738971710205
+        },
+        {
+            "role": "judge",
+            "content": "What's up with that?!",
+            "response_time": 9.617306232452393
+        }
+    ],
+    "result": "ai bot",
+    "time_taken": 124.8607292175293
+}

@@ -1,0 +1,47 @@
+{
+    "id": 8,
+    "messages": [
+        {
+            "role": "verdict",
+            "content": "was good? ",
+            "response_time": 8.738400936126709
+        },
+        {
+            "role": "judge",
+            "content": "yeah it was pretty alright i guess",
+            "response_time": 5.115760326385498
+        },
+        {
+            "role": "verdict",
+            "content": "damn ",
+            "response_time": 6.8429131507873535
+        },
+        {
+            "role": "judge",
+            "content": "its been ages since we talked",
+            "response_time": 6.2764222621917725
+        },
+        {
+            "role": "verdict",
+            "content": "who you thiuk i am? ",
+            "response_time": 12.288492202758789
+        },
+        {
+            "role": "judge",
+            "content": "dont know never really thought about it",
+            "response_time": 8.687663316726685
+        },
+        {
+            "role": "verdict",
+            "content": "did you happen to eveer get a persons snap chat because if so i know them ",
+            "response_time": 25.491347551345825
+        },
+        {
+            "role": "judge",
+            "content": "i think so maybe got one by mistake didnt pay attention",
+            "response_time": 11.95636510848999
+        }
+    ],
+    "result": "human",
+    "time_taken": 125.25710487365723
+}

@@ -1,0 +1,67 @@
+{
+    "id": 10,
+    "messages": [
+        {
+            "role": "verdict",
+            "content": "what time is it where you are ",
+            "response_time": 2.094468593597412
+        },
+        {
+            "role": "judge",
+            "content": "i dont really keep track of time to be honest, i mean its always kinda late for me",
+            "response_time": 10.409428596496582
+        },
+        {
+            "role": "verdict",
+            "content": null,
+            "response_time": 0.0
+        },
+        {
+            "role": "judge",
+            "content": "\r\ni dont really keep track of time to be honest, i mean its always kinda late for me",
+            "response_time": 24.757072925567627
+        },
+        {
+            "role": "verdict",
+            "content": "What time is it for u ",
+            "response_time": 11.876174688339233
+        },
+        {
+            "role": "judge",
+            "content": "\r\ni dont really keep track of time to be honest, i mean its always kinda late for me",
+            "response_time": 12.490118503570557
+        },
+        {
+            "role": "verdict",
+            "content": "Ok ",
+            "response_time": 8.430588006973267
+        },
+        {
+            "role": "judge",
+            "content": "\r\nyeah ok sounds good",
+            "response_time": 8.084891557693481
+        },
+        {
+            "role": "verdict",
+            "content": "Whats your dreams ",
+            "response_time": 9.49359941482544
+        },
+        {
+            "role": "judge",
+            "content": "\r\noh i dont know maybe just traveling somethin",
+            "response_time": 10.530466794967651
+        },
+        {
+            "role": "verdict",
+            "content": "nice ",
+            "response_time": 6.33066201210022
+        },
+        {
+            "role": "judge",
+            "content": "\r\nthanks yeah itd be cool",
+            "response_time": 7.581402063369751
+        }
+    ],
+    "result": "ai bot",
+    "time_taken": 145.6280345916748
+}

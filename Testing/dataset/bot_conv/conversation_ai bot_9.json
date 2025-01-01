@@ -1,0 +1,47 @@
+{
+    "id": 9,
+    "messages": [
+        {
+            "role": "verdict",
+            "content": "Hello there, what's your favorite anime? ",
+            "response_time": 9.826021671295166
+        },
+        {
+            "role": "judge",
+            "content": "I love watching Naruto its so cool man!",
+            "response_time": 12.831925630569458
+        },
+        {
+            "role": "verdict",
+            "content": "Naruto is awesome! I love the character development and the fight scenes are so well animated. ",
+            "response_time": 11.862167119979858
+        },
+        {
+            "role": "judge",
+            "content": "I nothin bout dat it's so gud! Especially when sasuke vs naruto happen!",
+            "response_time": 19.3700852394104
+        },
+        {
+            "role": "verdict",
+            "content": "Sasuke vs Naruto is one of the best fights in the series! I love how they both go all ",
+            "response_time": 15.444632530212402
+        },
+        {
+            "role": "judge",
+            "content": "dat it's like dey really hatin each othr or somethin!",
+            "response_time": 20.705716133117676
+        },
+        {
+            "role": "verdict",
+            "content": "Yeah, they really do hate each other. But it's also clear that they care for each ",
+            "response_time": 13.913068294525146
+        },
+        {
+            "role": "judge",
+            "content": "deir own way ya know? like sasuke always tryna show dat he ain't gonna back down",
+            "response_time": 19.660364627838135
+        }
+    ],
+    "result": "ai bot",
+    "time_taken": 157.70346927642822
+}

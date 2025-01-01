@@ -1,0 +1,57 @@
+{
+    "id": 1,
+    "messages": [
+        {
+            "role": "verdict",
+            "content": "you are in the wrong place ",
+            "response_time": 8.761812210083008
+        },
+        {
+            "role": "judge",
+            "content": "i know this isnt my stop but i needed to get outta there bad luck",
+            "response_time": 10.29011058807373
+        },
+        {
+            "role": "verdict",
+            "content": "hello ",
+            "response_time": 6.714033365249634
+        },
+        {
+            "role": "judge",
+            "content": "oh hiya hows life treatin ya lately been pretty crazy myself",
+            "response_time": 12.572484016418457
+        },
+        {
+            "role": "verdict",
+            "content": "mm life is surreal ",
+            "response_time": 12.878320693969727
+        },
+        {
+            "role": "judge",
+            "content": "\r\nyeah i know what you mean sometimes it feels like im just sleepwalking through everything",
+            "response_time": 15.652107954025269
+        },
+        {
+            "role": "verdict",
+            "content": "especially the small details ",
+            "response_time": 10.380454540252686
+        },
+        {
+            "role": "judge",
+            "content": "\r\nlike tryna remember where i put my keys or somethin",
+            "response_time": 11.915481805801392
+        },
+        {
+            "role": "verdict",
+            "content": "orrrrrrrr ",
+            "response_time": 9.334396600723267
+        },
+        {
+            "role": "judge",
+            "content": "\r\nhaha yeah like that one time i lost my phone for hours",
+            "response_time": 13.834375381469727
+        }
+    ],
+    "result": "ai bot",
+    "time_taken": 123.25055193901062
+}

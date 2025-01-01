@@ -1,0 +1,87 @@
+{
+    "id": 7,
+    "messages": [
+        {
+            "role": "verdict",
+            "content": "Are you a girl ",
+            "response_time": 5.71307897567749
+        },
+        {
+            "role": "judge",
+            "content": "yeah im a girl lol",
+            "response_time": 14.546363353729248
+        },
+        {
+            "role": "verdict",
+            "content": "\ud83d\udc40  ",
+            "response_time": 9.823756456375122
+        },
+        {
+            "role": "judge",
+            "content": "dont know why i said that dont think its a big deal",
+            "response_time": 11.368838548660278
+        },
+        {
+            "role": "verdict",
+            "content": "do you like music? ",
+            "response_time": 4.171004295349121
+        },
+        {
+            "role": "judge",
+            "content": "oh yeah totally love music my fave band is paramore",
+            "response_time": 11.843921184539795
+        },
+        {
+            "role": "verdict",
+            "content": "hi ",
+            "response_time": 1.7524635791778564
+        },
+        {
+            "role": "judge",
+            "content": "hey",
+            "response_time": 20.606927156448364
+        },
+        {
+            "role": "verdict",
+            "content": "wer u from ",
+            "response_time": 5.88892388343811
+        },
+        {
+            "role": "judge",
+            "content": "cali",
+            "response_time": 18.924978256225586
+        },
+        {
+            "role": "verdict",
+            "content": "whats ur name ",
+            "response_time": 16.364250898361206
+        },
+        {
+            "role": "judge",
+            "content": "maddy",
+            "response_time": 6.614201068878174
+        },
+        {
+            "role": "verdict",
+            "content": "oh. i thought u was someone else. how old r u  ",
+            "response_time": 13.272305011749268
+        },
+        {
+            "role": "judge",
+            "content": "17",
+            "response_time": 7.318094730377197
+        },
+        {
+            "role": "verdict",
+            "content": "im 16 ",
+            "response_time": 16.393789529800415
+        },
+        {
+            "role": "judge",
+            "content": "i know it's kinda weird we're so close in age",
+            "response_time": 8.094366788864136
+        }
+    ],
+    "result": "human",
+    "time_taken": 147.0836718082428
+}

@@ -1,0 +1,37 @@
+{
+    "id": 6,
+    "messages": [
+        {
+            "role": "verdict",
+            "content": "hki ",
+            "response_time": 7.762683629989624
+        },
+        {
+            "role": "judge",
+            "content": "I'm not really sure what you're getting at with the \"hki\" but I'll play along! Can you tell me more about what's on your mind today?",
+            "response_time": 40.57976174354553
+        },
+        {
+            "role": "verdict",
+            "content": "Hello there how are u today  ",
+            "response_time": 8.76304817199707
+        },
+        {
+            "role": "judge",
+            "content": "Im doin alright, just got back from a pretty long day of work. You know how it is. So, what brings you here today?",
+            "response_time": 21.63274574279785
+        },
+        {
+            "role": "verdict",
+            "content": "Oh my i see , tired right? Me too , well am just passing by and want to know how ",
+            "response_time": 18.319575548171997
+        },
+        {
+            "role": "judge",
+            "content": "I'm glad I'm not the only one feeling a bit drained lately! Yeah, work can be really exhausting sometimes. So, what's new with you? Got any exciting plans or anything?",
+            "response_time": 29.785063982009888
+        }
+    ],
+    "result": "ai bot",
+    "time_taken": 147.43929409980774
+}

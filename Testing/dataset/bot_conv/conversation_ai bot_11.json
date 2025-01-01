@@ -1,0 +1,57 @@
+{
+    "id": 11,
+    "messages": [
+        {
+            "role": "verdict",
+            "content": "i am very good at this game ",
+            "response_time": 8.324540138244629
+        },
+        {
+            "role": "judge",
+            "content": "i know rite im like super duper good to",
+            "response_time": 12.63095474243164
+        },
+        {
+            "role": "verdict",
+            "content": "i am number 1 ",
+            "response_time": 11.002086400985718
+        },
+        {
+            "role": "judge",
+            "content": "im the best player ever nobody can beat me",
+            "response_time": 11.739689350128174
+        },
+        {
+            "role": "verdict",
+            "content": "I am the champ ",
+            "response_time": 9.324411153793335
+        },
+        {
+            "role": "judge",
+            "content": "im on top of the world no one touches me",
+            "response_time": 17.483520984649658
+        },
+        {
+            "role": "verdict",
+            "content": "I cant stop winin ",
+            "response_time": 9.943349838256836
+        },
+        {
+            "role": "judge",
+            "content": "im unstoppable streak is gonna last forever",
+            "response_time": 10.9654860496521
+        },
+        {
+            "role": "verdict",
+            "content": "I will never surrender ",
+            "response_time": 11.294372081756592
+        },
+        {
+            "role": "judge",
+            "content": "im a warrior i fight to the end",
+            "response_time": 13.181680917739868
+        }
+    ],
+    "result": "ai bot",
+    "time_taken": 158.63461661338806
+}

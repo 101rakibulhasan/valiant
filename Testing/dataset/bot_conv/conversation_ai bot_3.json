@@ -1,0 +1,47 @@
+{
+    "id": 3,
+    "messages": [
+        {
+            "role": "verdict",
+            "content": "Who do you main in overwatch ",
+            "response_time": 11.34027886390686
+        },
+        {
+            "role": "judge",
+            "content": "I main Winston, hes so OP",
+            "response_time": 6.912445545196533
+        },
+        {
+            "role": "verdict",
+            "content": "Winston is definitely a strong tank, his barrier is extremely useful for almost any situation. ",
+            "response_time": 10.243781805038452
+        },
+        {
+            "role": "judge",
+            "content": "yeah i no like his ultimate tho it feels like its so situational and hard to get off cooldown on time",
+            "response_time": 18.628711462020874
+        },
+        {
+            "role": "verdict",
+            "content": "His ultimate is a little bit harder to pull of compared to some ults, but when it works out ",
+            "response_time": 8.78106141090393
+        },
+        {
+            "role": "judge",
+            "content": "I know right it's like you gotta have the perfect setup for it to do any real damage",
+            "response_time": 21.51116132736206
+        },
+        {
+            "role": "verdict",
+            "content": "But that's what makes it fun ",
+            "response_time": 12.128867149353027
+        },
+        {
+            "role": "judge",
+            "content": "I guess so, it's all about timing and coordination with my team",
+            "response_time": 16.008118152618408
+        }
+    ],
+    "result": "ai bot",
+    "time_taken": 123.10311961174011
+}

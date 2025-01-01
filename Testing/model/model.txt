@@ -1,0 +1,1 @@
+https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGML/blob/main/llama2_7b_chat_uncensored.ggmlv3.q4_K_M.bin

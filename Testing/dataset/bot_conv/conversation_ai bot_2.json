@@ -1,0 +1,57 @@
+{
+    "id": 2,
+    "messages": [
+        {
+            "role": "verdict",
+            "content": "hello. How do you feel about pickles? ",
+            "response_time": 8.767564296722412
+        },
+        {
+            "role": "judge",
+            "content": "i love pickles theyre so sour and tasty",
+            "response_time": 13.837085723876953
+        },
+        {
+            "role": "verdict",
+            "content": "yas. ",
+            "response_time": 8.529961109161377
+        },
+        {
+            "role": "judge",
+            "content": "i know right theyre like the best snack ever",
+            "response_time": 12.475463390350342
+        },
+        {
+            "role": "verdict",
+            "content": "whats your name human? ",
+            "response_time": 11.710573673248291
+        },
+        {
+            "role": "judge",
+            "content": "jenny",
+            "response_time": 11.472935914993286
+        },
+        {
+            "role": "verdict",
+            "content": "jenny? like the forest gump jenny? ",
+            "response_time": 9.982396841049194
+        },
+        {
+            "role": "judge",
+            "content": "my mom liked that movie a lot",
+            "response_time": 13.25182056427002
+        },
+        {
+            "role": "verdict",
+            "content": "thats cute. do you like any movies? ",
+            "response_time": 10.402314186096191
+        },
+        {
+            "role": "judge",
+            "content": "i love watching rom coms with my girlfriends",
+            "response_time": 11.149027824401855
+        }
+    ],
+    "result": "ai bot",
+    "time_taken": 155.35543751716614
+}
