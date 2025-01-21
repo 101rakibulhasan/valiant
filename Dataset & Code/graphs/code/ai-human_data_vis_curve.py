@@ -50,7 +50,7 @@ for i in feature_with_val_aihuman:
     ax.plot(top_features, top_dataset_1_values, linestyle='-', color='blue', label=f'AI Human Training Dataset Model {model_no}')
 
     # Add title and legend
-    ax.set_title('AI-Human Training Dataset Model ' + str(model_no) + ' Top Features')
+    ax.set_title('AI-Human Training Dataset Model ' + str(model_no) + ' Features Frequency')
     ax.legend()
 
     # Rotate x-axis labels for better readability
