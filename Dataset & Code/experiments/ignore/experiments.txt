@@ -1,3 +1,0 @@
-only-ai-45 -> It's good at detecting AI Conversation than Human Conversation
-only-human-45 -> It's slightly worse at detecting Human Conversation than AI Conversation
-ai-45-human-45 + ai-30-human-30 -> The accuracy will be withing 92 - 85% 
